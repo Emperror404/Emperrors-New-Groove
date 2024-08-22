@@ -1,0 +1,318 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EmperrorsNewGroove",
+				"abbreviation": "ENG",
+				"full": "Emperror's New Groove",
+				"version": "0.1.0"
+			}
+		]
+	},
+	"spell": [
+		{
+			"source": "EmperrorsNewGroove",
+			"name": "Amanuensis",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point at the writing and then move your hand as though holding a stylus or quill. As you intone the spell, the script appears on a sheet of paper close at hand.",
+				"You cause writing from one source (such as a book) to be copied into a book, paper, or parchment. This spell copies 250 words per minute (about one page) and creates a perfect duplicate of the original. The spell copies only nonmagical text, not illustrations or magical writings (such as the text of a spellbook or a spell scroll). If the target contains normal and magical writing (such as a letter with a glyph of warding), only the normal text is copied, leaving blank space in the copied text where the magical writing would be expected. Likewise, if the target contains text and illustration, only the text is copied.",
+				"The spell triggers (but does not copy) writing-based magic traps in the material being copied.",
+				"Blank paper, parchment, or a book must be provided for the spell to write upon. If the target has multiple pages, the spell automatically turns to the next blank page whenever necessary. If more pages in the target exist than blank pages are available, the spell copies the original until it runs out of blank pages. At any time during the spell's duration you can redirect the magic to copy from another target, copy onto a different blank source, or resume a duplication that was interrupted by a shortfall of blank pages.",
+				"The spell does not translate the copied writing. If you do not understand the original, you have no additional ability to understand the copy."
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "0f6fde1b-3b59-46bf-a1e7-c85012df65b3",
+			"areaTags": [
+				"ST"
+			]
+      "fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "icons/tools/scribal/ink-quill-red.webp"
+						}
+					}
+				]
+			}
+		},
+		{
+			"uniqueId": "fc6f3ff3-c538-49e4-b61b-ce78e0415e27",
+			"name": "Defensestration",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"When you cast this spell, all nonmagical glass and ceramic within 30 feet shatters. Creatures made of glass or ceramic must make a Constitution saving throw, taking {@damage 1d12} thunder damage on a failed save."
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"The spell's damage increases by one die when you reach 5th level ({@dice 2d12}), 11th level ({@dice 3d12}), and 17th level ({@dice 4d12})."
+					]
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"S"
+			]
+      "fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "icons/commodities/gems/gem-fragments-turquoise.webp"
+						}
+					}
+				]
+			}
+		},
+		{
+			"uniqueId": "8e52bb0f-456d-4e55-9841-2e8a52db95dd",
+			"name": "Ferment",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"With this spell, you render one vessel of liquid (no larger than 1 gallon) mildly alcoholic (about 3% ABV). This is enough to kill common microbial contaminants, but has no effect on poison or disease. This spell is alternately loved and derided, and the quality of the beverage produced depends greatly on the base liquid being transmuted. Remember, just because you can, doesn't mean you should."
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A pinch of yeast"
+			}
+      "fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "icons/consumables/drinks/wine-bottle-glass-white.webp"
+						}
+					}
+				]
+			}
+		},
+		{
+			"uniqueId": "909bdc5b-b1e1-4786-ab73-3024425ba730",
+			"name": "Iron Scarf",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge Domain",
+							"shortName": "Forge",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"entries": [
+				"The cloth of a scarf or similarly sized article of clothing you are holding is transmuted to be as hard and sharp as steel. For the duration, you can make a melee weapon attack with the scarf, which deals {@damage 1d6} slashing damage and has the finesse and light properties.  You may add your spellcasting ability modifier to attack and damage rolls made with this weapon, and you are proficient with attacks made with this weapon.  The weapon is treated as magical. The spell ends if you cast it again or if you let go of the scarf. When the spell ends the scarf resumes its normal form."
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a scarf or long piece of cloth and a handful of iron filings."
+			},
+			"damageInflict": [
+				"slashing"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "icons/commodities/cloth/ribbon-bolt-red.webp"
+						}
+					}
+				]
+			}
+		}
+	]
+}
