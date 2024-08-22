@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.1.1",
+				"version": "0.1.2",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -5121,7 +5121,7 @@
 			}
 		},
 		{
-			"name": "Skanteus' Dreamcatcher",
+			"name": "Skanteus' Mind Snare",
 			"level": 3,
 			"school": "E",
 			"time": [
@@ -5167,8 +5167,8 @@
 			},
 			"entries": [
 				"With this spell, you weave an arcane trap inside your mind for any invaders. This spell has two versions; you either cast it while you are awake, or right before you go to sleep:",
-				"Awake. You ward your mind against mental intrusions. Any creature that attempts to sense your emotions or read your thoughts, or one that would bestow the {@condition charmed} condition upon you, takes {@damage 5d6} psychic damage and is {@condition stunned} for 5 rounds. On a successful Wisdom saving throw, the creature takes half damage and is not {@condition stunned}.",
-				"Asleep. This spell lurks in your dreams, staying on the edges of your perception as a comforting creature or object. If your dreams are invaded or tampered with while you sleep, such as by the dream spell or a {@creature night hag}'s nightmare haunting, the solipsistic interloper springs the trap. They take {@damage 5d6} psychic damage or half as much on a successful Wisdom saving throw. If they psychically invaded your dreams, then they are trapped there. You immediately become aware that you are dreaming, and can choose to wake up or hold the invader in place, preventing them from waking up while you are asleep.",
+				"Awake. You ward your mind against mental intrusions. Any creature that attempts to sense your emotions or read your thoughts, or one that would bestow the {@condition charmed} condition upon you, takes {@damage 5d6} psychic damage and is {@condition stunned} for 1 minute. On a successful Wisdom saving throw, the creature takes half damage and is not {@condition stunned}.  A creature which fails its saving throw may attempt again at the end of it's turn.",
+				"Asleep. This spell lurks in your dreams, staying on the edges of your perception as a comforting creature or object. If your dreams are invaded or tampered with while you sleep, such as by the {@spell dream} spell or a {@creature night hag}'s nightmare haunting, the solipsistic interloper springs the trap. They take {@damage 5d6} psychic damage or half as much on a successful Wisdom saving throw. If they psychically invaded your dreams, then they are trapped there. You immediately become aware that you are dreaming, and can choose to wake up or hold the invader in place, preventing them from waking up while you are asleep.",
 				"A {@creature night hag} that triggers a this spell using their nightmare haunting ability is forced to the Material Plane and {@condition paralyzed} for 1 minute if they failed their saving throw. They can attempt their saving throw again at the end of each turn.",
 				"At the DM's discretion, other creatures might also be specially affected by this spell.",
 				"After the spell has warded against one such mental intrusion, the spell ends."
@@ -5177,7 +5177,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "A handheld dreamcatcher, set with moonstones and made with threads of silver wire worth at least 25 gp"
+				"m": "A tiara set with moonstones and made with threads of silver wire worth at least 25 gp"
 			},
 			"conditionInflict": [
 				"stunned"
