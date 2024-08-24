@@ -12,7 +12,9 @@
 				],
 				"color": "198154"
 			}
-		]
+		],
+		"dateAdded": 1724510566,
+		"dateLastModified": 1724525841
 	},
 	"spell": [
 		{
@@ -804,7 +806,7 @@
 			},
 			"entries": [
 				"You touch a creature and ward it against extreme weather. A creature protected by this spell suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Constitution saving throws. The creature's equipment is likewise protected.",
-				"Endure elements doesn't provide protection against cold or fire damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth."
+				"{@spell Endure elements} doesn't provide protection against cold or fire damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth."
 			],
 			"source": "EmperrorsNewGroove",
 			"entriesHigherLevel": [
@@ -1203,7 +1205,7 @@
 				]
 			},
 			"entries": [
-				"You touch a weapon and it's head is incased in a filmy halo out to a distance of several inches. While this spell is active, this weapon deals damage as though it were one size larger (usually, this means adding another base damage die; i.e. a longsword would deal {@damage 2d8} damage, while a greatsword would deal {@damage 3d6} damage)."
+				"You touch a weapon and it's head is encased in a filmy halo out to a distance of several inches. While this spell is active, this weapon deals damage as though it were one size larger (usually, this means adding another base damage die; i.e. a longsword would deal {@damage 2d8} damage, while a greatsword would deal {@damage 3d6} damage)."
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -2271,16 +2273,33 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Wizard",
+						"name": "Cleric",
 						"source": "PHB"
+					}
+				],
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Celestial",
+							"shortName": "Celestial",
+							"source": "XGE"
+						}
 					}
 				]
 			},
 			"entries": [
 				"By means of a divine chant, the caster brings special favor upon themselves and their allies, and causes harm to their enemies. When this spell is cast, the caster begins chanting. The following effects take place while the chant is ongoing:",
-				"You and creatures of your choice within the spell's area gain a +1 bonus on saving throws, skill checks, and attack and damage rolls.",
-				"Creatures of your choice within the spell's area suffer a -1 penalty on saving throws, skill checks, and attack and damage rolls.",
-				"While you are chanting you cannot speak normally or cast spells with verbal components.  Additionally, your speed is halved while chanting.",
+				"<ul><li> You and creatures of your choice within the spell's area gain a +1 bonus on saving throws, skill checks, and attack and damage rolls.</li><li>Creatures of your choice within the spell's area suffer a -1 penalty on saving throws, skill checks, and attack and damage rolls.</li><li>While you are chanting you cannot speak normally or cast spells with verbal components.  Additionally, your speed is halved while chanting.</li></ul>",
 				"The caster can chant for the duration of the spell. Should their chant be interrupted (such as by magical {@spell silence}), the spell ends regardless of your {@status concentration}."
 			],
 			"source": "EmperrorsNewGroove",
@@ -3617,11 +3636,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"For each level above 2nd that you cast this spell, the myconid spirit gains the following benefits:",
-						"+10 hp",
-						"+1 AC",
-						"+1 to attack and damage rolls",
-						"Other benefits as described in the stat block"
+						"For each level above 2nd that you cast this spell, the myconid spirit gains the following benefits:<ul><li>+10 hp</li><li>+1 AC</li><li>+1 to attack and damage rolls</li><li>Other benefits as described in the stat block</li></ul>"
 					]
 				}
 			],
@@ -3689,8 +3704,8 @@
 			},
 			"entries": [
 				"You alter the way your body receives sensory input such that you can either feel light or feel sound. Choose which version of the spell you are using when you cast it:",
-				"Feel Light. You are immune to the Blinded condition. You can feel light with your normal visual acuity, including Darkvision if you possess it.",
-				"Feel Sound. You are immune to the Deafened condition. You gain Blindsense out to a radius of 10 ft. feet.",
+				"<b>Feel Light.</b> You are immune to the Blinded condition. You can feel light with your normal visual acuity, including Darkvision if you possess it.",
+				"<b>Feel Sound.</b> You are immune to the Deafened condition. You gain Blindsense out to a radius of 10 ft. feet.",
 				"These new senses require at least a hand-sized portion of your skin to be uncovered (typically your hands or face). These senses have no special ability to defeat illusions and similar effects. Gaze attacks that require you to see the creature, such as a {@creature medusa} or {@creature basilisk}'s abilities, do not affect you if you are perceiving them solely through the Feel Light version of this spell."
 			],
 			"source": "EmperrorsNewGroove",
@@ -4188,9 +4203,9 @@
 				"You create a magical hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.",
 				"The hand is a Tiny object that has AC equal to your spell save DC. If it is damaged, you must make a Constitution saving throw to maintain {@status concentration} on the spell as though you had taken the damage, though you remain unharmed. It has a Strength and Dexterity score equal to your spellcasting ability. The hand doesn't fill its space.",
 				"When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 30 feet and then cause one of the following effects with it.",
-				"Clenched Fist. The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes {@damage 2d8} force damage.",
-				"Deft Hand. The hand can manipulate an object, activate a magic item, or make an attack with a weapon it is wielding. If a magic item requires attunement to activate, and you are attuned to it, the hand can activate it.",
-				"Forceful Hand. The hand attempts to shove a creature within 5 feet of it in a direction you choose. Make a check with your spellcasting attribute contested by the Strength (Athletics) check of the target, as per the Shove action. If the target is Large or larger, you have disadvantage on the check."
+				"<b>Clenched Fist.</b> The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes {@damage 2d8} force damage.",
+				"<b>Deft Hand.</b> The hand can manipulate an object, activate a magic item, or make an attack with a weapon it is wielding. If a magic item requires attunement to activate, and you are attuned to it, the hand can activate it.",
+				"<b>Forceful Hand.</b> The hand attempts to shove a creature within 5 feet of it in a direction you choose. Make a check with your spellcasting attribute contested by the Strength (Athletics) check of the target, as per the Shove action. If the target is Large or larger, you have disadvantage on the check."
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -4481,8 +4496,8 @@
 			},
 			"entries": [
 				"You sheathe the target in a variably polarized magnetic field. Make a melee spell attack against a creature within your reach (a creature can choose to let you hit it). On a hit, choose one of the following options to take effect until the spell ends:",
-				"Attraction. Metallic and electrically charged objects are attracted to the target. Attacks with metallic weapons or projectiles have advantage, as do attacks that deal lightning damage. The target has disadvantage on saving throws against effects that deal lightning damage. Metallic objects cling to the target and require a Strength saving throw to pull away.",
-				"Repulsion. Metallic and electrically charged objects are repelled from the target. Attacks with metallic weapons or projectiles have disadvantage, as do attacks that deal lightning damage. The target has advantage on saving throws against effects that deal lightning damage. Metallic objects on the target's person are violently repelled unless affixed via secure means. Normally worn armor is unaffected by this, but a metallic melee weapon the target is wielding requires a successful Strength saving throw at the start of each turn to be retained."
+				"<b>Attraction.</b> Metallic and electrically charged objects are attracted to the target. Attacks with metallic weapons or projectiles have advantage, as do attacks that deal lightning damage. The target has disadvantage on saving throws against effects that deal lightning damage. Metallic objects cling to the target and require a Strength saving throw to pull away.",
+				"<b>Repulsion.</b> Metallic and electrically charged objects are repelled from the target. Attacks with metallic weapons or projectiles have disadvantage, as do attacks that deal lightning damage. The target has advantage on saving throws against effects that deal lightning damage. Metallic objects on the target's person are violently repelled unless affixed via secure means. Normally worn armor is unaffected by this, but a metallic melee weapon the target is wielding requires a successful Strength saving throw at the start of each turn to be retained."
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -5167,8 +5182,8 @@
 			},
 			"entries": [
 				"With this spell, you weave an arcane trap inside your mind for any invaders. This spell has two versions; you either cast it while you are awake, or right before you go to sleep:",
-				"Awake. You ward your mind against mental intrusions. Any creature that attempts to sense your emotions or read your thoughts, or one that would bestow the {@condition charmed} condition upon you, takes {@damage 5d6} psychic damage and is {@condition stunned} for 1 minute. On a successful Wisdom saving throw, the creature takes half damage and is not {@condition stunned}.  A creature which fails its saving throw may attempt again at the end of it's turn.",
-				"Asleep. This spell lurks in your dreams, staying on the edges of your perception as a comforting creature or object. If your dreams are invaded or tampered with while you sleep, such as by the {@spell dream} spell or a {@creature night hag}'s nightmare haunting, the solipsistic interloper springs the trap. They take {@damage 5d6} psychic damage or half as much on a successful Wisdom saving throw. If they psychically invaded your dreams, then they are trapped there. You immediately become aware that you are dreaming, and can choose to wake up or hold the invader in place, preventing them from waking up while you are asleep.",
+				"<b>Awake.</b> You ward your mind against mental intrusions. Any creature that attempts to sense your emotions or read your thoughts, or one that would bestow the {@condition charmed} condition upon you, takes {@damage 5d6} psychic damage and is {@condition stunned} for 1 minute. On a successful Wisdom saving throw, the creature takes half damage and is not {@condition stunned}.  A creature which fails its saving throw may attempt again at the end of it's turn.",
+				"<b>Asleep.</b> This spell lurks in your dreams, staying on the edges of your perception as a comforting creature or object. If your dreams are invaded or tampered with while you sleep, such as by the {@spell dream} spell or a {@creature night hag}'s nightmare haunting, the solipsistic interloper springs the trap. They take {@damage 5d6} psychic damage or half as much on a successful Wisdom saving throw. If they psychically invaded your dreams, then they are trapped there. You immediately become aware that you are dreaming, and can choose to wake up or hold the invader in place, preventing them from waking up while you are asleep.",
 				"A {@creature night hag} that triggers a this spell using their nightmare haunting ability is forced to the Material Plane and {@condition paralyzed} for 1 minute if they failed their saving throw. They can attempt their saving throw again at the end of each turn.",
 				"At the DM's discretion, other creatures might also be specially affected by this spell.",
 				"After the spell has warded against one such mental intrusion, the spell ends."
@@ -5323,12 +5338,7 @@
 				"This spell transfers all magical properties from one item to another, destroying the first item while making the second item magical. The two items must be similar in function; such as a longsword's enchantments being transferred to a shortsword.",
 				"The item to receive the enchantment must be nonmagical, but capable of holding the enchantment to be transferred.",
 				"The spellcaster must make a successful Intelligence (Arcana) check to transfer the magical properties, as shown below. If the check fails, then the caster may try again after they have taken a long rest.",
-				"Common……………. DC 10",
-				"Uncommon………... DC 13",
-				"Rare………………….. DC 17",
-				"Very Rare…………… DC 20",
-				"Legendary…………. DC 25",
-				"Artifacts……………. N/A",
+				"<table><tr><th>Item Rarity</th><th>DC</th></tr><tr><tr><td>Common</td><td>10</td></tr><tr><td>Uncommon</td><td>13</td></tr><tr><td>Rare</td><td>17</td></td><tr><td>Very Rare</td><td>20</td></tr><tr><td>Legendary</td><td>25</td></tr><tr><td>Artifacts</td><td>N/A</td></tr></table>",
 				"A sentient magic item can make a Charisma saving throw to resist the effect."
 			],
 			"source": "EmperrorsNewGroove",
@@ -6377,8 +6387,8 @@
 			},
 			"entries": [
 				"When you cast this spell, choose one of two effects:",
-				"Prepare. You regain up to three levels of spell slots you have already cast (such as three 1st-level spells, a 2nd- and a 1st-level spell, or a 3rd-level spell).",
-				"Correct. You can change a number of spells you have prepared up to your spellcasting ability modifier with other spells you have in your spell book."
+				"<b>Prepare.</b> You regain up to three levels of spell slots you have already cast (such as three 1st-level spells, a 2nd- and a 1st-level spell, or a 3rd-level spell).",
+				"<b>Correct.</b> You can change a number of spells you have prepared up to your spellcasting ability modifier with other spells you have in your spell book."
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -7608,24 +7618,15 @@
 				"You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or stepping on the glyph, removing another object covering it, approaching within a certain distance of it, or manipulating the object that holds it. For glyphs inscribed within an object, the most common triggers are opening the object, approaching within a certain distance of it, or seeing or reading the glyph.",
 				"You can further refine the trigger so the spell is activated only under certain circumstances or according to a creature's physical characteristics (such as height or weight), or physical kind (for example, the ward could be set to affect hags or shapechangers). You can also specify creatures that don't trigger the glyph, such as those who say a certain password.",
 				"When you inscribe the glyph, choose one of the options below for its effect. Once triggered, the glyph glows, filling a 60-foot-radius sphere with dim light for 10 minutes, after which time the spell ends. Each creature in the sphere when the glyph activates is targeted by its effect, as is a creature that enters the sphere for the first time on a turn or ends its turn there.",
-				"Death.",
-				"Each target must make a Constitution saving throw, taking {@damage 10d10} necrotic damage on a failed save, or half as much damage on a successful save.",
-				"Discord.",
-				"Each target must make a Constitution saving throw. On a failed save, a target bickers and argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has disadvantage on attack rolls and ability checks.",
-				"Fear.",
-				"Each target must make a Wisdom saving throw and becomes  {@condition frightened} for 1 minute on a failed save. While  {@condition frightened}, the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able.",
-				"Hopelessness.",
-				"Each target must make a Charisma saving throw. On a failed save, the target is overwhelmed with despair for 1 minute. During this time, it can't attack or target any creature with harmful abilities, spells, or other magical effects.",
-				"Insanity.",
-				"Each target must make an Intelligence saving throw. On a failed save, the target is driven insane for 1 minute. An insane creature can't take actions, can't understand what other creatures say, can't read, and speaks only in gibberish. The DM controls its movement, which is erratic.",
-				"Pain.",
-				"Each target must make a Constitution saving throw and becomes  {@condition incapacitated} with excruciating pain for 1 minute on a failed save.",
-				"Sleep.",
-				"Each target must make a Wisdom saving throw and falls  {@condition unconscious} for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.",
-				"Stunning.",
-				"Each target must make a Wisdom saving throw and becomes  {@condition stunned} for 1 minute on a failed save.",
-				"Spell Loss.",
-				"Each target must make a Wisdom saving throw or lose their highest level spell slot. All creatures with spell slots must continue making this save each turn until they have no more spell slots, or until the symbol has absorbed 50 levels of spells."
+				"<b>Death.</b> Each target must make a Constitution saving throw, taking {@damage 10d10} necrotic damage on a failed save, or half as much damage on a successful save.",
+				"<b>Discord.</b>Each target must make a Constitution saving throw. On a failed save, a target bickers and argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has disadvantage on attack rolls and ability checks.",
+				"<b>Fear.</b> Each target must make a Wisdom saving throw and becomes  {@condition frightened} for 1 minute on a failed save. While  {@condition frightened}, the target drops whatever it is holding and must move at least 30 feet away from the glyph on each of its turns, if able.",
+				"<b>Hopelessness.</b>Each target must make a Charisma saving throw. On a failed save, the target is overwhelmed with despair for 1 minute. During this time, it can't attack or target any creature with harmful abilities, spells, or other magical effects.",
+				"<b>Insanity.</b>Each target must make an Intelligence saving throw. On a failed save, the target is driven insane for 1 minute. An insane creature can't take actions, can't understand what other creatures say, can't read, and speaks only in gibberish. The DM controls its movement, which is erratic.",
+				"<b>Pain.</b>Each target must make a Constitution saving throw and becomes  {@condition incapacitated} with excruciating pain for 1 minute on a failed save.",
+				"<b>Sleep.</b>Each target must make a Wisdom saving throw and falls  {@condition unconscious} for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.",
+				"<b>Stunning.</b>Each target must make a Wisdom saving throw and becomes  {@condition stunned} for 1 minute on a failed save.",
+				"<b>Spell Loss.</b>Each target must make a Wisdom saving throw or lose their highest level spell slot. All creatures with spell slots must continue making this save each turn until they have no more spell slots, or until the symbol has absorbed 50 levels of spells."
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -7965,13 +7966,7 @@
 			},
 			"entries": [
 				"You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:",
-				"You gain 100 temporary hit points. If any of these remain when the spell ends, they are lost.",
-				"You have advantage on attack rolls that you make with simple and martial weapons.",
-				"When you hit a target with a weapon attack, that target takes an extra {@damage 4d12} force damage.",
-				"You have proficiency with all armor, shields, simple weapons, and martial weapons.",
-				"You have proficiency in Strength and Constitution saving throws.",
-				"You can attack twice, instead of once, when you take the  Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.",
-				"You can magically equip any item to which you are attuned as part of casting this spell. Weapons and shields appear in hand, and armor teleports onto your person."
+				"<ul><li>You gain 100 temporary hit points. If any of these remain when the spell ends, they are lost.</li><li>You have advantage on attack rolls that you make with simple and martial weapons.</li><li>When you hit a target with a weapon attack, that target takes an extra {@damage 4d12} force damage.</li><li>You have proficiency with all armor, shields, simple weapons, and martial weapons.</li><li>You have proficiency in Strength and Constitution saving throws.</li><li>You can attack twice, instead of once, when you take the  Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</li><li>You can magically equip any item to which you are attuned as part of casting this spell. Weapons and shields appear in hand, and armor teleports onto your person.</li></ul>"
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -8339,9 +8334,9 @@
 			"entries": [
 				"This spell must be cast at night. When you do so, the surrounding 100 miles are laid under your spell. The temperature in this region rapidly drops to arctic conditions, killing off vegetation and endangering unprotected creatures. For the next day, the sun fails to rise in this region, blocked out by a magical firmament. A bright aurora scintillates across the sky, providing Bright Light outside for the duration of the spell.",
 				"While this spell is active, you can use a bonus action on your turn to cause one of the following effects within an outdoors environment in the spell's area:",
-				"Faerie Frost. A 50 foot radius area within the spell is glazed with a sparkling, icy coating. Creatures in this area must make a Dexterity saving throw or also be coated. Until your next turn, any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being {@condition invisible}.",
-				"Razor Sleet. Gale force winds sweep through the area, assailing creatures with razor sharp ice and pushing them. A line of strong wind 60 feet long and 10 feet wide appears within the spells area. Creatures within the line of wind must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line, and take {@dice 4d10} slashing and {@damage 4d10} cold damage. A creature that makes their save is not moved, and takes half damage.",
-				"Rimefire. Sheets of energized light cascade from the auroras, sweeping across an area and destroying that which it touches. A wall of radiant energy 5 feet wide, 100 feet long, and 100 feet tall appears within the area of the spell. The wall blocks line of sight, but not movement. A creature that ends its turn in the wall's area takes {@damage 8d8} radiant damage, or half as much damage on a successful Constitution saving throw. A shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light.",
+				"<b>Faerie Frost.</b> A 50 foot radius area within the spell is glazed with a sparkling, icy coating. Creatures in this area must make a Dexterity saving throw or also be coated. Until your next turn, any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being {@condition invisible}.",
+				"<b>Razor Sleet.</b> Gale force winds sweep through the area, assailing creatures with razor sharp ice and pushing them. A line of strong wind 60 feet long and 10 feet wide appears within the spells area. Creatures within the line of wind must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line, and take {@dice 4d10} slashing and {@damage 4d10} cold damage. A creature that makes their save is not moved, and takes half damage.",
+				"<b>Rimefire.</b> Sheets of energized light cascade from the auroras, sweeping across an area and destroying that which it touches. A wall of radiant energy 5 feet wide, 100 feet long, and 100 feet tall appears within the area of the spell. The wall blocks line of sight, but not movement. A creature that ends its turn in the wall's area takes {@damage 8d8} radiant damage, or half as much damage on a successful Constitution saving throw. A shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light.",
 				"At the beginning of your next turn, the wall of radiant energy moves up to 500 feet in a direction of your choice. Anything it touches during this movement is affected as though it had ended its turn in the wall's area."
 			],
 			"source": "EmperrorsNewGroove",
@@ -9714,6 +9709,331 @@
 				"s": true,
 				"m": "A compass, an ear horn, and a tuning fork of mithral worth 100 gp."
 			}
+		}
+	],
+	"item":[
+		{
+			"name": "Imyrith's Talon +2",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"source": "EmperrorsNewGroove",
+			"value": 131500,
+			"entries": [
+				"This magical scimitar is made from one of the talons of the great wyrm Imyrith. You have a +2 bonus to attack and damage rolls made with this magical scimitar and deal an additional 1d6 lightning damage on a successful hit. In addition, you can use this scimitar to cast {@spell lightning bolt} (save DC 15) once per long rest."
+			],
+			"bonusWeapon": "+2"
+		},
+		{
+			"name": "Amulet of Form Stability",
+			"source": "EmperrorsNewGroove",
+			"value": 65000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While attuned to this magical amulet, you are immune to the {@condition petrified} condition and spells that would change your form, such as the {@spell polymorph} spell. Features that would change your form, such as a druid's Wild Shape feature, or the racial traits of a changeling or shifter, are suppressed while attuned to this amulet."
+			]
+		},
+		{
+			"name": "Amulet of Shopping",
+			"source": "EmperrorsNewGroove",
+			"value": 50000,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This golden amulet is inscribed with the words: 'Sorcerous Sundries. Sellers to Heroes, Monarchs, Gods'. The words swim to become written in the native language of whoever reads them.",
+				"<b>Shopping Trip.</b> By focusing on this amulet as an action and saying the command word ('Cha-ching'), you are magically transported to the lounge of Sorcerous Sundries. Up to ten creatures, linked by their hands, can accompany you. Once you use this ability, you can't use it again until after 5 days has passed."
+			]
+		},
+		{
+			"name": "Astral Sextant",
+			"source": "EmperrorsNewGroove",
+			"value": 25000,
+			"rarity": "uncommon",
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"A creature that spends at least 10 minutes adjusting this device to a willing creature's thoughts can enter their dreams whenever both creatures are asleep. The guest dreamer is affected by {@spell dream} spells and similar magic as though they were the host dreamer."
+			]
+		},
+		{
+			"name": "Bag of Bones",
+			"source": "EmperrorsNewGroove",
+			"value": 325000,
+			"rarity": "very rare",
+			"weight": 10,
+			"wondrous": true,
+			"entries": [
+				"This ordinary bag, made from gray cloth, appears empty. Reaching inside the bag, however, reveals the presence of many bones.",
+				"You can use an action to pull a bone from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d6 and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
+				"The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
+				"Once three bones have been pulled from the bag, the bag can't be used again until the next dawn.",
+				"<table><tr><th>d6</th><th>Creature</th></tr><tr><td>1</td><td>d3 {@creature Skeleton}s</td></tr><tr><td>2</td><td>d3 {@creature Zombie}s</td></tr><tr><td>3</td><td>{@creature Ghoul}</td></tr><tr><td>4</td><td>{@creature Specter}</td></tr><tr><td>5</td><td>{@creature Ogre Zombie}</td></tr><tr><td>6</td><td>d3 {@creature Shadow}s</td></tr></table>"
+			]
+		},
+		{
+			"name": "Bag of Endless Caltrops",
+			"source": "EmperrorsNewGroove",
+			"value": 12500,
+			"rarity": "common",
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 10,
+			"entries": [
+				"A {@item bag of endless caltrops} magically produces normal caltrops. As an action, you can spread caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw. After 24 hours, these caltrops disappear.",
+				"A {@item bag of endless caltrops} has 10 charges. Producing enough caltrops to cover a 5-foot-square area utilizes 1 charge. When you complete a long rest, the {@item bag of endless caltrops} regains {@dice 1d10} charges."
+			]
+		},
+		{
+			"name": "Bag of Endless Caltrops +1",
+			"source": "EmperrorsNewGroove",
+			"value": 45000,
+			"rarity": "uncommon",
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 10,
+			"entries": [
+				"A {@item bag of endless caltrops +1} magically produces normal caltrops. As an action, you can spread caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 16 Dexterity saving throw or stop moving and take {@dice 1d4+1} piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw. After 24 hours, these caltrops disappear.",
+				"A {@item bag of endless caltrops +1} has 10 charges. Producing enough caltrops to cover a 5-foot-square area utilizes 1 charge. When you complete a long rest, the {@item bag of endless caltrops +1} regains {@dice 1d10} charges."
+			]
+		},
+		{
+			"name": "Ballista Bowstring",
+			"source": "EmperrorsNewGroove",
+			"value": 21500,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 1,
+			"entries": [
+				"You can use this magical, metallic bowstring to string a bow or crossbow. When you do so, you can use its magic to impel a piece of ammunition with great force.",
+				"Ballista Shot. As an action, you can make a special ranged weapon attack. Instead of choosing a single target, you make an attack against all targets in a 100 foot line projecting from you. You cannot make a Ballista Shot with a piece of ammunition that has special properties beyond a bonus to attack and damage rolls, or being made of a special material. Once you use this ability, you can't use it again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Bastion Helm",
+			"source": "EmperrorsNewGroove",
+			"value": 71500,
+			"rarity": "rare",
+			"weight": 10,
+			"wondrous": true,
+			"entries": [
+				"This magical greathelm has a row of decorative steel crenellations around the top. While wearing this helm, you gain the benefits listed below. If you move or are moved from your position (including via teleporation), you lose these benefits until the start of your next turn.",
+				"You have advantage on saving throws against effects that would move you against your will.",
+				"You are immune to the Grappled, Paralyzed, and Restrained conditions."
+			]
+		},
+		{
+			"name": "Belt of Antipode",
+			"source": "EmperrorsNewGroove",
+			"value": 22500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"While wearing this belt, you have immunity to cold damage but you are vulnerable to fire damage. If you have resistance or immunity to fire damage, that protection ceases to function while wearing this belt."
+			]
+		},
+		{
+			"name": "Belt of Hidden Pouches",
+			"source": "EmperrorsNewGroove",
+			"value": 65000,
+			"rarity": "uncommon",
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"This item might be made of silk or soft leather, but it’s always fairly wide and with a big buckle (usually brass or silver).",
+				"Hidden inside the belt are ten small pockets, each of which seems big enough to hold only a few coins. Each pocket actually functions as a small {@item bag of holding}. No object with any dimension exceeding 6 inches can be placed in a pocket. Anything placed inside a pocket is weightless. In addition, two secret pockets lie behind each visible one, for a total of thirty pockets in all. The hidden pockets can be accessed only through a command word. A {@spell true seeing} or {@spell legend lore} spell reveals the presence of the hidden pockets but not the command needed to open them (these pockets are not detected by an {@spell identify} spell). Even when a pocket is full, it never bulges, so a belt of hidden pouches stuffed with 150 pounds of items looks like an ordinary belt.",
+				"Accessing a regular pocket uses your object interaction on your turn, while accessing a hidden pocket is a bonus action.",
+				"Simply frisking the wearer won’t reveal any objects placed in the belt, and searching the visible pockets cannot reveal anything stored in the hidden pockets. It is possible to pickpocket something out of one of the ten visible pockets, but only someone wearing or holding the belt can access the hidden pockets, and then only with the correct command word."
+			]
+		},
+		{
+			"name": "Belt of the Bear Tribe",
+			"source": "EmperrorsNewGroove",
+			"value": 31500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Your Constitution score is 16 while you wear this belt. It has no effect on you if your Constitution is already 16 or higher without it.",
+				"<b>Savage Critical:</b> When you critically hit with a melee weapon attack, you can add an additional weapon damage dice when determining the extra damage for a critical hit with a melee attack"
+			]
+		},
+		{
+			"name": "Big Fisted Belt",
+			"source": "EmperrorsNewGroove",
+			"value": 35000,
+			"rarity": "Rare",
+			"reqAttune": true,
+			"weight": 4,
+			"wondrous": true,
+			"entries": [
+				"Your Strength score is 22 while you wear this belt. It has no effect on you if your Strength is already 22 or higher without it.",
+				"Additionally, your unarmed strikes inflict 1d6 bludgeoning damage while wearing this belt.",
+				"<b>Big, Stupid Fingers.</b> You cannot remove your attunement to this cursed item unless subjected to a {@spell remove curse} spell. Your Dexterity score is 6 while you are attuned this belt. It has no effect on you if your Dexterity is already 6 or lower without it."
+			]
+		},
+		{
+			"name": "Bootleg Spell Scroll",
+			"source": "EmperrorsNewGroove",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"These spell scrolls are waterlogged, made with discount materials, or otherwise not suitable for serious practitioners. They function as a normal spell scroll of its level, except that you cannot copy it into a spell book, and whenever you cast it, you must also roll on the {@table scroll mishaps} table."
+			]
+		},
+		{
+			"name": "Blindeye Amulet",
+			"source": "EmperrorsNewGroove",
+			"value": 1250000,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"While wearing this amulet, you are hidden from divination magic. When you are targeted by such magic or perceived through magical scrying sensors, the caster of that spell takes {@dice 10d6} psychic damage, or half that on a successful DC 18 Wisdom saving throw."
+			]
+		},
+		{
+			"name": "Blindfold of Darkness",
+			"source": "EmperrorsNewGroove",
+			"value": 38500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This black silk blindfold magically heightens your senses when worn. While using this item, you are {@condition blind}, but you gain Blindsense out to a range of 30 feet."
+			]
+		},
+		{
+			"name": "Boots of Grounding",
+			"source": "EmperrorsNewGroove",
+			"value": 81500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"While wearing these boots, you have immunity to lightning damage. You lose this immunity if you are {@condition prone}, or if you are not standing on a solid surface (such as when flying or swimming).",
+				"When you have lost lightning immunity, you are instead vulnerable to lightning damage."
+			]
+		},
+		{
+			"name": "Boots of Lightning Speed",
+			"source": "EmperrorsNewGroove",
+			"value": 315000,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"While attuned to these boots, your speed is doubled, you gain a +2 bonus to AC, you have advantage on Dexterity saving throws, and you gain an additional action on each of your turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
+				"<b>Cursed.</b>These boots are cursed, and you cannot remove your attunement to this cursed item unless subjected to a {@spell remove curse} spell. While attuned, you are restless and cannot slow down. You cannot take a short or long rest while attuned to these boots."
+			]
+		},
+		{
+			"name": "Boots of the Mountain King",
+			"source": "EmperrorsNewGroove",
+			"value": 275000,
+			"rarity": "rare",
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 1,
+			"entries": [
+				"While wearing these boots, you ignore the effects of difficult terrain and have advantage to resist effects that would move you against your will. Additionally, you can cast {@spell stoneskin} using these boots as an action. Once you do so, you can’t do so again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Boots of the Tiger",
+			"source": "EmperrorsNewGroove",
+			"value": 98500,
+			"rarity": "",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"These boots are lined with the fur of saber-tooth tigers and give their wearer the great cat's grace. Your Dexterity score is 19 while you wear these boots. They have no effect on you if your Dexterity is already 19 or higher without them.",
+				"Additionally, while you are not {@condition incapacitated}, you reduce the distance of any fall by 20 feet when calculating fall damage."
+			]
+		},
+		{
+			"name": "Bowstring of Gond",
+			"source": "EmperrorsNewGroove",
+			"value": 150000,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"When you string a shortbow, longbow, light crossbow, heavy crossbow, or hand crossbow with this magical bowstring, you gain a +1 bonus to attack and damage rolls with that weapon. This stacks with any existing bonus you may have from the weapon or ammunition."
+			]
+		},
+		{
+			"name": "Bracers of Binding",
+			"source": "EmperrorsNewGroove",
+			"value": 50000,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"These cursed bracers were designed to humanely hinder or prevent criminal acts while worn, such as for persons released on bail or who are on parole.",
+				"While attuned to this item, you cannot cast spells with somatic components, and you have disadvantage on all attack rolls.",
+				"A creature who is {@condition incapacitated} automatically attunes to this item if they wear them for at least 1 minute (if they are already attuned to their maximum number of items, a randomly chosen item has its attunement removed).",
+				"<b>Cursed.</b> You cannot remove your attunement to this cursed item unless subjected to a {@spell remove curse} spell"
+			]
+		},
+		{
+			"name": "Bracers of Bugbear's Strength",
+			"source": "EmperrorsNewGroove",
+			"value": 20000,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"Your Strength score is 16 while you wear these gauntlets. They have no effect on you if your Strength is already 16 or higher without them.",
+				"<b>Brute Strength:</b> When you hit with a melee weapon attack, you can add an additional die of damage. Once you use this ability, you can't use it again until you complete a short rest."
+			]
+		},
+		{
+			"name": "Bracers of Defense +4",
+			"source": "EmperrorsNewGroove",
+			"value": 500000,
+			"rarity": "very rare",
+			"reqAttune": "true",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"While wearing these bracers, you gain a +4 bonus to AC if you are wearing no armor and using no shield."
+			]
+		},
+		{
+			"name": "Bracers of Perserverance",
+			"source": "EmperrorsNewGroove",
+			"value": 11500,
+			"rarity": "uncommon",
+			"reqAttune": "by a monk",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"When you roll a natural 1 on an attack roll, you gain the benefits of a {@spell bless} spell for 1 minute."
+			]
 		}
 	]
 }
