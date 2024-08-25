@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.1.3",
+				"version": "0.1.4",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -9729,7 +9729,7 @@
 			"source": "EmperrorsNewGroove",
 			"value": 131500,
 			"entries": [
-				"This magical scimitar is made from one of the talons of the great wyrm Imyrith. You have a +2 bonus to attack and damage rolls made with this magical scimitar and deal an additional 1d6 lightning damage on a successful hit. In addition, you can use this scimitar to cast {@spell lightning bolt} (save DC 15) once per long rest."
+				"This magical scimitar is made from one of the talons of the great wyrm Imyrith. You have a +2 bonus to attack and damage rolls made with this magical scimitar and deal an additional {@dice 1d6} lightning damage on a successful hit. In addition, you can use this scimitar to cast {@spell lightning bolt} (save DC 15) once per long rest."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -10033,6 +10033,696 @@
 			"wondrous": true,
 			"entries": [
 				"When you roll a natural 1 on an attack roll, you gain the benefits of a {@spell bless} spell for 1 minute."
+			]
+		},
+		{
+			"name": "Canto I of the Winding Path",
+			"source": "EmperrorsNewGroove",
+			"value": 81500,
+			"rarity": "legendary",
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"<i>The monk themselves in their seeking is the koan. Realization of this is the insight; the response to the koan. Subject and object – this is two hands clapping. When the monk realizes that the koan is not merely an object of consciousness but is also theirself as the activity of seeking an answer to the koan, then subject and object are no longer separate and distinct... This is one hand clapping.</i>",
+				"This scroll is part of a larger meditation on the discovery and realization of the virtuous self. If you spend 48 hours over a period of 6 days or fewer studying the scroll's contents and contemplating its maxims, you gain 1 Ki point. If you do not have abilities that use Ki points, you may spend 1 Ki point as a bonus action to take the Dodge, Disengage, or Dash action. You restore all expended Ki points when you complete a short rest.",
+				"When you finish reading this scroll, the magic empowering it is used up. <i>Can a student 'use up' wisdom?</i>"
+			]
+		},
+		{
+			"name": "Canto II of the Winding Path",
+			"source": "EmperrorsNewGroove",
+			"value": 161500,
+			"rarity": "legendary",
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"<i>n the silence of a single breath, the forest reveals its wisdom. Does the tree ponder its growth, or does it simply become? Seek not the answers in the whispers of the wind, for the true path lies in the stillness of your own heart. When you cease to seek, you find all that you have ever sought.</i>",
+				"This scroll is part of a larger meditation on the discovery and realization of the virtuous self. If you spend 48 hours over a period of 6 days or fewer studying the scroll's contents and contemplating its maxims, you gain 1 Ki point. If you do not have abilities that use Ki points, you may spend 1 Ki point as a reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your monk level.",
+				"When you finish reading this scroll, the magic empowering it is used up. <i>Can a student 'use up' wisdom?</i>"
+			]
+		},
+		{
+			"name": "Catspaw Boots",
+			"source": "EmperrorsNewGroove",
+			"value": 13500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"While you are wearing these boots, you reduce any falling damage you take by 75 points. Additionally, you are never knocked {@condition prone} from falling, and have advantage on effects that would cause you to become {@condition prone}."
+			]
+		},
+		{
+			"name": "Changeling's Vest",
+			"source": "EmperrorsNewGroove",
+			"value": 121500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While attuned to this vest, you have advantage on saving throws against spells that would change your form. In addition, you can cast the {@spell alter self} spell at will without needing to concentrate on it."
+			]
+		},
+		{
+			"name": "Choker of Eloquence",
+			"source": "EmperrorsNewGroove",
+			"value": 75000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While attuned to this choker, you have advantage on Persuasion and Deception checks against audiences of more than one person."
+			]
+		},
+		{
+			"name": "Circlet of the Magister",
+			"source": "EmperrorsNewGroove",
+			"value": 1150000,
+			"rarity": "legendary",
+			"reqAttune": "by a creature than can cast 5th level spells",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"While attuned to this magical circlet, you gain an additional spell slot for spell levels 1-5."
+			]
+		},
+		{
+			"name": "Circlet of the Summoner",
+			"source": "EmperrorsNewGroove",
+			"value": 145000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"While attuned to this circlet, any creature you summon via magical means is affected by the {@spell bless} spell for the duration of its summons. Magical means includes all spells and magic items, as well as most class features."
+			]
+		},
+		{
+			"name": "Cloak of Dragomir",
+			"source": "EmperrorsNewGroove",
+			"value": 178500,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"<i>This cloak was crafted and imbued with powerful undead magic by the necromancer Zulann Fass while she was in the employ of the warlord Dragomir. Dragomir had been turned to vampirism and, not wanting to leave his previous life behind, demanded that Zulann craft a magical garment that would allow him to travel in the light of the sun without being destroyed. While Zulann was successful, the cloak severely dampened many of the vampiric abilities that Dragomir had come to enjoy. For this inconvenience, she was drained of her lifeblood by Dragomir and left to die.</i>",
+				"While attuned to this cloak, you have resistance to radiant damage and advantage on saving throws against light-based spells. You are vulnerable to bludgeoning, piercing, and slashing damage from weapons or attacks made solely of wood while attuned to this cloak (a club, but not a spear, for example).",
+				"Additionally, a creature with the Sunlight Sensitivity or Sunlight Hypersensitivity traits (such as a drow or a vampire) have those traits suppressed.",
+				"A {@creature vampire} that is attuned to this cloak cannot use its Shapechanger or Misty Escape abilities."
+			]
+		},
+		{
+			"name": "Cloak of Protection +2",
+			"source": "EmperrorsNewGroove",
+			"value": 234500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"You gain a +2 bonus to AC and saving throws while you wear this strange garment."
+			]
+		},
+		{
+			"name": "Cloak of Shelter",
+			"source": "EmperrorsNewGroove",
+			"value": 18500,
+			"rarity": "uncommon",
+			"weight": 3,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This magical cloak can transmute into a four-person tent by uttering its command word, and return to its wearable state with another command word. Additionally, this cloak can be used to cast {@spell leomund's tiny hut}. Once you use this feature, it can't be used again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Cloak of the Fox Tribe",
+			"source": "EmperrorsNewGroove",
+			"value": 53500,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"It’s unclear if this cloak is an artifact of an extinct Reghed Fox Tribe, or if it is merely a marketing ploy. Regardless, while wearing this fur cloak, you have the following benefits:",
+				"<ul><li>You are resistant to cold damage</li><li>You add +{@dice 1d4} to Intelligence ability checks and saving throws</li><li>You are have advantage on saving throws to resist magical effects that would cause you to be {@condition paralyzed} or {@condition restrained}, and you have advantage on checks to escape being {@condition grappled}</li></ul>"
+			]
+		},
+		{
+			"name": "Cloak of the Gargoyle",
+			"source": "EmperrorsNewGroove",
+			"value": 45000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 8,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"This pale grey cloak has dark veins running through it as though it were carved of marble. Of course, it is just made of heavy cloth, but it does impart some durability to its wearer. While you're wearing it, any critical hit against you becomes a normal hit.",
+				"Additionally, as a reaction, you can turn yourself into stone. When you are stone, you are {@condition petrified} until the end of your next turn. While {@condition petrified}, you have immunity to bludgeoning, piercing, and slashing damage from nonmagical weapons and you have resistance to all types of damage. Once you turn to stone in this way you can't do so again until you complete a short rest."
+			]
+		},
+		{
+			"name": "Cloak of the Lurien Watch",
+			"source": "EmperrorsNewGroove",
+			"value": 215000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"While wearing this cloak, you have a +3 bonus to AC against attacks by humanoids and giants."
+			]
+		},
+		{
+			"name": "Cloak of the Sewers",
+			"source": "EmperrorsNewGroove",
+			"value": 25500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This less-than-fashionable cloak is made from rat fur. While wearing this cloak, you have the following benefits:",
+				"<ul><li>Your AC increases by +1</li><li>You are immune to mundane diseases</li><li>As an action, you can command the cloak to transform you into a rat for up to 1 hour. The transformation otherwise functions as the {@spell polymorph} spell, but you can use a bonus action to revert to your normal form.  Once you use this ability, you can't do so again until you complete a long rest.</li></ul>"
+			]
+		},
+		{
+			"name": "Coin of Eternal Rest",
+			"source": "EmperrorsNewGroove",
+			"value": 21500,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"You can place this surprisingly heavy lead coin in the mouth of a corpse, or over its eyes. If you do so, the coin's magic is expended and the corpse becomes warded.",
+				"The corpse cannot be raised as an undead creature, and the body and attending soul cannot be the target of a {@spell speak with dead} spell or similar magics. The body cannot be returned to life by a spell less powerful than {@spell true resurrection}."
+			]
+		},
+		{
+			"name": "Cowl of the Comet",
+			"source": "EmperrorsNewGroove",
+			"value": 31500,
+			"rarity": "uncommon",
+			"weight": 1,
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 6,
+			"entries": [
+				"This magical cowl has six golden rings attached to it. As an action, you can remove any number of the rings to create a number of tiny meteors in your space, as per the {@spell melf's minute meteors} spell, equal to the number of rings removed.",
+				"{@dice 1d4} rings magically re-appear when you complete a long rest."
+			]
+		},
+		{
+			"name": "Crown of Lies",
+			"source": "EmperrorsNewGroove",
+			"value": 34500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"Although it appears impressive at a distance, this crown is made from fool’s gold and with set with gems made of glass. While wearing this crown, you are under the following effects:",
+				"<ul><li>You are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type.</li><li>Creatures can telepathically communicate with you only if you allow it.</li><li>You cannot gain any benefit from spells of the divination school.</li><li>You Wisdom score is reduced by 2.</li><li>You have advantage on Deception checks.</li><li>You can cast the {@spell disguise self} spell. Once you use this ability, you can't use it again until you complete a short rest.</li></ul>",
+				"<b>Cursed.</b> This item is cursed. Attuning to it curses you until you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the item, which immediately teleports back into your possession."
+			]
+		},
+		{
+			"name": "Daoud's Wondrous Lantern",
+			"source": "EmperrorsNewGroove",
+			"value": 10000000,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 10,
+			"wondrous": true,
+			"charges": 100,
+			"entries": [
+				"This artifact is wrought from the finest yellow gold. Its beautifully crafted framework is set with huge, colored gemstone prisms in place of lenses. An unwavering, pure flame burns within. The faces are normally fitted with clear crystal lenses, but the colorful gem lenses can be slid down to create a variety of magical effects.",
+				"The flame of {@item Daoud's Wondrous Lantern} cannot be extinguished by any known means, other than by exhausting its supply of fuel. If this occurs, however, the lantern's last user is instantly slain. The lantern is fueled by crushed gemstones, contained in a small compartment at its base. The lantern can be refueled with 10,000 gp worth of crushed gemstones, which provide it with 100 charges. If used only to provide light, the lantern burns 1 charge per year. The use of the lantern's magical powers require additional charges, however, and thus burn fuel at a faster rate.",
+				"When open, the lantern provides bright light out to a distance of 60 feet, and dim light out to a distance of 120 feet. The various shutters of the lantern can be operated as an action. The shutters of each side of the lantern can be operated independently, allowing the user to choose the angle light is emitted in 90 degree segments. Based on which lenses are lowered, certain magical effects occur as described below. Unless described otherwise, each lens affects creatures within the lantern's area of bright light (60 feet). The wielder of the lantern is never effected by the lantern's magic.",
+				"<ul><li><b>Closed. </b>The lantern emits no light.</li><li><b>Crystal Lens (1 charge / year). </b>This lens casts a white light that provides no immediate effect, but those touched by the light for at least 4 hours do not need food, drink, or sleep for the next day. Those who spend at least 8 hours in the lantern's glow regain 25 hit points and have the effects of any disease or poison suspended for 24 hours. Those who spend a consecutive week in the light of the lantern are cured of all diseases and have all poisons neutralized.</li><li><b>Ruby Lens (5 charges / round). </b>This lens casts a red light that causes those touched by it to be affected as though they were targeted by a {@spell hold monster} spell.</li><li><b>Jacinth Lens (5 charges / round). </b>This lens casts an orange light that causes those touched by it to burst into magical flames and take {@dice 10d6} fire damage, or half as much on a successful Dexterity saving throw.</li><li><b>Topaz Lens (5 charges / round). </b>This lens casts a yellow light that causes those touched by it to crackle with lightning, taking {@dice 10d6} lightning damage, or half as much on a successful Constitution saving throw.</li><li><b>Emerald Lens (5 charges / round). </b>This lens casts a green light that causes those touched by it to behave as though affected by a {@spell haste} spell for 1 minute.</li><li><b>Sapphire Lens (5 charges / round). </b>This lens casts a blue light that causes those touched by it to become {@condition blinded} unless they succeed on a Wisdom saving throw.</li><li><b>Lapis Lazuli Lens (5 charges / round). </b>This lens casts an indigo light that causes those touched by it to become {@condition frightened} unless they succeed on a Wisdom saving throw.</li><li><b>Amethyst Lens (5 charges / round). </b>This lens casts a violet light that causes those touched by it to be affected as though they were targeted by an {@spell enemies abound} spell.</li><li><b>Multiple Lenses (30 charges / round). </b>You can lower all the lenses of the lantern, causing creatures touched by the light to be affected as though they were targeted by a {@spell prismatic spray} spell.</li><li><b>Spinning Lantern (50 charges / minute). </b>You can lower all of the lenses and spin the lantern, replicating the effects of the {@spell prismatic wall} spell's spherical option, centered on the lantern.</li></ul>",
+				"All Saving Throws for the lantern's magical effects are DC 23.",
+				"Daoud of Tusmit originally created ten colors of gem lenses for the lantern, but when adventurers found it among Iggwilv’s treasures, three of the lenses were missing.",
+				"It is said that anyone who possesses the lantern will slowly grow more and more possessive of it, reaching the point of paranoia after the first year of possession. They will keep it hidden from others and become suspicious of anyone asking about it or touching it. Progressively, the owner will eventually believe others are trying to take the lantern from them and defend it with violence, if necessary."
+			]
+		},
+		{
+			"name": "Diadem of Pure Thought",
+			"source": "EmperrorsNewGroove",
+			"value": 45000,
+			"rarity": "rare",
+			"weight": 1,
+			"wondrous": true,
+			"charges": 3,
+			"entries": [
+				"This fine silver headpiece has three amethysts mounted across the brow of the wearer, representing the item's three charges.",
+				"Whenever the wearer fails a Wisdom, Intelligence, or Charisma saving throw, they can roll again. Doing so consumes one of the items charges and causes a gem to disappear.",
+				"Once all three charges have been used, the item becomes a nonmagical silver circlet worth 50 gp."
+			]
+		},
+		{
+			"name": "Diplomatic Failsafe +1",
+			"source": "EmperrorsNewGroove",
+			"value": 31500,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This magical ring is a concealed weapon made for diplomats, spies, socialites, and others who must appear to be unarmed but value their safety. You can cause a beam of energy to shoot out of the ring's gemstone as a ranged weapon attack, dealing {@dice 1d6} radiant damage to a target you successfully hit. You have a +1 bonus to attack and damage rolls with this attack.",
+				"If you roll a natural 1 on your attack roll, the ring runs out of energy and cannot be used. It can be recharged as an action by a spellcaster holding the ring and expending a 3rd level spell slot.",
+				"This weapon appears nonmagical when examined under the effects of {@spell detect magic}, {@spell identify}, or similar spells. A {@spell legend lore} or {@spell true seeing} spell can discern this objects true nature."
+			]
+		},
+		{
+			"name": "Druid's Ring",
+			"source": "EmperrorsNewGroove",
+			"value": 16000,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This ring of dented copper is unadorned and appears quite simple. While attuned to this ring, you are treated as though under the effects of a {@spell sanctuary} spell that only affects the behavior of creatures with the Beast type."
+			]
+		},
+		{
+			"name": "Dwarven Stompers",
+			"source": "EmperrorsNewGroove",
+			"value": 25000,
+			"rarity": "uncommon",
+			"reqAttune": "by a creature proficient with medium or heavy armor",
+			"weight": 5,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"As a bonus action, you can stomp the ground while wearing these boots to cause a local tremor in a 10 foot radius surrounding you. Each creature other than you in that area must make a DC 15 Dexterity saving throw. On a failed save, a creature takes {@dice 1d6} bludgeoning damage and is knocked {@condition prone}.",
+				"Once you use this item, you can't use this ability again until you complete a short rest."
+			]
+		},
+		{
+			"name": "Elander's Gloves of Displacement",
+			"source": "EmperrorsNewGroove",
+			"value": 28500,
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"As part of an Attack action with a melee attack or as part of casting a spell with the range of Touch, you can activate these gloves. The magic of these gloves folds space so that your attacks or spell affect a creature within 30 feet, rather than one within reach. If you use these gloves in conjunction with the Attack action, and you are wielding a weapon in your off hand, you may also attack a creature within 30 feet with your bonus action.",
+				"Once you use this ability, you can't use it again until you complete a short rest."
+			]
+		},
+		{
+			"name": "Elfbane Girdle",
+			"source": "EmperrorsNewGroove",
+			"value": 28500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"While wearing this belt you have resistance to piercing damage."
+			]
+		},
+		{
+			"name": "Equus Helm",
+			"source": "EmperrorsNewGroove",
+			"value": 16500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 5,
+			"entries": [
+				"This plumed helmet allows you to expend a charge to {@action dash} as a bonus action.",
+				"You regain all expended charges when you complete a long rest."
+			]
+		},
+		{
+			"name": "Evermemory",
+			"source": "EmperrorsNewGroove",
+			"value": 1500000,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This magical ring doubles the number of 1st level spell slots you have while you are attuned to it."
+			]
+		},
+		{
+			"name": "Eversoaking Sponge",
+			"source": "EmperrorsNewGroove",
+			"value": 23500,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"An eversoaking sponge appears to be a normal sponge, until you place it in water. The sponge absorbs a seemingly endless amount of water, shunting it to the Elemental Plane of Water. When placed in a body of water, an eversoaking sponge absorbs 1,000 gallons of water per round (about the size of 10 bathtubs). An eversoaking sponge can absorb up to 500,000 gallons of water (about the size of an olympic swimming pool) in one day. If you squeeze an eversoaking sponge, it releases no more water than a normal sponge would. An eversoaking sponge can only absorb inanimate water, and not any other liquids."
+			]
+		},
+		{
+			"name": "Feyguard Tunic",
+			"source": "EmperrorsNewGroove",
+			"value": 40000,
+			"rarity": "rare",
+			"weight": 1,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"As a reaction when you are hit by an attack you are aware of, you may teleport 15 feet in a random direction and cause the attack to miss. You have no control over the distance you teleport, however the item will not deposit you inside solid material. The item does not prevent you from being teleported over perilous drops, into hazardous effects, or through walls. Once you use this ability, you cannot use it again until you complete a short rest.",
+				"<table><tr><th>{@dice 1d8}</th><th>Direction</th></tr><tr><td>1</td><td>North</td></tr><tr><td>2</td><td>Northeast</td></tr><tr><td>3</td><td>East</td></tr><tr><td>4</td><td>Southeast</td></tr><tr><td>5</td><td>South</td></tr><tr><td>6</td><td>Southwest</td></tr><tr><td>7</td><td>West</td></tr><tr><td>8</td><td>Northwest</td></tr></table>"
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Serpentine Owl",
+			"source": "EmperrorsNewGroove",
+			"value": 115000,
+			"rarity": "rare",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
+				"<b>Serpentine Owl.</b>",
+				"This serpentine statuette of an owl can become a {@creature giant owl} for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence."
+			]
+		},
+		{
+			"name": "Filcher's Friend",
+			"source": "EmperrorsNewGroove",
+			"value": 9500,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While wearing this ring, you can use an action to magnetize your hand. All unattended metallic objects weighing 10 pounds or less within 15 feet of you are drawn to your hand."
+			]
+		},
+		{
+			"name": "Flame of Surtr",
+			"source": "EmperrorsNewGroove",
+			"value": 415000,
+			"rarity": "very rare",
+			"reqAttune": "by a creature with resistance or immunity to fire damage",
+			"weight": 6,
+			"wondrous": true,
+			"charges": 10,
+			"entries": [
+				"This magical lantern has 10 charges and emits a cone of light 30 feet long when unshuttered. A creature who is touched by the light of this lantern takes 5 fire damage at the start of their turn or when they enter the light's area for the first time on their turn. While lit, the latern consumes 1 charge per hour.",
+				"As an action, the latern's user can dump 5 charges worth of fuel to create a cone of flame 60 feet long. Creatures caught in the flame take {@dice 10d6} fire damage or half that on a successful DC 16 Dexterity saving throw.",
+				"Refueling the lantern requires sanctified oils costing 750 gp."
+			]
+		},
+		{
+			"name": "Flameshroud Cloak",
+			"source": "EmperrorsNewGroove",
+			"value": 34500,
+			"rarity": "uncommon",
+			"weight": 2,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This half-cloak bears a harlequin pattern of red, yellow, and orange, with gold embroidery. Whenever you are hit by a melee weapon attack, you can use your reaction to cause the cloak to become a whirling flame surrounding you. All creatures within 5 feet must make a DC 16 Dexterity saving throw or take {@dice 5d6} fire damage, or half as much on a successful save. Once you use this ability, you can't use it again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Instrument of the Bards, Flute of the Immaculate Breeze",
+			"source": "EmperrorsNewGroove",
+			"value": 61500,
+			"rarity": "rare",
+			"reqAttune": "by a bard",
+			"weight": 1,
+			"wondrous": true,
+			"recharge": "dawn",
+			"entries": [
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@dice 2d4} psychic damage.",
+				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
+				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
+				"In addition, the Flute of the Immaculate Breeze can be used to cast: {@spell levitate}, {@spell wind wall}, and {@spell gust of wind}.",
+				"If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
+			]
+		},
+		{
+			"name": "Fractal Ring",
+			"source": "EmperrorsNewGroove",
+			"value": 28500,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 3,
+			"entries": [
+				"This ring appears to be made out of glass. When you are targeted by an attack you are aware of while wearing this ring, you can use your reaction to generate an illusory duplicate of yourself for 1 minute. Until the effect ends, the duplicate moves with you and mimic yours actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicate.",
+				"Each time a creature targets you with an attack during the effects's duration (including the attack that triggered the effect), roll a d20 to determine whether the attack instead targets your duplicate. On an 11 or higher, the attack targets the duplicate instead.",
+				"A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. If the duplicate is destroyed the effect ends.",
+				"A creature is unaffected by this effect if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.",
+				"This ring has 3 charges. Creating a duplicate uses one charge. The ring regains 1 charge when you complete a long rest."
+			]
+		},
+		{
+			"name": "Gauntlets of Crushing",
+			"source": "EmperrorsNewGroove",
+			"value": 11500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"While wearing these heavy, leather gloves you have a +2 bonus on {@action grapple} attempts. On a turn you are inflicting the {@condition grappled} condition on a target, you can choose to inflict {@dice 1d6} plus your Strength modifier bludgeoning damage."
+			]
+		},
+		{
+			"name": "Gauntlets of the Grand Masters",
+			"source": "EmperrorsNewGroove",
+			"value": 21500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While attuned to these magical gauntlets, your weapon attacks score a critical hit on a roll of 19 or 20."
+			]
+		},
+		{
+			"name": "Gentrus' Hand Mirror",
+			"source": "EmperrorsNewGroove",
+			"value": 51500,
+			"rarity": "rare",
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"<i>The town of Luskan has earned its reputation as a lawless and dangerous place. The rampant brigandry in the area means a great many stolen goods are funneled through Luskan's back rooms and inns. One of the town's residents, the halfling Gentrus, crafted this mirror to help him divine the true nature of items he wished to buy. After a close call with a wererat, Gentrus decided to leave Luskan for the safety of Icewind Dale, joining a caravan traveling north. The halfling died on the road during a bandit attack, but the caravan's survivors drove off the bandits.</i>",
+				"Looking at an object's reflection in this mirror shows its aura. A user proficient in the {@skill Arcana} skill can use this mirror with the same effect as a {@spell detect magic} spell or an {@spell identify} spell, at will. If a user studies a particular area through the mirror for 10 minutes or more, they gain the effects of the {@spell see invisibility} spell for as long as they remain in the same room or general area."
+			]
+		},
+		{
+			"name": "Giant Hair Bowstring",
+			"source": "EmperrorsNewGroove",
+			"value": 12500,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"Woven from the back hair of a {@creature hill giant}, this noxious bowstring requires great strength to draw. A character with 15 Strength can use a bow or crossbow strung with this magical bowstring. When you hit a creature using a weapon with this modification using an attack that is a critical hit or an attack you have advantage on, that creature is pushed 5 feet directly away from you."
+			]
+		},
+		{
+			"name": "Girdle of Bluntness",
+			"source": "EmperrorsNewGroove",
+			"value": 13000,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"While wearing this thick leather sword belt, you have resistance to slashing damage from nonmagical weapons."
+			]
+		},
+		{
+			"name": "Girdle of Fortitude",
+			"source": "EmperrorsNewGroove",
+			"value": 12000,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"While wearing this belt, you can use a bonus action to give yourself 10 temporary hit points. Once you use this ability, you can't use it again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Gloves of Gripping",
+			"source": "EmperrorsNewGroove",
+			"value": 16500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"While wearing these gloves, you cannot drop an item or be disarmed of a weapon unless you intend to be. Furthermore, climbing does not take any additional movement."
+			]
+		},
+		{
+			"name": "Gloves of the Apprentice",
+			"source": "EmperrorsNewGroove",
+			"value": 16500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While you wear these magical gloves, you have advantage on Constitution saving throws to maintain concentration on spells."
+			]
+		},
+		{
+			"name": "Golden Gates",
+			"source": "EmperrorsNewGroove",
+			"value": 115000,
+			"rarity": "very rare",
+			"weight": 2,
+			"wondrous": true,
+			"recharge": "dawn",
+			"charges": 4,
+			"entries": [
+				"These are two 6-inch diameter golden rings.",
+				"As an action, you can expend 1 charge from the rings to create two linked teleportation portals between the rings. Any creature or object entering one portal exits from the other as if the two portals were a single opening that connects their locations. Most creatures can reach an arm through the portal to manipulate something on the other side, but attempting to make an attack through the portal is at Disadvantage due to being displaced from your body, and the target receives the benefit of three-quarters cover (+5 AC).",
+				"The portals can remain linked even when moving, but the effect ends when the two portals move more than 1 mile apart. As a bonus action while holding one ring, you can close both portals (ending the effect). The portals otherwise last for 1 hour.",
+				"The rings have 4 charges, and regain 1d4 charges at dawn."
+			]
+		},
+		{
+			"name": "Gorgon Helm",
+			"source": "EmperrorsNewGroove",
+			"value": 425000,
+			"rarity": "very rare",
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "dawn",
+			"entries": [
+				"This heavy, metal helm allows you to project a 30-foot cone of petrifying gas as an action. Each creature in that area must succeed on a DC 15 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.",
+				"Once this ability is used, it can't be used again until the next day."
+			]
+		},
+		{
+			"name": "Graverobber's Cloak",
+			"source": "EmperrorsNewGroove",
+			"value": 92500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"This deceptively simple cloak protects its wearer from a swathe of common undead abilities. While wearing it, you gain the following benefits:",
+				"<ul><li>You are resistant to necrotic damage.</li><li>Your hit point maximum cannot be reduced.</li><li>You have advantage on saving throws against effects that would {@condition paralyze} you.</li><li>You have advantage on saving throws to resist disease</li><li>If you are killed while wearing this cloak by an effect that would cause your body to rise from the dead as an Undead creature, your body instead remains dead.</li><li>Your Strength score cannot be reduced by the features of a {@creature Shadow} or similar undead creature, and you are immune to the {@spell ray of enfeeblement} spell.</li></ul>"
+			]
+		},
+		{
+			"name": "Headband of Focus",
+			"source": "EmperrorsNewGroove",
+			"value": 63500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"While attuned to this item, you have a +1 bonus on attack rolls.",
+				"Additionally, whenever you hit with an attack, you can choose for that attack to become a critical hit. Once you use this ability you can't do so again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Headwrap of Wisdom",
+			"source": "EmperrorsNewGroove",
+			"value": 80000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"Your Wisdom score is 19 while you wear this headwrap. It has no effect on you if your Wisdom is already 19 or higher without it."
+			]
+		},
+		{
+			"name": "Heward's Handy Helper",
+			"source": "EmperrorsNewGroove",
+			"value": 32500,
+			"rarity": "uncommon",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"This small silver statuette is impeccably polished, no matter what condition it is stored in. It depicts a well-dressed servant (determine species by rolling on the {@spell reincarnate} table) with an outheld hand bearing a platter. You can speak this item's command word to cast the {@spell unseen servant} spell. If you use this item again while an {@spell unseen servant} already exists, then the first one disappears."
+			]
+		},
+		{
+			"name": "Hlin's Arrowhead Pendant",
+			"source": "EmperrorsNewGroove",
+			"value": 10000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"While wearing this magical pendant, you have a +1 bonus to Death saving throws."
+			]
+		},
+		{
+			"name": "Horn of Silence",
+			"source": "EmperrorsNewGroove",
+			"value": 41500,
+			"rarity": "rare",
+			"weight": 2,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"You can use an action to speak the horn's command word and then blow the horn, which vibrates intensely but issues no sound. The horn emits magical silence in a 30-foot cone. Each creature in the cone must make a DC 15 Charisma saving throw. On a failed save, a creature is silenced. While silenced, the creature is immune to thunder damage, is {@condition deafened}, and cannot make any noise. A creature so silenced cannot cast spells with a verbal component.",
+				"Once you use this item, you can't use it again until you complete a long rest."
+			]
+		},
+		{
+			"name": "Hydra Necklace",
+			"source": "EmperrorsNewGroove",
+			"value": 25000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"While attuned to this item, you cannot be killed by beheading. If you are beheaded, either by mundane means or by a {@item vorpal sword} or similar weapon, you become {@condition blinded} and {@condition deafened}. At the end of your next turn, your head grows back."
+			]
+		},
+		{
+			"name": "Infernal Ruby Pendant",
+			"source": "EmperrorsNewGroove",
+			"value": 85000,
+			"rarity": "rare",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"You can use this item to cast the {@spell friends} cantrip at will. You can destroy this item to cast {@spell dominate person} instead, at DC 18."
+			]
+		},
+		{
+			"name": "Inquisitor's Bracers",
+			"source": "EmperrorsNewGroove",
+			"value": 325000,
+			"rarity": "very rare",
+			"reqAttune": "by a character with the Divine Smite class feature",
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"While attuned to these bracers, whenever you make a Divine Smite, roll d12s instead of d8s."
+			]
+		},
+		{
+			"name": "Jacinth of Inestimable Beauty",
+			"source": "EmperrorsNewGroove",
+			"value": 12000000,
+			"rarity": "artifact",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This reddish gemstone is indescribably beautiful and exquisitely cut in dozens of facets that reflect the smallest light into a splendid display of radiant beams. When openly displayed in the presence of any light source, the stone doubles the effective radius of illumination. When held aloft, the {@item jacinth of inestimable beauty} makes the bearer appear impossibly beautiful. Those who behold the bearer must make a DC 20 Constitution saving throw or be permanently {@condition blinded}.",
+				"The bearer of the jacinth can use an action to cause the gem to wrap them in such incredible aesthetic that those who behold them must succeed on a DC 20 Wisdom saving throw or drop to 0 hit points and begin dying. Once this ability is used, it can't be used again until the next day.",
+				"<b>Cursed. </b>When you attune to this item, you become utterly captivated by it. You cannot remove you attunement to this item unless targeted by a {@spell wish} spell. Additionally, you must spend an extra hour to complete a long rest. This extra hour can occur before, after, or surrounding your normal period of rest or sleep, but it must be spent gazing at the {@item jacinth of inestimable beauty}. While gazing in this manner, you are {@condition stunned}."
 			]
 		}
 	]
