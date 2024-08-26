@@ -14,7 +14,7 @@
 			}
 		],
 		"dateAdded": 1724510566,
-		"dateLastModified": 1724525841
+		"dateLastModified": 1724693587
 	},
 	"spell": [
 		{
@@ -8540,27 +8540,6 @@
 	],
 	"item":[
 		{
-			"name": "Imyrith's Talon +2",
-			"type": "M",
-			"weaponCategory": "martial",
-			"weight": 3,
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"property": [
-				"F",
-				"L"
-			],
-			"tier": "major",
-			"rarity": "very rare",
-			"reqAttune": true,
-			"source": "EmperrorsNewGroove",
-			"value": 131500,
-			"entries": [
-				"This magical scimitar is made from one of the talons of the great wyrm Imyrith. You have a +2 bonus to attack and damage rolls made with this magical scimitar and deal an additional {@dice 1d6} lightning damage on a successful hit. In addition, you can use this scimitar to cast {@spell lightning bolt} (save DC 15) once per long rest."
-			],
-			"bonusWeapon": "+2"
-		},
-		{
 			"name": "Amulet of Form Stability",
 			"source": "EmperrorsNewGroove",
 			"value": 65000,
@@ -8569,7 +8548,8 @@
 			"wondrous": true,
 			"entries": [
 				"While attuned to this magical amulet, you are immune to the {@condition petrified} condition and spells that would change your form, such as the {@spell polymorph} spell. Features that would change your form, such as a druid's Wild Shape feature, or the racial traits of a changeling or shifter, are suppressed while attuned to this amulet."
-			]
+			],
+			"foundryImg": "icons/equipment/neck/amulet-geometric-stone-red.webp"
 		},
 		{
 			"name": "Amulet of Shopping",
@@ -8580,7 +8560,8 @@
 			"entries": [
 				"This golden amulet is inscribed with the words: 'Sorcerous Sundries. Sellers to Heroes, Monarchs, Gods'. The words swim to become written in the native language of whoever reads them.",
 				"<b>Shopping Trip.</b> By focusing on this amulet as an action and saying the command word ('Cha-ching'), you are magically transported to the lounge of Sorcerous Sundries. Up to ten creatures, linked by their hands, can accompany you. Once you use this ability, you can't use it again until after 5 days has passed."
-			]
+			],
+			"foundryImg": "icons/equipment/neck/amulet-round-engraved-spiral-gold.webp"
 		},
 		{
 			"name": "Astral Sextant",
@@ -8591,7 +8572,8 @@
 			"wondrous": true,
 			"entries": [
 				"A creature that spends at least 10 minutes adjusting this device to a willing creature's thoughts can enter their dreams whenever both creatures are asleep. The guest dreamer is affected by {@spell dream} spells and similar magic as though they were the host dreamer."
-			]
+			],
+			"foundryImg": "icons/commodities/treasure/dreamcatcher-brown.webp"
 		},
 		{
 			"name": "Bag of Bones",
@@ -8606,7 +8588,8 @@
 				"The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.",
 				"Once three bones have been pulled from the bag, the bag can't be used again until the next dawn.",
 				"<table><tr><th>d6</th><th>Creature</th></tr><tr><td>1</td><td>d3 {@creature Skeleton}s</td></tr><tr><td>2</td><td>d3 {@creature Zombie}s</td></tr><tr><td>3</td><td>{@creature Ghoul}</td></tr><tr><td>4</td><td>{@creature Specter}</td></tr><tr><td>5</td><td>{@creature Ogre Zombie}</td></tr><tr><td>6</td><td>d3 {@creature Shadow}s</td></tr></table>"
-			]
+			],
+			"foundryImg": "icons/containers/bags/coinpouch-leather-grey.webp"
 		},
 		{
 			"name": "Bag of Endless Caltrops",
@@ -8620,7 +8603,8 @@
 			"entries": [
 				"A {@item bag of endless caltrops} magically produces normal caltrops. As an action, you can spread caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw. After 24 hours, these caltrops disappear.",
 				"A {@item bag of endless caltrops} has 10 charges. Producing enough caltrops to cover a 5-foot-square area utilizes 1 charge. When you complete a long rest, the {@item bag of endless caltrops} regains {@dice 1d10} charges."
-			]
+			],
+			"foundryImg": "icons/weapons/thrown/bomb-spiked-purple.webp"
 		},
 		{
 			"name": "Bag of Endless Caltrops +1",
@@ -8634,7 +8618,8 @@
 			"entries": [
 				"A {@item bag of endless caltrops +1} magically produces normal caltrops. As an action, you can spread caltrops to cover a 5-foot-square area. Any creature that enters the area must succeed on a DC 16 Dexterity saving throw or stop moving and take {@dice 1d4+1} piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn't need to make the saving throw. After 24 hours, these caltrops disappear.",
 				"A {@item bag of endless caltrops +1} has 10 charges. Producing enough caltrops to cover a 5-foot-square area utilizes 1 charge. When you complete a long rest, the {@item bag of endless caltrops +1} regains {@dice 1d10} charges."
-			]
+			],
+			"foundryImg": "icons/weapons/thrown/bomb-spiked-purple.webp"
 		},
 		{
 			"name": "Ballista Bowstring",
@@ -8647,7 +8632,8 @@
 			"entries": [
 				"You can use this magical, metallic bowstring to string a bow or crossbow. When you do so, you can use its magic to impel a piece of ammunition with great force.",
 				"Ballista Shot. As an action, you can make a special ranged weapon attack. Instead of choosing a single target, you make an attack against all targets in a 100 foot line projecting from you. You cannot make a Ballista Shot with a piece of ammunition that has special properties beyond a bonus to attack and damage rolls, or being made of a special material. Once you use this ability, you can't use it again until you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/commodities/cloth/thread-spindle-grey.webp"
 		},
 		{
 			"name": "Bastion Helm",
@@ -8660,7 +8646,8 @@
 				"This magical greathelm has a row of decorative steel crenellations around the top. While wearing this helm, you gain the benefits listed below. If you move or are moved from your position (including via teleporation), you lose these benefits until the start of your next turn.",
 				"You have advantage on saving throws against effects that would move you against your will.",
 				"You are immune to the Grappled, Paralyzed, and Restrained conditions."
-			]
+			],
+			"foundryImg": "icons/equipment/head/greathelm-banded-steel.webp"
 		},
 		{
 			"name": "Belt of Antipode",
@@ -8672,7 +8659,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing this belt, you have immunity to cold damage but you are vulnerable to fire damage. If you have resistance or immunity to fire damage, that protection ceases to function while wearing this belt."
-			]
+			],
+			"foundryImg": "icons/equipment/waist/belt-buckle-horn-blue.webp"
 		},
 		{
 			"name": "Belt of Hidden Pouches",
@@ -8686,7 +8674,8 @@
 				"Hidden inside the belt are ten small pockets, each of which seems big enough to hold only a few coins. Each pocket actually functions as a small {@item bag of holding}. No object with any dimension exceeding 6 inches can be placed in a pocket. Anything placed inside a pocket is weightless. In addition, two secret pockets lie behind each visible one, for a total of thirty pockets in all. The hidden pockets can be accessed only through a command word. A {@spell true seeing} or {@spell legend lore} spell reveals the presence of the hidden pockets but not the command needed to open them (these pockets are not detected by an {@spell identify} spell). Even when a pocket is full, it never bulges, so a belt of hidden pouches stuffed with 150 pounds of items looks like an ordinary belt.",
 				"Accessing a regular pocket uses your object interaction on your turn, while accessing a hidden pocket is a bonus action.",
 				"Simply frisking the wearer won’t reveal any objects placed in the belt, and searching the visible pockets cannot reveal anything stored in the hidden pockets. It is possible to pickpocket something out of one of the ten visible pockets, but only someone wearing or holding the belt can access the hidden pockets, and then only with the correct command word."
-			]
+			],
+			"foundryImg": "icons/containers/bags/pouch-leather-simple-tan.webp"
 		},
 		{
 			"name": "Belt of the Bear Tribe",
@@ -8699,7 +8688,8 @@
 			"entries": [
 				"Your Constitution score is 16 while you wear this belt. It has no effect on you if your Constitution is already 16 or higher without it.",
 				"<b>Savage Critical:</b> When you critically hit with a melee weapon attack, you can add an additional weapon damage dice when determining the extra damage for a critical hit with a melee attack"
-			]
+			],
+			"foundryImg": "icons/equipment/waist/belt-buckle-gem-red.webp"
 		},
 		{
 			"name": "Big Fisted Belt",
@@ -8713,7 +8703,8 @@
 				"Your Strength score is 22 while you wear this belt. It has no effect on you if your Strength is already 22 or higher without it.",
 				"Additionally, your unarmed strikes inflict 1d6 bludgeoning damage while wearing this belt.",
 				"<b>Big, Stupid Fingers.</b> You cannot remove your attunement to this cursed item unless subjected to a {@spell remove curse} spell. Your Dexterity score is 6 while you are attuned this belt. It has no effect on you if your Dexterity is already 6 or lower without it."
-			]
+			],
+			"foundryImg": "icons/equipment/waist/belt-ring-steel.webp"
 		},
 		{
 			"name": "Bootleg Spell Scroll",
@@ -8722,7 +8713,8 @@
 			"wondrous": true,
 			"entries": [
 				"These spell scrolls are waterlogged, made with discount materials, or otherwise not suitable for serious practitioners. They function as a normal spell scroll of its level, except that you cannot copy it into a spell book, and whenever you cast it, you must also roll on the {@table scroll mishaps} table."
-			]
+			],
+			"foundryImg": "icons/sundries/scrolls/scroll-bound-blue-red.webp"
 		},
 		{
 			"name": "Blindeye Amulet",
@@ -8734,7 +8726,7 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing this amulet, you are hidden from divination magic. When you are targeted by such magic or perceived through magical scrying sensors, the caster of that spell takes {@dice 10d6} psychic damage, or half that on a successful DC 18 Wisdom saving throw."
-			]
+			]			
 		},
 		{
 			"name": "Blindfold of Darkness",
@@ -8745,7 +8737,8 @@
 			"wondrous": true,
 			"entries": [
 				"This black silk blindfold magically heightens your senses when worn. While using this item, you are {@condition blind}, but you gain Blindsense out to a range of 30 feet."
-			]
+			],
+			"foundryImg": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp"
 		},
 		{
 			"name": "Boots of Grounding",
@@ -8758,7 +8751,8 @@
 			"entries": [
 				"While wearing these boots, you have immunity to lightning damage. You lose this immunity if you are {@condition prone}, or if you are not standing on a solid surface (such as when flying or swimming).",
 				"When you have lost lightning immunity, you are instead vulnerable to lightning damage."
-			]
+			],
+			"foundryImg": "icons/equipment/feet/shoes-leather-blue.webp"
 		},
 		{
 			"name": "Boots of Lightning Speed",
@@ -8784,7 +8778,8 @@
 			"charges": 1,
 			"entries": [
 				"While wearing these boots, you ignore the effects of difficult terrain and have advantage to resist effects that would move you against your will. Additionally, you can cast {@spell stoneskin} using these boots as an action. Once you do so, you can’t do so again until you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/equipment/feet/boots-plate-steel-white.webp"
 		},
 		{
 			"name": "Boots of the Tiger",
@@ -8797,7 +8792,8 @@
 			"entries": [
 				"These boots are lined with the fur of saber-tooth tigers and give their wearer the great cat's grace. Your Dexterity score is 19 while you wear these boots. They have no effect on you if your Dexterity is already 19 or higher without them.",
 				"Additionally, while you are not {@condition incapacitated}, you reduce the distance of any fall by 20 feet when calculating fall damage."
-			]
+			],
+			"foundryImg": "icons/equipment/feet/boots-leather-furred.webp"
 		},
 		{
 			"name": "Bowstring of Gond",
@@ -8807,7 +8803,8 @@
 			"wondrous": true,
 			"entries": [
 				"When you string a shortbow, longbow, light crossbow, heavy crossbow, or hand crossbow with this magical bowstring, you gain a +1 bonus to attack and damage rolls with that weapon. This stacks with any existing bonus you may have from the weapon or ammunition."
-			]
+			],
+			"foundryImg": "icons/commodities/cloth/thread-spindle-red.webp"
 		},
 		{
 			"name": "Bracers of Binding",
@@ -8822,7 +8819,8 @@
 				"While attuned to this item, you cannot cast spells with somatic components, and you have disadvantage on all attack rolls.",
 				"A creature who is {@condition incapacitated} automatically attunes to this item if they wear them for at least 1 minute (if they are already attuned to their maximum number of items, a randomly chosen item has its attunement removed).",
 				"<b>Cursed.</b> You cannot remove your attunement to this cursed item unless subjected to a {@spell remove curse} spell"
-			]
+			],
+			"foundryImg": "icons/equipment/wrist/bracer-studded-copper.webp"
 		},
 		{
 			"name": "Bracers of Bugbear's Strength",
@@ -8836,7 +8834,8 @@
 			"entries": [
 				"Your Strength score is 16 while you wear these gauntlets. They have no effect on you if your Strength is already 16 or higher without them.",
 				"<b>Brute Strength:</b> When you hit with a melee weapon attack, you can add an additional die of damage. Once you use this ability, you can't use it again until you complete a short rest."
-			]
+			],
+			"foundryImg": "icons/equipment/wrist/bracer-banded-leather.webp"
 		},
 		{
 			"name": "Bracers of Defense +4",
@@ -8848,7 +8847,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing these bracers, you gain a +4 bonus to AC if you are wearing no armor and using no shield."
-			]
+			],
+			"foundryImg": "icons/equipment/wrist/wrap-wide-cloth-gold-red.webp"
 		},
 		{
 			"name": "Bracers of Perserverance",
@@ -8873,7 +8873,8 @@
 				"<i>The monk themselves in their seeking is the koan. Realization of this is the insight; the response to the koan. Subject and object – this is two hands clapping. When the monk realizes that the koan is not merely an object of consciousness but is also theirself as the activity of seeking an answer to the koan, then subject and object are no longer separate and distinct... This is one hand clapping.</i>",
 				"This scroll is part of a larger meditation on the discovery and realization of the virtuous self. If you spend 48 hours over a period of 6 days or fewer studying the scroll's contents and contemplating its maxims, you gain 1 Ki point. If you do not have abilities that use Ki points, you may spend 1 Ki point as a bonus action to take the Dodge, Disengage, or Dash action. You restore all expended Ki points when you complete a short rest.",
 				"When you finish reading this scroll, the magic empowering it is used up. <i>Can a student 'use up' wisdom?</i>"
-			]
+			],
+			"foundryImg": "icons/sundries/scrolls/scroll-yellow-teal.webp"
 		},
 		{
 			"name": "Canto II of the Winding Path",
@@ -8886,7 +8887,8 @@
 				"<i>n the silence of a single breath, the forest reveals its wisdom. Does the tree ponder its growth, or does it simply become? Seek not the answers in the whispers of the wind, for the true path lies in the stillness of your own heart. When you cease to seek, you find all that you have ever sought.</i>",
 				"This scroll is part of a larger meditation on the discovery and realization of the virtuous self. If you spend 48 hours over a period of 6 days or fewer studying the scroll's contents and contemplating its maxims, you gain 1 Ki point. If you do not have abilities that use Ki points, you may spend 1 Ki point as a reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by {@dice 1d10} + your Dexterity modifier + your monk level.",
 				"When you finish reading this scroll, the magic empowering it is used up. <i>Can a student 'use up' wisdom?</i>"
-			]
+			],
+			"foundryImg": "icons/sundries/scrolls/scroll-yellow-teal.webp"
 		},
 		{
 			"name": "Catspaw Boots",
@@ -8898,7 +8900,8 @@
 			"wondrous": true,
 			"entries": [
 				"While you are wearing these boots, you reduce any falling damage you take by 75 points. Additionally, you are never knocked {@condition prone} from falling, and have advantage on effects that would cause you to become {@condition prone}."
-			]
+			],
+			"foundryImg": "icons/equipment/feet/boots-leather-simple-brown.webp"
 		},
 		{
 			"name": "Changeling's Vest",
@@ -8920,7 +8923,8 @@
 			"wondrous": true,
 			"entries": [
 				"While attuned to this choker, you have advantage on Persuasion and Deception checks against audiences of more than one person."
-			]
+			],
+			"foundryImg": "icons/commodities/cloth/ribbon-red.webp"
 		},
 		{
 			"name": "Circlet of the Magister",
@@ -8932,7 +8936,8 @@
 			"wondrous": true,
 			"entries": [
 				"While attuned to this magical circlet, you gain an additional spell slot for spell levels 1-5."
-			]
+			],
+			"foundryImg": "icons/commodities/treasure/crown-gold-laurel-wreath.webp"
 		},
 		{
 			"name": "Circlet of the Summoner",
@@ -8944,7 +8949,8 @@
 			"wondrous": true,
 			"entries": [
 				"While attuned to this circlet, any creature you summon via magical means is affected by the {@spell bless} spell for the duration of its summons. Magical means includes all spells and magic items, as well as most class features."
-			]
+			],
+			"foundryImg": "icons/equipment/head/crown-thorns-gold.webp"
 		},
 		{
 			"name": "Cloak of Dragomir",
@@ -8959,7 +8965,8 @@
 				"While attuned to this cloak, you have resistance to radiant damage and advantage on saving throws against light-based spells. You are vulnerable to bludgeoning, piercing, and slashing damage from weapons or attacks made solely of wood while attuned to this cloak (a club, but not a spear, for example).",
 				"Additionally, a creature with the Sunlight Sensitivity or Sunlight Hypersensitivity traits (such as a drow or a vampire) have those traits suppressed.",
 				"A {@creature vampire} that is attuned to this cloak cannot use its Shapechanger or Misty Escape abilities."
-			]
+			],
+			"foundryImg": "icons/equipment/back/cloak-collared-red-gold.webp"
 		},
 		{
 			"name": "Cloak of Protection +2",
@@ -8970,7 +8977,7 @@
 			"weight": 2,
 			"wondrous": true,
 			"entries": [
-				"You gain a +2 bonus to AC and saving throws while you wear this strange garment."
+				"You gain a +2 bonus to AC and saving throws while you wear this cloak."
 			]
 		},
 		{
@@ -8983,7 +8990,8 @@
 			"recharge": "restLong",
 			"entries": [
 				"This magical cloak can transmute into a four-person tent by uttering its command word, and return to its wearable state with another command word. Additionally, this cloak can be used to cast {@spell leomund's tiny hut}. Once you use this feature, it can't be used again until you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp"
 		},
 		{
 			"name": "Cloak of the Fox Tribe",
@@ -8996,7 +9004,8 @@
 			"entries": [
 				"It’s unclear if this cloak is an artifact of an extinct Reghed Fox Tribe, or if it is merely a marketing ploy. Regardless, while wearing this fur cloak, you have the following benefits:",
 				"<ul><li>You are resistant to cold damage</li><li>You add +{@dice 1d4} to Intelligence ability checks and saving throws</li><li>You are have advantage on saving throws to resist magical effects that would cause you to be {@condition paralyzed} or {@condition restrained}, and you have advantage on checks to escape being {@condition grappled}</li></ul>"
-			]
+			],
+			"foundryImg": "icons/equipment/back/cloak-brown-fur-white.webp"
 		},
 		{
 			"name": "Cloak of the Gargoyle",
@@ -9036,7 +9045,8 @@
 			"entries": [
 				"This less-than-fashionable cloak is made from rat fur. While wearing this cloak, you have the following benefits:",
 				"<ul><li>Your AC increases by +1</li><li>You are immune to mundane diseases</li><li>As an action, you can command the cloak to transform you into a rat for up to 1 hour. The transformation otherwise functions as the {@spell polymorph} spell, but you can use a bonus action to revert to your normal form.  Once you use this ability, you can't do so again until you complete a long rest.</li></ul>"
-			]
+			],
+			"foundryImg": "icons/equipment/back/cloak-fur-brown.webp"
 		},
 		{
 			"name": "Coin of Eternal Rest",
@@ -9047,7 +9057,8 @@
 			"entries": [
 				"You can place this surprisingly heavy lead coin in the mouth of a corpse, or over its eyes. If you do so, the coin's magic is expended and the corpse becomes warded.",
 				"The corpse cannot be raised as an undead creature, and the body and attending soul cannot be the target of a {@spell speak with dead} spell or similar magics. The body cannot be returned to life by a spell less powerful than {@spell true resurrection}."
-			]
+			],
+			"foundryImg": "icons/commodities/currency/coin-embossed-skull-silver.webp"
 		},
 		{
 			"name": "Cowl of the Comet",
@@ -9061,7 +9072,8 @@
 			"entries": [
 				"This magical cowl has six golden rings attached to it. As an action, you can remove any number of the rings to create a number of tiny meteors in your space, as per the {@spell melf's minute meteors} spell, equal to the number of rings removed.",
 				"{@dice 1d4} rings magically re-appear when you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/equipment/head/hood-ringed-leather-red.webp"
 		},
 		{
 			"name": "Crown of Lies",
@@ -9076,7 +9088,8 @@
 				"Although it appears impressive at a distance, this crown is made from fool’s gold and with set with gems made of glass. While wearing this crown, you are under the following effects:",
 				"<ul><li>You are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type.</li><li>Creatures can telepathically communicate with you only if you allow it.</li><li>You cannot gain any benefit from spells of the divination school.</li><li>You Wisdom score is reduced by 2.</li><li>You have advantage on Deception checks.</li><li>You can cast the {@spell disguise self} spell. Once you use this ability, you can't use it again until you complete a short rest.</li></ul>",
 				"<b>Cursed.</b> This item is cursed. Attuning to it curses you until you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the item, which immediately teleports back into your possession."
-			]
+			],
+			"foundryImg": "icons/equipment/head/crown-gold-blue.webp"
 		},
 		{
 			"name": "Daoud's Wondrous Lantern",
@@ -9109,7 +9122,8 @@
 				"This fine silver headpiece has three amethysts mounted across the brow of the wearer, representing the item's three charges.",
 				"Whenever the wearer fails a Wisdom, Intelligence, or Charisma saving throw, they can roll again. Doing so consumes one of the items charges and causes a gem to disappear.",
 				"Once all three charges have been used, the item becomes a nonmagical silver circlet worth 50 gp."
-			]
+			],
+			"foundryImg": "icons/magic/symbols/circled-gem-pink.webp"
 		},
 		{
 			"name": "Diplomatic Failsafe +1",
@@ -9121,7 +9135,8 @@
 				"This magical ring is a concealed weapon made for diplomats, spies, socialites, and others who must appear to be unarmed but value their safety. You can cause a beam of energy to shoot out of the ring's gemstone as a ranged weapon attack, dealing {@dice 1d6} radiant damage to a target you successfully hit. You have a +1 bonus to attack and damage rolls with this attack.",
 				"If you roll a natural 1 on your attack roll, the ring runs out of energy and cannot be used. It can be recharged as an action by a spellcaster holding the ring and expending a 3rd level spell slot.",
 				"This weapon appears nonmagical when examined under the effects of {@spell detect magic}, {@spell identify}, or similar spells. A {@spell legend lore} or {@spell true seeing} spell can discern this objects true nature."
-			]
+			],
+			"foundryImg": "icons/equipment/finger/ring-faceted-ornate-silver-red.webp"
 		},
 		{
 			"name": "Druid's Ring",
@@ -9132,7 +9147,8 @@
 			"wondrous": true,
 			"entries": [
 				"This ring of dented copper is unadorned and appears quite simple. While attuned to this ring, you are treated as though under the effects of a {@spell sanctuary} spell that only affects the behavior of creatures with the Beast type."
-			]
+			],
+			"foundryImg": "icons/equipment/finger/ring-band-copper.webp"
 		},
 		{
 			"name": "Dwarven Stompers",
@@ -9146,7 +9162,8 @@
 			"entries": [
 				"As a bonus action, you can stomp the ground while wearing these boots to cause a local tremor in a 10 foot radius surrounding you. Each creature other than you in that area must make a DC 15 Dexterity saving throw. On a failed save, a creature takes {@dice 1d6} bludgeoning damage and is knocked {@condition prone}.",
 				"Once you use this item, you can't use this ability again until you complete a short rest."
-			]
+			],
+			"foundryImg": "icons/equipment/feet/boots-armored-studded-steel.webp"
 		},
 		{
 			"name": "Elander's Gloves of Displacement",
@@ -9158,7 +9175,8 @@
 			"entries": [
 				"As part of an Attack action with a melee attack or as part of casting a spell with the range of Touch, you can activate these gloves. The magic of these gloves folds space so that your attacks or spell affect a creature within 30 feet, rather than one within reach. If you use these gloves in conjunction with the Attack action, and you are wielding a weapon in your off hand, you may also attack a creature within 30 feet with your bonus action.",
 				"Once you use this ability, you can't use it again until you complete a short rest."
-			]
+			],
+			"foundryImg": "icons/equipment/hand/glove-simple-leather-green.webp"
 		},
 		{
 			"name": "Elfbane Girdle",
@@ -9170,7 +9188,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing this belt you have resistance to piercing damage."
-			]
+			],
+			"foundryImg": "icons/equipment/waist/belt-armored-studded-steel.webp"
 		},
 		{
 			"name": "Equus Helm",
@@ -9185,7 +9204,8 @@
 			"entries": [
 				"This plumed helmet allows you to expend a charge to {@action dash} as a bonus action.",
 				"You regain all expended charges when you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/equipment/head/helm-norman-shrouded.webp"
 		},
 		{
 			"name": "Evermemory",
@@ -9196,7 +9216,8 @@
 			"wondrous": true,
 			"entries": [
 				"This magical ring doubles the number of 1st level spell slots you have while you are attuned to it."
-			]
+			],
+			"foundryImg": "icons/equipment/finger/ring-cabochon-curved-gold-green.webp"
 		},
 		{
 			"name": "Eversoaking Sponge",
@@ -9219,7 +9240,8 @@
 			"entries": [
 				"As a reaction when you are hit by an attack you are aware of, you may teleport 15 feet in a random direction and cause the attack to miss. You have no control over the distance you teleport, however the item will not deposit you inside solid material. The item does not prevent you from being teleported over perilous drops, into hazardous effects, or through walls. Once you use this ability, you cannot use it again until you complete a short rest.",
 				"<table><tr><th>{@dice 1d8}</th><th>Direction</th></tr><tr><td>1</td><td>North</td></tr><tr><td>2</td><td>Northeast</td></tr><tr><td>3</td><td>East</td></tr><tr><td>4</td><td>Southeast</td></tr><tr><td>5</td><td>South</td></tr><tr><td>6</td><td>Southwest</td></tr><tr><td>7</td><td>West</td></tr><tr><td>8</td><td>Northwest</td></tr></table>"
-			]
+			],
+			"foundryImg": "icons/equipment/chest/shirt-collared-green.webp"
 		},
 		{
 			"name": "Figurine of Wondrous Power, Serpentine Owl",
@@ -9234,7 +9256,8 @@
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
 				"<b>Serpentine Owl.</b>",
 				"This serpentine statuette of an owl can become a {@creature giant owl} for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence."
-			]
+			],
+			"foundryImg": "icons/sundries/gaming/chess-knite-gray.webp"
 		},
 		{
 			"name": "Filcher's Friend",
@@ -9244,7 +9267,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing this ring, you can use an action to magnetize your hand. All unattended metallic objects weighing 10 pounds or less within 15 feet of you are drawn to your hand."
-			]
+			],
+			"foundryImg": "icons/equipment/finger/ring-band-worn-gold.webp"
 		},
 		{
 			"name": "Flame of Surtr",
@@ -9289,7 +9313,8 @@
 				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
 				"In addition, the Flute of the Immaculate Breeze can be used to cast: {@spell levitate}, {@spell wind wall}, and {@spell gust of wind}.",
 				"If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."
-			]
+			],
+			"foundryImg": "icons/tools/instruments/flute-simple-wood.webp"
 		},
 		{
 			"name": "Fractal Ring",
@@ -9305,7 +9330,8 @@
 				"A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. If the duplicate is destroyed the effect ends.",
 				"A creature is unaffected by this effect if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.",
 				"This ring has 3 charges. Creating a duplicate uses one charge. The ring regains 1 charge when you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp"
 		},
 		{
 			"name": "Gauntlets of Crushing",
@@ -9317,7 +9343,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing these heavy, leather gloves you have a +2 bonus on {@action grapple} attempts. On a turn you are inflicting the {@condition grappled} condition on a target, you can choose to inflict {@dice 1d6} plus your Strength modifier bludgeoning damage."
-			]
+			],
+			"foundryImg": "icons/equipment/hand/glove-armored-leather-steel-brown.webp"
 		},
 		{
 			"name": "Gauntlets of the Grand Masters",
@@ -9328,7 +9355,8 @@
 			"wondrous": true,
 			"entries": [
 				"While attuned to these magical gauntlets, your weapon attacks score a critical hit on a roll of 19 or 20."
-			]
+			],
+			"foundryImg": "icons/equipment/hand/glove-ringed-leather-yellow.webp"
 		},
 		{
 			"name": "Gentrus' Hand Mirror",
@@ -9340,7 +9368,8 @@
 			"entries": [
 				"<i>The town of Luskan has earned its reputation as a lawless and dangerous place. The rampant brigandry in the area means a great many stolen goods are funneled through Luskan's back rooms and inns. One of the town's residents, the halfling Gentrus, crafted this mirror to help him divine the true nature of items he wished to buy. After a close call with a wererat, Gentrus decided to leave Luskan for the safety of Icewind Dale, joining a caravan traveling north. The halfling died on the road during a bandit attack, but the caravan's survivors drove off the bandits.</i>",
 				"Looking at an object's reflection in this mirror shows its aura. A user proficient in the {@skill Arcana} skill can use this mirror with the same effect as a {@spell detect magic} spell or an {@spell identify} spell, at will. If a user studies a particular area through the mirror for 10 minutes or more, they gain the effects of the {@spell see invisibility} spell for as long as they remain in the same room or general area."
-			]
+			],
+			"foundryImg": "icons/commodities/treasure/gem-framed-spiral-purple.webp"
 		},
 		{
 			"name": "Giant Hair Bowstring",
@@ -9350,7 +9379,8 @@
 			"wondrous": true,
 			"entries": [
 				"Woven from the back hair of a {@creature hill giant}, this noxious bowstring requires great strength to draw. A character with 15 Strength can use a bow or crossbow strung with this magical bowstring. When you hit a creature using a weapon with this modification using an attack that is a critical hit or an attack you have advantage on, that creature is pushed 5 feet directly away from you."
-			]
+			],
+			"foundryImg": "icons/commodities/cloth/yarn-skein-white-red.webp"
 		},
 		{
 			"name": "Girdle of Bluntness",
@@ -9362,7 +9392,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing this thick leather sword belt, you have resistance to slashing damage from nonmagical weapons."
-			]
+			],
+			"foundryImg": "icons/equipment/waist/belt-leather-studded.webp"
 		},
 		{
 			"name": "Girdle of Fortitude",
@@ -9375,7 +9406,8 @@
 			"recharge": "restLong",
 			"entries": [
 				"While wearing this belt, you can use a bonus action to give yourself 10 temporary hit points. Once you use this ability, you can't use it again until you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/equipment/waist/belt-armored-buckle-steel.webp"
 		},
 		{
 			"name": "Gloves of Gripping",
@@ -9387,7 +9419,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing these gloves, you cannot drop an item or be disarmed of a weapon unless you intend to be. Furthermore, climbing does not take any additional movement."
-			]
+			],
+			"foundryImg": "icons/equipment/hand/gauntlet-simple-leather-brown-gold.webp"
 		},
 		{
 			"name": "Gloves of the Apprentice",
@@ -9398,7 +9431,8 @@
 			"wondrous": true,
 			"entries": [
 				"While you wear these magical gloves, you have advantage on Constitution saving throws to maintain concentration on spells."
-			]
+			],
+			"foundryImg": "icons/equipment/hand/glove-cuffed-studded-red.webp"
 		},
 		{
 			"name": "Golden Gates",
@@ -9414,7 +9448,8 @@
 				"As an action, you can expend 1 charge from the rings to create two linked teleportation portals between the rings. Any creature or object entering one portal exits from the other as if the two portals were a single opening that connects their locations. Most creatures can reach an arm through the portal to manipulate something on the other side, but attempting to make an attack through the portal is at Disadvantage due to being displaced from your body, and the target receives the benefit of three-quarters cover (+5 AC).",
 				"The portals can remain linked even when moving, but the effect ends when the two portals move more than 1 mile apart. As a bonus action while holding one ring, you can close both portals (ending the effect). The portals otherwise last for 1 hour.",
 				"The rings have 4 charges, and regain 1d4 charges at dawn."
-			]
+			],
+			"foundryImg": "icons/equipment/finger/ring-band-gold.webp"
 		},
 		{
 			"name": "Gorgon Helm",
@@ -9427,7 +9462,8 @@
 			"entries": [
 				"This heavy, metal helm allows you to project a 30-foot cone of petrifying gas as an action. Each creature in that area must succeed on a DC 15 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.",
 				"Once this ability is used, it can't be used again until the next day."
-			]
+			],
+			"foundryImg": "icons/equipment/head/helm-barbute-horned-grey.webp"
 		},
 		{
 			"name": "Graverobber's Cloak",
@@ -9440,7 +9476,8 @@
 			"entries": [
 				"This deceptively simple cloak protects its wearer from a swathe of common undead abilities. While wearing it, you gain the following benefits:",
 				"<ul><li>You are resistant to necrotic damage.</li><li>Your hit point maximum cannot be reduced.</li><li>You have advantage on saving throws against effects that would {@condition paralyze} you.</li><li>You have advantage on saving throws to resist disease</li><li>If you are killed while wearing this cloak by an effect that would cause your body to rise from the dead as an Undead creature, your body instead remains dead.</li><li>Your Strength score cannot be reduced by the features of a {@creature Shadow} or similar undead creature, and you are immune to the {@spell ray of enfeeblement} spell.</li></ul>"
-			]
+			],
+			"foundryImg": "icons/equipment/back/cloak-collared-grey-gold.webp"
 		},
 		{
 			"name": "Headband of Focus",
@@ -9466,7 +9503,8 @@
 			"wondrous": true,
 			"entries": [
 				"Your Wisdom score is 19 while you wear this headwrap. It has no effect on you if your Wisdom is already 19 or higher without it."
-			]
+			],
+			"foundryImg": "icons/equipment/head/headwrap-cloth-purple.webp"
 		},
 		{
 			"name": "Heward's Handy Helper",
@@ -9477,7 +9515,8 @@
 			"wondrous": true,
 			"entries": [
 				"This small silver statuette is impeccably polished, no matter what condition it is stored in. It depicts a well-dressed servant (determine species by rolling on the {@spell reincarnate} table) with an outheld hand bearing a platter. You can speak this item's command word to cast the {@spell unseen servant} spell. If you use this item again while an {@spell unseen servant} already exists, then the first one disappears."
-			]
+			],
+			"foundryImg": "icons/sundries/gaming/chess-pawn-white-pink.webp"
 		},
 		{
 			"name": "Hlin's Arrowhead Pendant",
@@ -9487,7 +9526,8 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing this magical pendant, you have a +1 bonus to Death saving throws."
-			]
+			],
+			"foundryImg": "icons/commodities/metal/arrowhead-steel.webp"
 		},
 		{
 			"name": "Horn of Silence",
@@ -9500,7 +9540,8 @@
 			"entries": [
 				"You can use an action to speak the horn's command word and then blow the horn, which vibrates intensely but issues no sound. The horn emits magical silence in a 30-foot cone. Each creature in the cone must make a DC 15 Charisma saving throw. On a failed save, a creature is silenced. While silenced, the creature is immune to thunder damage, is {@condition deafened}, and cannot make any noise. A creature so silenced cannot cast spells with a verbal component.",
 				"Once you use this item, you can't use it again until you complete a long rest."
-			]
+			],
+			"foundryImg": "icons/commodities/bones/horn-engraved-vines-grey.webp"
 		},
 		{
 			"name": "Hydra Necklace",
@@ -9512,7 +9553,8 @@
 			"wondrous": true,
 			"entries": [
 				"While attuned to this item, you cannot be killed by beheading. If you are beheaded, either by mundane means or by a {@item vorpal sword} or similar weapon, you become {@condition blinded} and {@condition deafened}. At the end of your next turn, your head grows back."
-			]
+			],
+			"foundryImg": "icons/equipment/neck/torc-striped-blue.webp"
 		},
 		{
 			"name": "Infernal Ruby Pendant",
@@ -9523,7 +9565,8 @@
 			"wondrous": true,
 			"entries": [
 				"You can use this item to cast the {@spell friends} cantrip at will. You can destroy this item to cast {@spell dominate person} instead, at DC 18."
-			]
+			],
+			"foundryImg": "icons/equipment/neck/amulet-heart.webp"
 		},
 		{
 			"name": "Inquisitor's Bracers",
@@ -9535,7 +9578,8 @@
 			"wondrous": true,
 			"entries": [
 				"While attuned to these bracers, whenever you make a Divine Smite, roll d12s instead of d8s."
-			]
+			],
+			"foundryImg": "icons/equipment/wrist/bracer-orange-fancy.webp"
 		},
 		{
 			"name": "Jacinth of Inestimable Beauty",
@@ -9551,6 +9595,627 @@
 				"The bearer of the jacinth can use an action to cause the gem to wrap them in such incredible aesthetic that those who behold them must succeed on a DC 20 Wisdom saving throw or drop to 0 hit points and begin dying. Once this ability is used, it can't be used again until the next day.",
 				"<b>Cursed. </b>When you attune to this item, you become utterly captivated by it. You cannot remove you attunement to this item unless targeted by a {@spell wish} spell. Additionally, you must spend an extra hour to complete a long rest. This extra hour can occur before, after, or surrounding your normal period of rest or sleep, but it must be spent gazing at the {@item jacinth of inestimable beauty}. While gazing in this manner, you are {@condition stunned}."
 			]
+		},
+		{
+			"name": "Kazgaroth's Choker",
+			"source": "EmperrorsNewGroove",
+			"value": 225000,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This blue silk choker is bound by a simple bone clasp in the front that bears a sigil of unknown origin. While attuned to this choker, you can't be affected or detected by spells of 3rd level or lower.",
+				"<b>Unwholesome Arcana. </b> You cannot remove your attunement to this cursed item unless subjected to a {@spell remove curse} spell.  For every level of spell averted by this item, you take 5 force damage that cannot be reduced by any means."
+			],
+			"foundryImg": "icons/magic/symbols/runes-triangle-blue.webp"
+		},
+		{
+			"name": "Kazgaroth's Ring",
+			"source": "EmperrorsNewGroove",
+			"value": 28500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This magical ring absorbs mystical energies around its wearer. Unfortunately, this also includes their life energies. While wearing this ring you have advantage on saving throws against spells and other magical effects, but you reduce your Constitution by 4 points. When you reduce your Constitution, your current and maximum hit points are reduced as well.",
+				"<b>Curse. </b>This item is cursed. Attuning to it curses you until you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the ring, which immediately teleports back into your finger or pocket."
+			],
+			"foundryImg": "icons/equipment/finger/ring-band-engraved-teal.webp"
+		},
+		{
+			"name": "Knave's Robe",
+			"source": "EmperrorsNewGroove",
+			"value": 65000,
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"While you are wearing these robes, you have a base AC of 12 + your Dexterity modifier. Additionally, if you are hidden from a creature when you cast a spell on it, you can choose to deal force damage equal to your spellcasting modifier. If you have the Sneak Attack feature and you strike a creature with a spell attack, you can also deal Sneak Attack damage to one creature targeted by the spell."
+			]
+		},
+		{
+			"name": "Lantanese Auto-Minstrel",
+			"source": "EmperrorsNewGroove",
+			"value": 50000,
+			"rarity": "uncommon",
+			"weight": 5,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This music box plays an inspiring tune when wound and triggered. To do so, you use a bonus action on your turn to choose one creature within 60 feet of you who can hear you. This creature can be you. That creature gains one Bardic Inspiration die, a {@dice d6}.",
+				"Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.",
+				"Once you use this ability, you can't use it again until you complete a long rest."
+			],
+			"foundryImg": "icons/commodities/tech/console-steel.webp"
+		},
+		{
+			"name": "Looking Glass",
+			"source": "EmperrorsNewGroove",
+			"value": 25000,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This artificial eye replaces a real one that was lost or removed. While the looking glass is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye.",
+				"When seeing through this eye, you have darkvision out to a range of 60 ft."
+			],
+			"foundryImg": "icons/creatures/eyes/lizard-single-slit-pink.webp"
+		},
+		{
+			"name": "Magic Compass",
+			"source": "EmperrorsNewGroove",
+			"value": 6000,
+			"rarity": "common",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"This magical compass is accompanied by a small pebble which the needle always points to. If the pebble is on a different plane, the needle spins indefinitely."
+			],
+			"foundryImg": "icons/tools/navigation/compass-worn-copper.webp"
+		},
+		{
+			"name": "Necklace of Tongues",
+			"source": "EmperrorsNewGroove",
+			"value": 12000,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"This necklace is made from the mummified tongues of many different varieties of creatures. While wearing this necklace, you have the ability to understand any spoken language you hear. Moreover, when you speak, any creature that knows at least one language and can hear you understand what you says."
+			],
+			"foundryImg": "icons/commodities/biological/tongue-red.webp"
+		},
+		{
+			"name": "Nether Scroll of Ythryn",
+			"source": "EmperrorsNewGroove",
+			"rarity": "artifact",
+			"weight": 50,
+			"wondrous": true,
+			"entries": [
+				"Unlike most scrolls, a {@item Nether Scroll of Ythryn} is not a consumable magic item. It takes 30 days of concentrated study—at least 8 hours per day—to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence ({@skill Arcana}) check. If this check fails, you take {@dice 16d10} psychic damage, and you can attempt the check again after another 30 days of concentrated study.",
+				"When you succeed on the check, you gain the following benefits:",
+				"<ul><li>Your Intelligence score increases by 2, to a maximum of 22. Once you gain this benefit, you can't use this scroll to increase your Intelligence again.</li><li>You gain the potential to cast spells above 9th level.</li><li>You increase the number of magic items you can attune to by 1.</li></ul>"
+			],
+			"foundryImg": "icons/sundries/scrolls/scroll-writing-orange-black.webp"
+		},
+		{
+			"name": "Nymph Cloak",
+			"source": "EmperrorsNewGroove",
+			"value": 85000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This gorgeous cloak is hemmed with peacock feathers. Your Charisma score is 19 while you wear this cloak. It has no effect on you if your Charisma is already 19 or higher without it.",
+				"<b>Blinding Beauty. </b>You can cause all humanoids within 30 feet who can see you to be blinded by supernatural beauty. They must make a DC 14 Wisdom saving throw or be blinded for 1 minute. They may attempt a new saving throw at the end of their turn. Once you use this ability, you can't use it again until you complete a long rest."
+			],
+			"foundryImg": "icons/equipment/back/cloak-collared-pink-gold.webp"
+		},
+		{
+			"name": "Otyugh Cloak",
+			"source": "EmperrorsNewGroove",
+			"value": 17500,
+			"rarity": "uncommon",
+			"weight": 5,
+			"wondrous": true,
+			"entries": [
+				"This gruesome, magical otyugh pelt still holds some of its natural abilities. A single tendril bearing three eyes hangs from the back of the cloak's hood. While wearing the cloak, you can use an action to telepathically communicate with a creature you can see within 60 feet of you that can understand a language, sending either simple messages or images when you do. The receiving creature can't respond to these messages.",
+				"The tendril hanging from the hood is 3 feet long and offers some limited articulation. While wearing the cloak, you can use an action to mentally control the tendril enough to manipulate a simple object, such as open an unlocked door, stow or retrieve an item from an open container, or pour the contents out of a vial. The tendril can't attack, activate magic items, or carry more than 10 pounds.",
+				"In addition, you can raise or lower the cloak's hood using a bonus action. While the hood is lifted, you can use an action to close your eyes and see through the eyes of the tendril. You can control the tendril while looking through the eyes in this way. When you do, you have darkvision out to a range of 60 feet. You return to your normal senses when you reopen your eyes or lower the hood."
+			],
+			"foundryImg": "icons/equipment/back/cape-layered-simple-brown.webp"
+		},
+		{
+			"name": "Portable Bridge",
+			"source": "EmperrorsNewGroove",
+			"value": 30000,
+			"rarity": "rare",
+			"weight": 10,
+			"wondrous": true,
+			"entries": [
+				"This object appears to be a rolled up bridge constructed of rope and planks. If you set it on a solid surface in front of an unspanned gap and speak its command word, it magically affixes itself to the ground and extends up to a maximum of 50 feet to attach to the other side.",
+				"The bridge has AC 20 and 40 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the bridge drops to 0 hit points, it is destroyed."
+			],
+			"foundryImg": "icons/commodities/wood/bark-brown.webp"
+		},
+		{
+			"name": "Relair's Mistake",
+			"source": "EmperrorsNewGroove",
+			"value": 26500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"<i>A great amount of irony surrounds the creation of this magical cloak. Relair was a mage who overestimated the control he had over magic, and in the course of creating this garment he apparently inflicted lycanthropy upon himself. The wearer can change form whenever he wishes. Relair was not so lucky.</i>",
+				"This cloak is lined with the fur of dire wolves. As an action, you can command the cloak to transform you into a {@creature Dire Wolf} for 1 hour. The transformation otherwise functions as the {@spell polymorph} spell, except you retain your mental ability scores.",
+				"<b>Cursed. </b>This item is cursed. Attuning to it curses you until you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the item, which immediately returns to your possession.",
+				"<b>Ill-Considered. </b>This cloak includes no way to end its transformation early, unless you are reduced to 0 hit points. Furthermore, each time you transform using this cloak, roll a d20. On the roll of a 1, you contract the wolf strain of lycanthropy."
+			],
+			"foundryImg": "icons/equipment/back/cloak-heavy-collared-fur-green.webp"
+		},
+		{
+			"name": "Ring of Clumsiness",
+			"source": "EmperrorsNewGroove",
+			"value": 26500,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This ring appears to be a {@item ring of agility} when inspected or the target of an {@spell identify} spell. While attuned, it reduces your dexterity score to 6, unless it is already lower, and prevents you from casting spells with somatic components.",
+				"<b>Cursed. </b>This item is cursed. Attuning to it curses you until you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the item, which immediately returns to your possession."
+			],
+			"foundryImg": "icons/equipment/finger/ring-cabochon-thin-silver-orange.webp"
+		},
+		{
+			"name": "Ring of Agility",
+			"source": "EmperrorsNewGroove",
+			"value": 265000,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"You have a +2 bonus to Dexterity while wearing this ring, which can raise your agility no higher than 24. In addition, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			],
+			"foundryImg": "icons/equipment/finger/ring-cabochon-thin-silver-orange.webp"
+		},
+		{
+			"name": "Ring of Borrowed Time",
+			"source": "EmperrorsNewGroove",
+			"value": 10000,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"recharge": "dawn",
+			"entries": [
+				"Once per day, the bearer of this ring can re-roll any single die roll. When they do so, they magically age, according to the following chart.  If your ancestry is not listed below, work with the DM to choose or create an appropriate one.",
+				"<table><tr><th>Ancestry</th><th>Aging</th></tr><tr><td>Human, Dragonborn, Half-Orc</td><td>+{@dice 1d4} years</td></tr><tr><td>Half-elf, Halfling</td><td>+{@dice 2d4} years</td></tr><tr><td>Dwarf, Gnome</td><td>+{@dice 2d6} years</td></tr><tr><td>Elf</td><td>+{@dice 2d10} years</td></tr></table>"
+			],
+			"foundryImg": "icons/tools/navigation/hourglass-yellow.webp"
+		},
+		{
+			"name": "Ring of Human Influence",
+			"source": "EmperrorsNewGroove",
+			"value": 48500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Your Charisma score is 18 while you wear this ring. It has no effect on you if your Charisma is already 18 or higher without it.",
+				"<b>It does say 'human' inlfuence…  </b> You have disadvantage on Charisma checks to influence non-human creatures (including humanoids and non-humanoids)."
+			],
+			"foundryImg": "icons/equipment/finger/ring-faceted-silver-orange.webp"
+		},
+		{
+			"name": "Ring of Invisibility, Lesser",
+			"source": "EmperrorsNewGroove",
+			"value": 5000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die."
+			]
+		},
+		{
+			"name": "Ring of Lockpicks",
+			"source": "EmperrorsNewGroove",
+			"value": 7500,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"With an uttered command word, this magical ring transmutes into a set of {@item thieves' tools}. With a second command word, you can turn it back into a ring for subtle storage and safekeeping."
+			],
+			"foundryImg": "icons/equipment/finger/ring-band-engraved-scrolls-silver.webp"
+		},
+		{
+			"name": "Ring of Ten Towns",
+			"source": "EmperrorsNewGroove",
+			"value": 85000,
+			"rarity": "rare",
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 5,
+			"entries": [
+				"While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground.",
+				"Additionally, this ring has 5 charges. You can expend a charge to cast one of the spells below (Save DC 15). The ring regains all expended charges when you finish a long rest:",
+				"<ul><li>{@spell frost fingers}</li><li>{@spell absorb elements} (cold damage only)</li><li>{@spell flame blade} (2 charges; deals cold damage instead of fire)</li></ul>"
+			]
+		},
+		{
+			"name": "Ring of the Wall",
+			"source": "EmperrorsNewGroove",
+			"value": 25000,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This tarnished silver ring has a brickwork pattern. While wearing this ring, you can cast {@spell enlarge/reduce} on yourself, choosing the enlarge option only. Once you do so, you can't do so again until you complete a long rest."
+			],
+			"foundryImg": "icons/equipment/finger/ring-band-engraved-scrolls-grey.webp"
+		},
+		{
+			"name": "Robe of Arcane Aptitude",
+			"source": "EmperrorsNewGroove",
+			"value": 76500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"While wearing this robe, your base AC becomes 14 + your Dexterity modifier. Additionally, you can store up to 2 levels of spells in it, as a {@item ring of spell storing}, which must be cast into it by a creature attuned to these robes."
+			],
+			"foundryImg": "icons/equipment/chest/robe-layered-teal.webp"
+		},
+		{
+			"name": "Robe of Red Flames",
+			"source": "EmperrorsNewGroove",
+			"value": 48500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 3,
+			"wondrous": true,
+			"entries": [
+				"You have a base AC of 12 while wearing these robes, and you are resistant to fire damage. In addition, all damage rolls you make that inflict fire damage benefit from a +2 bonus to damage."
+			],
+			"foundryImg": "icons/equipment/chest/robe-layered-red.webp"
+		},
+		{
+			"name": "Robe of the Evoker",
+			"source": "EmperrorsNewGroove",
+			"value": 44500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 3,
+			"entries": [
+				"These dark robes have a series of stripes of varied, but muted, colors around the cuffs and hem of the robe. Silver embroidery on the robe's back depicts a lightning bolt striking a tower.",
+				"While wearing this robe, your base AC becomes 14 + your Dexterity modifier. Additionally, you can cast {@spell absorb elements} using this item three times. If this use of {@spell absorb elements} reduces the damage you take by 15 or more points, you regain a 1st level spell slot, if you are capable of casting 1st level spells. You regain all uses of this item when you complete a long rest."
+			],
+			"foundryImg": "icons/equipment/chest/robe-collared-blue.webp"
+		},
+		{
+			"name": "Robe of Very Useful Items",
+			"source": "EmperrorsNewGroove",
+			"value": 105000,
+			"rarity": "rare",
+			"weight": 5,
+			"wondrous": true,
+			"entries": [
+				"This robe has cloth patches of various shapes and colors covering it. While wearing the robe. you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.",
+				"The robe has two of each of the following patches:",
+				"<ul><li>{@item +1 dagger}</li><li>{@item sending stones}</li><li>{@item magic compass}</li><li>{@item mystery key}</li><li>{@item tanglefoot bag}</li><li>{@item sovereign glue}</li></ul>",
+				"In addition, the robe has {@dice 4d4} other patches. The DM chooses the patches or determines them randomly.",
+				"<table><tr><th>{@dice 1d100}</th><th>Patch</th></tr><tr><td>01-08</td><td>Bag of 500 gp</td></tr><tr><td>09-15</td><td>{@item Eversoaking Sponge}</td></tr><tr><td>16-22</td><td>{@creature door mimc}, which is friendly to you</td></tr><tr><td>23-30</td><td>{@item Spell Scroll}, 3rd level</td></tr><tr><td>31-44</td><td>{@item Spell Scroll}, 4th level</td></tr><tr><td>45-51</td><td>{@item Alchemy Jug}</td></tr><tr><td>52-59</td><td>{@item Portable Bridge}</td></tr><tr><td>60-68</td><td>4 {@item potion of superior healing}</td></tr><tr><td>69-75</td><td>2 {@item greater memory potion}</td></tr><tr><td>76-83</td><td>{@item Bag of Holding}</td></tr><tr><td>84-90</td><td>{@item Broom of Flying}</td></tr><tr><td>91-96</td><td>{@item Blindfold of Darkness}</td></tr><tr><td>97-00</td><td>{@item Keg of Smokepowder}</td></tr></table>"
+			]
+		},
+		{
+			"name": "Roranach's Horned Helm",
+			"source": "EmperrorsNewGroove",
+			"value": 57500,
+			"rarity": "uncommon",
+			"weight": 5,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"While wearing this helm, you can perform a special charge maneuver as an action. To do so you do so, you must move at least 20 feet in a straight line. This movement does not provoke opportunity attacks and can pass through the areas of other creatures. Creatures you pass through take {@dice 2d6} bludgeoning damage must make a DC 16 Dexterity check or be knocked prone. At the end of your charge, you may make a single melee weapon attack against a creature within your reach. You make this attack with Advantage.",
+				"Once you use this helm, you can't do so again until you complete a short rest."
+			],
+			"foundryImg": "icons/equipment/head/helm-evil-immortan.webp"
+		},
+		{
+			"name": "Screaming Bagpipes",
+			"source": "EmperrorsNewGroove",
+			"value": 380000,
+			"rarity": "rare",
+			"reqAttune": "by a bard or warlock",
+			"weight": 3,
+			"wondrous": true,
+			"recharge": "dawn",
+			"entries": [
+				"This horrid instrument is composed of fleshy tentacle-pipes, and the whole affair reeks of fish. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@dice 2d6} psychic damage.",
+				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
+				"You can play the instrument while casting a spell that causes any of its targets to be {@condition frightened} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"The {@item screaming bagpipes} can be used to cast the following spells:",
+				"<ul><li>{@spell tasha's caustic brew}</li><li>{@spell shatter}</li><li>{@spell fear}</li><li>{@spell confusion}</li></ul>"
+			],
+			"foundryImg": "icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp"
+		},
+		{
+			"name": "Ship in a Bottle",
+			"source": "EmperrorsNewGroove",
+			"value": 1125000,
+			"rarity": "legendary",
+			"weight": 5,
+			"wondrous": true,
+			"entries": [
+				"You can use an action to speak this item's command word and point it at a vehicle within 60 feet. That vehicle is shrunken down to miniature size and stored inside the bottle as long as the vehicle is less than 250 feet in all dimensions. Any occupants or crew of the vehicle when it is targeted can make a DC 13 Charisma saving throw. On a failed saving throw, they are trapped in the bottle with the vehicle. A creature trapped in the bottle doesn't need to breathe, eat, or drink and doesn't age.",
+				"You can use an action to remove the bottle's cork and release the vehicle the bottle contains into an unoccupied location adjacent to you."
+			]
+		},
+		{
+			"name": "Sidestep Slippers",
+			"source": "EmperrorsNewGroove",
+			"value": 11500,
+			"rarity": "uncommon",
+			"weight": 1,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"While wearing these fine silk slippers, you can move 15 feet as a reaction. Once you use this ability, you can't use it again until you complete a short rest."
+			],
+			"foundryImg": "icons/equipment/feet/shoes-leather-blue.webp"
+		},
+		{
+			"name": "Slickstep Boots",
+			"source": "EmperrorsNewGroove",
+			"value": 12500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"These oil-stained boots render their wearer immune to the {@condition restrained} condition, as well the effects of difficult terrain. In addition, the wearer has advantage on saving throws to resist becoming {@condition grappled}, {@condition petrified}, or {@condition paralyzed}.",
+				"<b>Cursed. </b> This item is cursed. Attuning to it curses you until you are targeted by a {@spell remove curse} spell or similar magic. As long as you remain cursed, you cannot discard the item, which immediately returns to your possession.",
+				"While cursed by these boots, every time you roll a 1 on an ability check, attack roll, or saving throw, you fall {@condition prone}. In addition, you fall {@condition prone} if you have moved more than 15 feet since the end of your last turn."
+			],
+			"foundryImg": "icons/equipment/feet/boots-leather-grey.webp"
+		},
+		{
+			"name": "Stalker Gauntlets",
+			"source": "EmperrorsNewGroove",
+			"value": 21500,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"While wearing these gloves, you gain the Sneak Attack feature as though you were a 1st level rogue. If you already have the Sneak Attack feature, you increase your sneak attack damage by +1d6."
+			],
+			"foundryImg": "icons/equipment/hand/glove-frayed-cloth-grey.webp"
+		},
+		{
+			"name": "Standard of the Rumbling 5th",
+			"source": "EmperrorsNewGroove",
+			"value": 27500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This magical battle standard is emblazoned in white with a flaming skull over crossed, smoking pistols flew above the now-extinct Giff 'Rumbling 5th' rifle corps. While attuned to this standard is prominently displayed, allies within 30 feet of you are treated as being proficient on saving throws to resist effects that would render them {@condition frightened}.",
+				"<b>Rally. </b>You can use your action to wave the {@item Standard of the Rumbling 5th} and rally your allies. All friendly creatures within 30 feet that are {@condition frightened} cease to be {@condition frightened}. Once you use this ability, you can't use it again until you complete a long rest."
+			],
+			"foundryImg": "icons/sundries/flags/banner-symbol-axe-red.webp"
+		},
+		{
+			"name": "Steadfast Helm",
+			"source": "EmperrorsNewGroove",
+			"value": 30000,
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"weight": 5,
+			"wondrous": true,
+			"entries": [
+				"While wearing this helm, you are immune to the {@condition charmed} and {@condition frightened} conditions."
+			],
+			"foundryImg": "icons/equipment/head/helm-barbute-rounded-orange.webp"
+		},
+		{
+			"name": "Steadfast Stone",
+			"source": "EmperrorsNewGroove",
+			"value": 78500,
+			"rarity": "rare",
+			"weight": 5,
+			"wondrous": true,
+			"entries": [
+				"This solid stone cube is 3 inches to a side. When the surface is wet, it reveals magical Terran runes. As an action you can speak the stone's command word and cause it to expand to become a cube that is 10 ft to a side. You can speak another command word as an action to cause the cube to shrink back down to its hand held size.",
+				"If a creature is in the area the stone grows to occupy, it is pushed out by the shortest possible path unless it succeeds on a DC 20 Strength saving throw. If it cannot be pushed (because it is in a confined space for example), then it takes {@dice 8d10} bludgeoning damage. The cube has 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Damage is not repaired when the cube changes size, but a casting of a {@spell stone shape} spell or similar magic can repair 25 hit points."
+			],
+			"foundryImg": "icons/commodities/stone/masonry-block-cube-white.webp"
+		},
+		{
+			"name": "Sutra of Tranquil Thought",
+			"source": "EmperrorsNewGroove",
+			"value": 485000,
+			"rarity": "legendary",
+			"weight": 4,
+			"wondrous": true,
+			"entries": [
+				"This monastic tome describes ancient techniques of mental focus and is highly prized by psionic practitioners. If you study the work during one week of solitary contemplation you gain the following benefits:",
+				"<ul><li>You gain your choice of the {@feat telekinetic} or {@feat telepathic} feats.</li><li>If you are a Psi Warrior {@class Fighter} or Soulknife {@class Rogue}, you gain 4 additional Psionic Energy dice.</li><li>If you are a Great Old One {@class Warlock}, you gain an additional Pact Magic spell slot.</li></ul>"
+			],
+			"foundryImg": "icons/sundries/books/book-symbol-triangle-silver-blue.webp"
+		},
+		{
+			"name": "Tablet of Retreat",
+			"source": "EmperrorsNewGroove",
+			"value": 350000,
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"You can break this tablet as an action. When you do so, you cast your choice of {@spell plane shift} or {@spell teleport} targeting yourself only."
+			]
+		},
+		{
+			"name": "The Iron Thorn",
+			"source": "EmperrorsNewGroove",
+			"value": 16500,
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"This ugly ring appears to be a twisted, rusty nail formed into a circle. While wearing this ring, you are warded against hostility from lesser undead creatures. Any creature of the Undead type with a CR of 5 or less who targets you with an attack or a harmful spell must first make a DC 13 Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. You are not protected from area effects, such as the explosion of a {@spell fireball}.",
+				"If you make an attack or cast a spell that affects an Undead creature, or otherwise deal damage to one, it is no longer affected by the warding effect of this item.",
+				"<b>Cursed. </b> This item is cursed. Attuning to it curses you until you are targeted by a remove curse spell or similar magic. As long as you remain cursed, you cannot discard the ring, which immediately teleports back into your finger or pocket. While cursed by this ring, your Charisma score is reduced by 4. In addition, you are under an illusion that makes you appear undead."
+			],
+			"foundryImg": "icons/equipment/finger/ring-ball-thorns-bronze.webp"
+		},
+		{
+			"name": "Thieves' Tools +1",
+			"source": "EmperrorsNewGroove",
+			"value": 15000,
+			"rarity": "common",
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"This is an enchanted set of thieves' tools, made of brushed mithral to minimize their luster. You have a +1 bonus to ability checks made with these tools."
+			],
+			"foundryImg": "icons/skills/trades/security-locksmith-key-gray.webp"
+		},
+		{
+			"name": "Third Eye Circlet",
+			"source": "EmperrorsNewGroove",
+			"value": 55000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"entries": [
+				"This circlet bestows the effects of a {@spell see invisibility} spell upon its wearer."
+			],
+			"foundryImg": "icons/magic/perception/orb-eye-scrying.webp"
+		},
+		{
+			"name": "Transposer Cloak",
+			"source": "EmperrorsNewGroove",
+			"value": 34500,
+			"rarity": "uncommon",
+			"weight": 3,
+			"wondrous": true,
+			"recharge": "restShort",
+			"entries": [
+				"This cloak is divided diagonally into two colors. The upper portion is pure white, while the lower is black as night. A transposer cloak allows you to switch positions with another creature. When you activate this cloak, you and any one creature within 30 feet swap positions. Both you and the target must occupy the same size of space on the battlefield (for instance, a human could swap places with a dwarf or a goblin, but not with an ogre or a cat). If the other creature is unwilling to trade positions, it is allowed a DC 15 Charisma save to negate the effect.",
+				"Once you use this ability, you can't use it again until you complete a short rest."
+			]
+		},
+		{
+			"name": "Traveler's Robes",
+			"source": "EmperrorsNewGroove",
+			"value": 34500,
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"weight": 4,
+			"wondrous": true,
+			"recharge": "restLong",
+			"entries": [
+				"This robe has been perfected for use by any rambling, itinerant mage that travels from town to town. Its enchantments provide protection from the bandit's arrow and from the jealous arcane trickster that lies in ambush with his {@spell stinking cloud}.",
+				"While attuned to these robes, your walking speed increases by 5 feet. Your base armor class while wearing these robes is set to 11 + your Dexterity modifier. Additionally, you can {@action disengage} as a bonus action on your turn.",
+				"<b>Candlekeep Cha-Cha. </b>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. Once you use this ability, you can't use it again until you complete a long rest."
+			],
+			"foundryImg": "icons/equipment/chest/robe-collared-blue.webp"
+		},
+		{
+			"name": "Trollhide Cloak",
+			"source": "EmperrorsNewGroove",
+			"value": 55000,
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 5,
+			"wondrous": true,
+			"entries": [
+				"This ugly green-grey cloak is made of rubbery troll hide, and still has uneven patches of black hair growing over it. While wearing this cloak, your Constitution score increases by 2, to a maximum of 20. Conversely, your Charisma score decreases to 8 while wearing this cloak (unless it was already lower than 8), and you have disadvantage on Deception and Persuasion checks."
+			],
+			"foundryImg": "icons/equipment/back/cloak-collared-feathers-green.webp"
+		},
+		{
+			"name": "Venom Quiver",
+			"source": "EmperrorsNewGroove",
+			"value": 12000,
+			"rarity": "uncommon",
+			"weight": 2,
+			"wondrous": true,
+			"entries": [
+				"Any ammo stored in here becomes poisonous, dealing 1d4 extra poison damage.",
+				"<b>Cursed. </b>On a hit roll of a natural 1 with ammunition that has been poisoned by this quiver, all ammunition within the quiver polymporphs, becoming a {@creature swarm of poisonous snakes}."
+			],
+			"foundryImg": "icons/containers/ammunition/arrows-quiver-green-brown.webp"
+		},
+		{
+			"name": "Weightless Scabbard",
+			"source": "EmperrorsNewGroove",
+			"value": 10000,
+			"rarity": "common",
+			"weight": 1,
+			"entries": [
+				"This magical scabbard reduces the weight of any sword placed inside of it to 0 while that blade is sheathed. This scabbard has an internal extradimensional space, and can accommodate a blade of any length."
+			],
+			"foundryImg": "icons/weapons/swords/shortsword-sheathed-brown.webp"
+		},
+		{
+			"name": "Whispering Earring",
+			"source": "EmperrorsNewGroove",
+			"value": 5000,
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This magical earring confers the ability to communicate with others who own similar items. Though often commissioned in matching sets, the owner of a <i>whispering earring</i> can bring theirs into resonance with another by tapping them together and speaking the item's command word. Multiple earrings can be brought into the same resonance, thus creating a web of <i>whispering earrings</i>.",
+				"After a <i>whispering earring</i> has been brought into resonance, the wearer can touch it and speak aloud, and all <i>whispering earrings</i> in the same resonance will repeat those words into the minds of their wearers. A <i>whispering earring</i> must be within 300 feet of another <i>whispering earring</i> in the same resonance to send or receive messages. Magical {@spell silence} and sheets of lead block communications to and from <i>whispering earring</i>s."
+			],
+			"foundryImg": "icons/commodities/treasure/token-silver-blue.webp"
+		},
+		{
+			"name": "Widow's Veil",
+			"source": "EmperrorsNewGroove",
+			"value": 131500,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"weight": 1,
+			"wondrous": true,
+			"recharge": "restLong",
+			"charges": 5,
+			"entries": [
+				"This gauzy fabric is worn over the eyes and secured by a jeweled headband. While worn, you can use your gaze to afflict creatures within 30 feet with magical forms of suffering by expending charges. All saving throws are DC 15. The item has 5 charges, and regains 1d4 when you complete a long rest.",
+				"<b>Rebuke the Fallen (1 charge). </b>An undead target must make a Charisma saving throw or take {@dice 3d8} force damage and then be turned, as though by a {@class cleric}'s Turn Undead ability, for 1 minute or until it takes any damage. A creature with a CR of 1/2 or lower is instantly destroyed if it fails its save.",
+				"<b>Crippling Pain (3 charges). </b>The target must make a Constitution saving throw or be afflicted with crippling pain for 1 minute. While affected, any speed can be no higher than 10 feet, and a target concentrating on a spell loses concentration on it. The target may make a save at the end of their turn to end the effect.",
+				"<b>Madness of Moil (5 charges). </b>The target must succeed on a Wisdom saving throw or be afflicted by an altered mental state for 1 minute. The target may make a save at the end of their turn to end the effect. Roll on the following table to determine the targets behavior:",
+				"<table><tr><th>{@dice d3}</th><th>Effect</th></tr><tr><td>1</td><td><b>Weeping. </b>Fat, oily tears well up in the target's eyes and they screw them shut. They are {@condition blinded} while the effect persists.</td></tr><tr><td>2</td><td><b>Bitterness. </b>The target is overcome by bitterness towards the nearest creature to them. While the effect persists, they will move towards them and make a single melee attack against them on their turn.</td></tr><tr><td>3</td><td><b>Lamentation. </b>The target sinks to their knees and begins wailing skyward about nothing in particular. They are {@condition prone} and {@condition incapacitated}.</td></tr></table>"
+			]
+		},
+		{
+			"name": "Imyrith's Talon +2",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"source": "EmperrorsNewGroove",
+			"value": 131500,
+			"entries": [
+				"This magical scimitar is made from one of the talons of the great wyrm Imyrith. You have a +2 bonus to attack and damage rolls made with this magical scimitar and deal an additional {@dice 1d6} lightning damage on a successful hit. In addition, you can use this scimitar to cast {@spell lightning bolt} (save DC 15) once per long rest."
+			],
+			"bonusWeapon": "+2",
+			"foundryImg": "icons/weapons/swords/scimitar-blue.webp"
 		}
 	]
 }
