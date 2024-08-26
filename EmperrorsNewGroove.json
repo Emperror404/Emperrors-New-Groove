@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.1.4",
+				"version": "0.1.5",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -78,17 +78,7 @@
 			"areaTags": [
 				"ST"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/tools/scribal/ink-quill-red.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/tools/scribal/ink-quill-red.webp"
 		},
 		{
 			"name": "Defensestration",
@@ -157,17 +147,7 @@
 			"areaTags": [
 				"S"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/gems/gem-fragments-turquoise.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/commodities/gems/gem-fragments-turquoise.webp"
 		},
 		{
 			"name": "Ferment",
@@ -227,17 +207,7 @@
 				"s": true,
 				"m": "A pinch of yeast"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/consumables/drinks/wine-bottle-glass-white.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/consumables/drinks/wine-bottle-glass-white.webp"
 		},
 		{
 			"name": "Iron Scarf",
@@ -305,17 +275,7 @@
 			"damageInflict": [
 				"slashing"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/cloth/ribbon-bolt-red.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/commodities/cloth/ribbon-bolt-red.webp"
 		},
 		{
 			"name": "Scholar's Touch",
@@ -375,17 +335,7 @@
 				"r": true,
 				"m": "A scrap of parchment and a lump of charcoal."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/sundries/documents/blueprint-recipe-alchemical.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/sundries/documents/blueprint-recipe-alchemical.webp"
 		},
 		{
 			"name": "Stone Fist",
@@ -464,17 +414,7 @@
 				"s": true,
 				"m": "A pebble, held in hand."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/earth/strike-fist-stone-gray.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/earth/strike-fist-stone-gray.webp",
 			"damageInflict": [
 				"bludgeoning"
 			],
@@ -544,17 +484,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/consumables/grains/bread-loaf-sliced-wheat-brown.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/consumables/grains/bread-loaf-sliced-wheat-brown.webp"
 		},
 		{
 			"name": "Break",
@@ -613,17 +543,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/melee/shield-damaged-broken-orange.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/melee/shield-damaged-broken-orange.webp",
 			"damageInflict": [
 				"force"
 			],
@@ -690,17 +610,7 @@
 			"areaTags": [
 				"ST"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/time/clock-stopwatch-white-blue.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/time/clock-stopwatch-white-blue.webp"
 		},
 		{
 			"name": "Disjoint",
@@ -748,17 +658,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/death/hand-withered-gray.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/death/hand-withered-gray.webp",
 			"miscTags": [
 				"SMN"
 			]
@@ -822,17 +722,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/air/weather-sunlight-sky.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/air/weather-sunlight-sky.webp",
 			"areaTags": [
 				"ST",
 				"MT"
@@ -915,17 +805,7 @@
 				"v": true,
 				"m": "Black paint, applied around your eyes"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
 			"areaTags": [
 				"ST"
 			]
@@ -980,17 +860,7 @@
 				"v": true,
 				"m": "A scrap of leather from a worn out boot"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
 			"savingThrow": [
 				"charisma"
 			],
@@ -1059,17 +929,7 @@
 				"s": true,
 				"m": "A small lump of charcoal"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/nature/cornucopia-orange.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/nature/cornucopia-orange.webp",
 			"areaTags": [
 				"ST"
 			]
@@ -1119,17 +979,7 @@
 				"v": true,
 				"m": "A four leaf clover"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/buff-luck-fortune-green.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/control/buff-luck-fortune-green.webp",
 			"areaTags": [
 				"ST"
 			]
@@ -1212,17 +1062,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/melee/strike-club-red.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/melee/strike-club-red.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -1297,17 +1137,7 @@
 				"s": true,
 				"m": "The seed of a moonseed plant"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/light/beams-strike-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/light/beams-strike-blue.webp",
 			"savingThrow": [
 				"wisdom"
 			],
@@ -1366,17 +1196,7 @@
 			"meta": {
 				"ritual": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/trades/academics-study-reading-book.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/trades/academics-study-reading-book.webp",
 			"miscTags": [
 				"OBJ"
 			],
@@ -1429,17 +1249,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/runes-star-orange-purple.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/symbols/runes-star-orange-purple.webp",
 			"areaTags": [
 				"ST"
 			]
@@ -1496,17 +1306,7 @@
 				"s": true,
 				"m": "A length of preserved intestine"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/stone/paver-brick-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/commodities/stone/paver-brick-blue.webp",
 			"savingThrow": [
 				"dexterity"
 			],
@@ -1586,17 +1386,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/cog-orange-red.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/symbols/cog-orange-red.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -1680,17 +1470,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/weapons/daggers/dagger-crooked-ice-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/weapons/daggers/dagger-crooked-ice-blue.webp",
 			"damageInflict": [
 				"force"
 			],
@@ -1764,17 +1544,7 @@
 				"s": true,
 				"m": "An unworn glove"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -1838,17 +1608,7 @@
 				"s": true,
 				"m": "A pinch of sand mixed with a drop of alcoholic spirits."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/time/day-night-sun-moon.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/time/day-night-sun-moon.webp",
 			"savingThrow": [
 				"wisdom"
 			],
@@ -1911,17 +1671,7 @@
 				"s": true,
 				"m": "A coffee bean or tea leaf."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/perception/eye-tendrils-web-purple.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/perception/eye-tendrils-web-purple.webp"
 		},
 		{
 			"name": "Gedlee's Electric Loop",
@@ -1979,17 +1729,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/lightning/bolt-forked-large-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/lightning/bolt-forked-large-blue.webp",
 			"damageInflict": [
 				"lightning"
 			],
@@ -2059,17 +1799,7 @@
 				"SGT",
 				"OBJ"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/social/theft-pickpocket-bribery-brown.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/skills/social/theft-pickpocket-bribery-brown.webp"
 		},
 		{
 			"name": "Creeping Cold",
@@ -2150,17 +1880,7 @@
 					"cost": 25
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/water/ice-snowman.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/water/ice-snowman.webp",
 			"damageInflict": [
 				"cold"
 			],
@@ -2225,17 +1945,7 @@
 				"s": true,
 				"m": "A bit of eggshell and a dab of honey"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/encase-creature-humanoid-hold.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/control/encase-creature-humanoid-hold.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -2275,9 +1985,7 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
-					}
-				],
-				"fromClassList": [
+					},
 					{
 						"name": "Paladin",
 						"source": "PHB"
@@ -2376,17 +2084,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/wounds/bone-broken-marrow-red.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/wounds/bone-broken-marrow-red.webp",
 			"miscTags": [
 				"HL"
 			],
@@ -2471,17 +2169,7 @@
 			"areaTags": [
 				"ST"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/fear-fright-white.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/control/fear-fright-white.webp"
 		},
 		{
 			"name": "Acid Rain",
@@ -2574,17 +2262,7 @@
 				"s": true,
 				"m": "An ounce of vinegar"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/acid/projectile-needles-salvo-green.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/acid/projectile-needles-salvo-green.webp",
 			"damageInflict": [
 				"acid"
 			],
@@ -2652,17 +2330,7 @@
 				"s": true,
 				"m": "1 ounce of ground mica"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/air/fog-gas-smoke-swirling-yellow.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/air/fog-gas-smoke-swirling-yellow.webp",
 			"savingThrow": [
 				"dexterity"
 			],
@@ -2733,17 +2401,7 @@
 				"s": true,
 				"m": "A ball of yarn and a plank of wood"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/silhouette-hold-change-green.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/control/silhouette-hold-change-green.webp",
 			"miscTags": [
 				"SMN"
 			]
@@ -2835,17 +2493,7 @@
 			"savingThrow": [
 				"constitution"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/death/skull-energy-light-white.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/death/skull-energy-light-white.webp"
 		},
 		{
 			"name": "Mind Fog",
@@ -2909,17 +2557,7 @@
 			"areaTags": [
 				"S"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/tech/smoke-spout-blue.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/commodities/tech/smoke-spout-blue.webp"
 		},
 		{
 			"name": "Nosirrag's Commanding Word",
@@ -2966,17 +2604,7 @@
 				"s": true,
 				"m": "A small puzzle box worth at least 25 gp."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/sundries/scrolls/scroll-writing-grey.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/sundries/scrolls/scroll-writing-grey.webp",
 			"miscTags": [
 				"OBJ"
 			]
@@ -3049,17 +2677,7 @@
 			"meta": {
 				"ritual": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/materials/glass-orb-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/commodities/materials/glass-orb-blue.webp",
 			"areaTags": [
 				"R"
 			],
@@ -3152,17 +2770,7 @@
 					"cost": 50
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/death/undead-skeleton-deformed-red.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/death/undead-skeleton-deformed-red.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -3244,17 +2852,7 @@
 			"areaTags": [
 				"ST"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/hypnosis-mesmerism-watch.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/control/hypnosis-mesmerism-watch.webp"
 		},
 		{
 			"name": "Solid Fog",
@@ -3317,17 +2915,7 @@
 				"s": true,
 				"m": "A pinch of dried, powdered peas combined with powdered animal hoof"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/air/fog-gas-smoke-dense-white.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/air/fog-gas-smoke-dense-white.webp",
 			"areaTags": [
 				"S"
 			],
@@ -3393,17 +2981,7 @@
 			"areaTags": [
 				"ST"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/hypnosis-mesmerism-swirl.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/control/hypnosis-mesmerism-swirl.webp"
 		},
 		{
 			"name": "Stone Bones",
@@ -3493,17 +3071,7 @@
 				"s": true,
 				"m": "A drop of cow's milk"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/death/bones-crossed-gray.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/death/bones-crossed-gray.webp",
 			"miscTags": [
 				"MAC"
 			],
@@ -3560,17 +3128,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/treasure/statue-bust-stone-grey.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/commodities/treasure/statue-bust-stone-grey.webp",
 			"miscTags": [
 				"OBJ"
 			],
@@ -3639,18 +3197,7 @@
 						"For each level above 2nd that you cast this spell, the myconid spirit gains the following benefits:<ul><li>+10 hp</li><li>+1 AC</li><li>+1 to attack and damage rolls</li><li>Other benefits as described in the stat block</li></ul>"
 					]
 				}
-			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://5e.tools/img/adventure/IDRotF/151-03-001.quaggoth-myconid.webp"
-						}
-					}
-				]
-			}
+			]
 		},
 		{
 			"name": "Synesthesia",
@@ -3765,17 +3312,7 @@
 				"s": true,
 				"m": "A small bell with no clapper"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/sonic/scream-wail-shout-teal.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/sonic/scream-wail-shout-teal.webp",
 			"areaTags": [
 				"ST"
 			]
@@ -3840,17 +3377,7 @@
 			"miscTags": [
 				"OBS"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/sundries/documents/paper-plain-white.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/sundries/documents/paper-plain-white.webp"
 		},
 		{
 			"name": "Weld",
@@ -3975,17 +3502,7 @@
 			"areaTags": [
 				"ST"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/wounds/injury-pain-body-orange.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/wounds/injury-pain-body-orange.webp",
 			"miscTags": [
 				"TP"
 			]
@@ -4068,17 +3585,7 @@
 			"miscTags": [
 				"FMV"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/movement/chevrons-down-yellow.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/movement/chevrons-down-yellow.webp"
 		},
 		{
 			"name": "Greater Mage Armor",
@@ -4138,17 +3645,7 @@
 					"cost": 50
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/defensive/shield-barrier-glowing-triangle-blue.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -4225,17 +3722,7 @@
 			"miscTags": [
 				"UBA"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/perception/hand-eye-fire-blue.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/perception/hand-eye-fire-blue.webp"
 		},
 		{
 			"name": "Iggwilv's Chaotic Companion",
@@ -4291,17 +3778,7 @@
 					"text": "A slaad's control gem"
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/encase-creature-monster-hold.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/control/encase-creature-monster-hold.webp",
 			"miscTags": [
 				"SMN"
 			]
@@ -4353,17 +3830,7 @@
 				"s": true,
 				"m": "A wooden dowel, broken perfectly in half"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/time/hourglass-tilted-gray.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/time/hourglass-tilted-gray.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -4434,17 +3901,7 @@
 					"cost": 250
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/weapons/staves/staff-ornate-jeweled-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -4514,17 +3971,7 @@
 			"miscTags": [
 				"OBJ"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/tech/tube-chamber-lightning.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/commodities/tech/tube-chamber-lightning.webp"
 		},
 		{
 			"name": "Melf's Unicorn Arrow",
@@ -4588,17 +4035,7 @@
 			"miscTags": [
 				"FMV"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/creatures/mammals/unicorn-horned-white.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/creatures/mammals/unicorn-horned-white.webp"
 		},
 		{
 			"name": "Mestil's Acid Breath",
@@ -4690,17 +4127,7 @@
 			"miscTags": [
 				"OBJ"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/acid/projectile-beams-salvo-green.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/acid/projectile-beams-salvo-green.webp"
 		},
 		{
 			"name": "Nosirrag's Numerology",
@@ -4826,17 +4253,7 @@
 				"s": true,
 				"m": "A piece of glass and a dab of oil"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/movement/ball-spinning-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/movement/ball-spinning-blue.webp",
 			"conditionInflict": [
 				"prone"
 			],
@@ -4933,17 +4350,7 @@
 				"s": true,
 				"m": "A small mirror"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/defensive/shield-barrier-deflect-teal.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
 			"areaTags": [
 				"ST"
 			],
@@ -5003,17 +4410,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/nature/tree-bare-glow-yellow.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/nature/tree-bare-glow-yellow.webp",
 			"damageInflict": [
 				"necrotic"
 			],
@@ -5082,17 +4479,7 @@
 			"savingThrow": [
 				"dexterity"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/light/projectile-bolts-salvo-yellow.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/light/projectile-bolts-salvo-yellow.webp"
 		},
 		{
 			"name": "Shadow Door",
@@ -5203,17 +4590,7 @@
 			"savingThrow": [
 				"wisdom"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/treasure/dreamcatcher-purple.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/commodities/treasure/dreamcatcher-purple.webp"
 		},
 		{
 			"name": "Stutterstep",
@@ -5273,17 +4650,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/time/arrows-circling-pink.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/time/arrows-circling-pink.webp",
 			"savingThrow": [
 				"charisma"
 			]
@@ -5350,17 +4717,7 @@
 					"consume": true
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/star-inverted-yellow.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/symbols/star-inverted-yellow.webp",
 			"savingThrow": [
 				"charisma"
 			],
@@ -5431,17 +4788,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/movement/portal-vortex-orange.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/movement/portal-vortex-orange.webp",
 			"savingThrow": [
 				"charisma"
 			],
@@ -5513,17 +4860,7 @@
 				"s": true,
 				"m": "The whiskers of a badgermole"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/sonic/explosion-shock-sound-wave.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/sonic/explosion-shock-sound-wave.webp",
 			"areaTags": [
 				"ST"
 			]
@@ -5590,17 +4927,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/water/wave-water-explosion.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/water/wave-water-explosion.webp",
 			"damageInflict": [
 				"bludgeoning"
 			],
@@ -5658,17 +4985,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/air/wind-tornado-wall-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/air/wind-tornado-wall-blue.webp",
 			"miscTags": [
 				"ADV"
 			],
@@ -5740,17 +5057,7 @@
 				"s": true,
 				"m": "A scroll or spellbook containing the spell to be cast"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/runes-star-pentagon-magenta.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-magenta.webp"
 		},
 		{
 			"name": "Claws of the Umber Hulk",
@@ -5809,17 +5116,7 @@
 				"s": true,
 				"m": "A piece of chitinous exoskeleton"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/creatures/claws/claw-talons-yellow-red.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/creatures/claws/claw-talons-yellow-red.webp",
 			"damageInflict": [
 				"slashing"
 			],
@@ -5875,17 +5172,7 @@
 				"s": true,
 				"m": "A small parchment with a bit of holy text written on it"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/defensive/shield-barrier-glowing-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
 			"areaTags": [
 				"S"
 			],
@@ -5955,17 +5242,7 @@
 				"TP",
 				"PS"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/debuff-chains-shackles-movement-blue.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/control/debuff-chains-shackles-movement-blue.webp"
 		},
 		{
 			"name": "Drown",
@@ -6018,17 +5295,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/water/vortex-water-whirlpool-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/water/vortex-water-whirlpool-blue.webp",
 			"savingThrow": [
 				"constitution"
 			],
@@ -6079,17 +5346,7 @@
 				"s": true,
 				"m": "A pendulum, swung from the hand"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/defensive/illusion-evasion-echo-purple.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
 			"miscTags": [
 				"HL"
 			]
@@ -6170,17 +5427,7 @@
 				"s": true,
 				"m": "A rock from the summit of a mountain."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/lightning/bolt-forked-blue-yellow.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/lightning/bolt-forked-blue-yellow.webp",
 			"damageInflict": [
 				"lightning"
 			],
@@ -6248,17 +5495,7 @@
 				"s": true,
 				"m": "A silver padlock worth 50 gp"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/energy-stream-link-spiral-teal.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/control/energy-stream-link-spiral-teal.webp",
 			"damageInflict": [
 				"psychic"
 			],
@@ -6337,17 +5574,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/time/hourglass-brown-orange.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/time/hourglass-brown-orange.webp",
 			"miscTags": [
 				"OBJ"
 			]
@@ -6489,17 +5716,7 @@
 			"miscTags": [
 				"OBJ"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/water/tendrils-ice-growth.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/water/tendrils-ice-growth.webp"
 		},
 		{
 			"name": "Sequencer",
@@ -6563,17 +5780,7 @@
 				"s": true,
 				"m": "An abacus"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/time/arrows-circling-green.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/time/arrows-circling-green.webp"
 		},
 		{
 			"name": "Transmute Mud to Stone",
@@ -6637,17 +5844,7 @@
 				"s": true,
 				"m": "Sand, lime, and water"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/earth/projectile-boulder-dust.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/earth/projectile-boulder-dust.webp",
 			"savingThrow": [
 				"dexterity"
 			],
@@ -6731,17 +5928,7 @@
 				"OBJ",
 				"PIR"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/earth/projectile-stone-landslide.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/earth/projectile-stone-landslide.webp"
 		},
 		{
 			"name": "Wall of Gears",
@@ -6810,17 +5997,7 @@
 				"A wall of turning gears of various sizes springs into existence at a point you choose within range. The can be up to 5 feet thick, 20 feet high, and 60 feet long. When the wall appears, or when a creature ends its turn in the area or enters its area on its turn, each creature in its area takes {@damage 5d8} bludgeoning damage and is moved to a location of your choice that is within 5 feet of the spell's area and within 30 feet of their original location. A creature that succeeds on a Dexterity saving throw takes half damage and is not moved."
 			],
 			"source": "EmperrorsNewGroove",
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/tech/cog-brass.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/commodities/tech/cog-brass.webp",
 			"components": {
 				"v": true,
 				"s": true,
@@ -6905,17 +6082,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/death/undead-skeleton-worn-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/death/undead-skeleton-worn-blue.webp",
 			"damageInflict": [
 				"necrotic"
 			],
@@ -6972,17 +6139,7 @@
 					"text": "a piece of the finest ivory in the likeness of the caster, studded with gems and lined with gold worth at least 500 gp, and a piece of regular parchment"
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/silhouette-grow-shrink-tan.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/control/silhouette-grow-shrink-tan.webp"
 		},
 		{
 			"name": "Nosirrag's Gelatinous Gaoler",
@@ -7034,17 +6191,7 @@
 				"If you maintain your {@status concentration} on this spell for its whole duration, the cube becomes permanent, though it is no longer friendly towards you."
 			],
 			"source": "EmperrorsNewGroove",
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/materials/glass-cube.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/commodities/materials/glass-cube.webp",
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
@@ -7129,17 +6276,7 @@
 			"miscTags": [
 				"SGT"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/perception/eye-ringed-green.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/perception/eye-ringed-green.webp"
 		},
 		{
 			"name": "Extract Water Elemental",
@@ -7211,17 +6348,7 @@
 				"s": true,
 				"m": "A pinch of salt"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/water/elemental-water.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/water/elemental-water.webp",
 			"damageInflict": [
 				"necrotic"
 			],
@@ -7301,17 +6428,7 @@
 					"text": "A diamond worth at least 250 gp, which the spell consumes."
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp"
 		},
 		{
 			"name": "Stone to Flesh",
@@ -7364,17 +6481,7 @@
 				"s": true,
 				"m": "A pinch of earth and a drop of blood"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/defensive/armor-stone-skin.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/defensive/armor-stone-skin.webp",
 			"savingThrow": [
 				"constitution"
 			],
@@ -7446,17 +6553,7 @@
 					"cost": 100
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/light/beam-rays-teal.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/light/beam-rays-teal.webp",
 			"spellAttack": [
 				"R"
 			],
@@ -7528,17 +6625,7 @@
 					]
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/light/beam-rays-red-small.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/light/beam-rays-red-small.webp",
 			"components": {
 				"v": true,
 				"s": true,
@@ -7637,17 +6724,7 @@
 					"consume": true
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/rune-sigil-white-pink.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/symbols/rune-sigil-white-pink.webp",
 			"miscTags": [
 				"PRM"
 			]
@@ -7692,17 +6769,7 @@
 				"v": true,
 				"m": "An object that was present during the time period you are traveling to."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/time/hourglass-brown-orange.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/time/hourglass-brown-orange.webp",
 			"miscTags": [
 				"TP",
 				"PS"
@@ -7764,17 +6831,7 @@
 					"text": "A miniature ship carved from mahogany, rigged with silk sails and gold thread, with a total value of at least 500 gp."
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/trades/profession-sailing-ship.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/trades/profession-sailing-ship.webp",
 			"miscTags": [
 				"SMN",
 				"PS",
@@ -7911,17 +6968,7 @@
 					"text": "A philosopher's stone"
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/commodities/metal/ingot-gold.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/commodities/metal/ingot-gold.webp",
 			"areaTags": [
 				"C"
 			],
@@ -7974,17 +7021,7 @@
 				"s": true,
 				"m": "A few hairs from a minotaur"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/skills/melee/hand-grip-staff-teal.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/skills/melee/hand-grip-staff-teal.webp",
 			"miscTags": [
 				"THP",
 				"MAC",
@@ -8045,17 +7082,7 @@
 				"If you maintain your {@status concentration} on this spell for the entire duration, the creature is turned to stone until the effect is removed."
 			],
 			"source": "EmperrorsNewGroove",
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/earth/strike-body-stone-crumble.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/earth/strike-body-stone-crumble.webp",
 			"savingThrow": [
 				"constitution"
 			],
@@ -8118,17 +7145,7 @@
 			"components": {
 				"v": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
 			"savingThrow": [
 				"charisma"
 			],
@@ -8188,17 +7205,7 @@
 			"conditionInflict": [
 				"deafened"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/air/fog-gas-smoke-blue-gray.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
 			"damageInflict": [
 				"bludgeoning",
 				"cold",
@@ -8277,17 +7284,7 @@
 				"DFT",
 				"OBJ"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/earth/lava-explosion-orange.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/earth/lava-explosion-orange.webp"
 		},
 		{
 			"name": "Everlasting Rime",
@@ -8344,17 +7341,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/fire/barrier-wall-flame-ring-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/fire/barrier-wall-flame-ring-blue.webp",
 			"damageInflict": [
 				"cold",
 				"radiant",
@@ -8426,17 +7413,7 @@
 				"v": true,
 				"s": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/control/control-influence-crown-yellow.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/control/control-influence-crown-yellow.webp",
 			"savingThrow": [
 				"wisdom"
 			]
@@ -8492,17 +7469,7 @@
 					"cost": 1000
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/light/projectile-smoke-blue-light.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/light/projectile-smoke-blue-light.webp",
 			"damageInflict": [
 				"force"
 			],
@@ -8567,17 +7534,7 @@
 			"areaTags": [
 				"Y"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/fire/beam-jet-stream-yellow.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/fire/beam-jet-stream-yellow.webp"
 		},
 		{
 			"name": "Animus",
@@ -8638,17 +7595,7 @@
 				"MT",
 				"S"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/death/skull-flames-white-blue.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/death/skull-flames-white-blue.webp"
 		},
 		{
 			"name": "A Moment, Shackled",
@@ -8757,17 +7704,7 @@
 			"conditionInflict": [
 				"charmed"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/light/hand-sparks-smoke-green.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/light/hand-sparks-smoke-green.webp",
 			"savingThrow": [
 				"wisdom"
 			]
@@ -8828,17 +7765,7 @@
 				"s": true,
 				"m": "1 pound of lead"
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/fire/explosion-mushroom-nuke-orange.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/fire/explosion-mushroom-nuke-orange.webp",
 			"damageInflict": [
 				"fire",
 				"radiant"
@@ -8896,17 +7823,7 @@
 					"consume": true
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/star-rising-purple.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/symbols/star-rising-purple.webp",
 			"miscTags": [
 				"PRM"
 			]
@@ -9013,17 +7930,7 @@
 					"text": "A collection of diamonds worth at least 500,000 gp, which the spell consumes."
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/life/ankh-gold-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/life/ankh-gold-blue.webp",
 			"areaTags": [
 				"MT",
 				"S"
@@ -9088,17 +7995,7 @@
 				"UBA",
 				"ADV"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/light/explosion-beam-impact-silhouette.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/light/explosion-beam-impact-silhouette.webp",
 			"savingThrow": [
 				"wisdom"
 			]
@@ -9148,17 +8045,7 @@
 					"consume": true
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/symbols/triangle-glowing-green.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/symbols/triangle-glowing-green.webp",
 			"miscTags": [
 				"PRM",
 				"OBJ"
@@ -9215,17 +8102,7 @@
 				"s": true,
 				"m": "One of your eyeballs, which is consumed in the casting of this spell."
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/perception/eye-slit-pink.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/perception/eye-slit-pink.webp",
 			"areaTags": [
 				"ST"
 			]
@@ -9304,17 +8181,7 @@
 					"text": "A holy symbol of Mystra worth at least 5,000 gp."
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/fire/orb-fireball-puzzle.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/fire/orb-fireball-puzzle.webp",
 			"damageInflict": [
 				"force"
 			],
@@ -9376,17 +8243,7 @@
 					"consume": true
 				}
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/earth/explosion-lava-stone-green.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/earth/explosion-lava-stone-green.webp",
 			"miscTags": [
 				"SGT",
 				"PRM",
@@ -9451,17 +8308,7 @@
 			"miscTags": [
 				"FMV"
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/water/wave-water-blue.webp"
-						}
-					}
-				]
-			}
+			"foundryImg": "icons/magic/water/wave-water-blue.webp"
 		},
 		{
 			"name": "Valdick's Relocation",
@@ -9508,17 +8355,7 @@
 				"If the destination is unoccupied, then the area arrives in the same condition as it left. If the destination is an occupied location, then the arriving area merges and overlaps with the existing area. All creatures and objects within the arrival area take {@damage 3d10} force damage as they are scrambled. The DM determines what the final form of the overlapped areas is."
 			],
 			"source": "EmperrorsNewGroove",
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/environment/settlement/stone-stairs.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/environment/settlement/stone-stairs.webp",
 			"components": {
 				"v": true,
 				"m": {
@@ -9576,17 +8413,7 @@
 			"components": {
 				"v": true
 			},
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue.webp"
-						}
-					}
-				]
-			},
+			"foundryImg": "icons/magic/fire/dagger-rune-enchant-flame-strong-blue.webp",
 			"damageInflict": [
 				"force"
 			],
@@ -9878,7 +8705,7 @@
 			"name": "Big Fisted Belt",
 			"source": "EmperrorsNewGroove",
 			"value": 35000,
-			"rarity": "Rare",
+			"rarity": "rare",
 			"reqAttune": true,
 			"weight": 4,
 			"wondrous": true,
@@ -9963,7 +8790,7 @@
 			"name": "Boots of the Tiger",
 			"source": "EmperrorsNewGroove",
 			"value": 98500,
-			"rarity": "",
+			"rarity": "rare",
 			"reqAttune": true,
 			"weight": 2,
 			"wondrous": true,
