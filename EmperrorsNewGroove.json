@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.1.5",
+				"version": "0.1.6",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -2382,7 +2382,7 @@
 				]
 			},
 			"entries": [
-				"You conjure a translucent, featureless, Medium humanoid-shaped force ({@creature Heward's Handy Hireling}) that can perform moderately complex tasks at your direction. It has AC 12, 10 hit points, a speed of 30 feet, and Strength and Dexterity scores of 12. If ordered to fight, it does so using its unarmed strikes (+3 to hit, {@damage 1d4 + 1} bludgeoning damage) or with whatever weapons it is provided (it is proficient with simple and martial weapons). If it drops to 0 hit points or leaves the range of the spell, the spell ends and anything it was carrying falls to the ground in its space.",
+				"You conjure a translucent, featureless, Medium humanoid-shaped force ({@creature Heward's Handy Hireling|emperrorsnewgroove}) that can perform moderately complex tasks at your direction. It has AC 12, 10 hit points, a speed of 30 feet, and Strength and Dexterity scores of 12. If ordered to fight, it does so using its unarmed strikes (+3 to hit, {@damage 1d4 + 1} bludgeoning damage) or with whatever weapons it is provided (it is proficient with simple and martial weapons). If it drops to 0 hit points or leaves the range of the spell, the spell ends and anything it was carrying falls to the ground in its space.",
 				"On each of your turns as a bonus action, you can mentally command the force to move up to 30 feet and interact with an object. The force can perform moderately complex tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the force performs the task to the best of its ability until it completes the task, then waits for your next command. If you don't issue any, it takes the Dodge action and uses its move to avoid danger.",
 				"If you command the force to perform a task that would move it more than 60 feet away from you, the spell ends."
 			],
@@ -3176,7 +3176,7 @@
 				]
 			},
 			"entries": [
-				"You call forth a the projection of a myconid spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature myconid spirit} stat block.",
+				"You call forth a the projection of a myconid spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the {@creature myconid spirit|emperrorsnewgroove} stat block.",
 				"When you cast the spell, choose a clade: Truffle, Toadstool, or Madcap. The clade you choose influences the appearance of the myconid spirit and determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.",
 				"The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your telepathic commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger."
 			],
@@ -3426,7 +3426,7 @@
 			},
 			"entries": [
 				"When you cast this spell, you hold two objects or surfaces together. When you finish casting the spell, any part of the objects that are in contact become stuck fast to each other.",
-				"Objects adhered in this way remain welded for 1 day. The welded objects can be broken apart with an Athletics check with a DC equal to your spell save DC, with a casting of {@spell break} or {@spell grease} of a level equal to or higher than this spell, or with the application of {@item universal solvent}.",
+				"Objects adhered in this way remain welded for 1 day. The welded objects can be broken apart with an Athletics check with a DC equal to your spell save DC, with a casting of {@spell break|emperrorsnewgroove} or {@spell grease} of a level equal to or higher than this spell, or with the application of {@item universal solvent}.",
 				"If you target an object a creature is carrying, that creature can make a Dexterity saving throw to avoid that object becoming welded.",
 				"If you cast this spell on the same two objects for a year, the effect becomes permanent."
 			],
@@ -3486,7 +3486,7 @@
 			},
 			"entries": [
 				"You teleport portions of the target outside of their own body. The target takes {@damage 5d8} force damage, or half as much on a successful Charisma saving throw.",
-				"A target that is under the effects of a {@spell dimensional anchor} spell, or otherwise prevented from teleporting, is immune to this spell."
+				"A target that is under the effects of a {@spell dimensional anchor|emperrorsnewgroove} spell, or otherwise prevented from teleporting, is immune to this spell."
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -5477,8 +5477,8 @@
 				]
 			},
 			"entries": [
-				"When you cast this spell, you lay a magical trap for anyone that would unravel your dweomers. The next spell you cast, following this one, is wrapped in a hidden layer of baneful abjuration magic that damages a creature other than yourself that casts {@spell dispel magic} or otherwise ends that spell early. A creature that does prematurely end the spell encased by {@spell Nosirrag's Baneful Backfire} must make a Wisdom saving throw. On a failed save, they take {@damage 5d8} psychic damage and are {@condition stunned} until the end of their next turn. On a successful save, they take half damage and are not {@condition stunned}.",
-				"{@spell Nosirrag's Baneful Backfire} is difficult to detect with detect magic or similar spells, requiring the caster to succeed on an Arcana check against your spell save DC to notice the presence of an abjuration effect."
+				"When you cast this spell, you lay a magical trap for anyone that would unravel your dweomers. The next spell you cast, following this one, is wrapped in a hidden layer of baneful abjuration magic that damages a creature other than yourself that casts {@spell dispel magic} or otherwise ends that spell early. A creature that does prematurely end the spell encased by {@spell Nosirrag's Baneful Backfire|emperrorsnewgroove} must make a Wisdom saving throw. On a failed save, they take {@damage 5d8} psychic damage and are {@condition stunned} until the end of their next turn. On a successful save, they take half damage and are not {@condition stunned}.",
+				"{@spell Nosirrag's Baneful Backfire|emperrorsnewgroove} is difficult to detect with detect magic or similar spells, requiring the caster to succeed on an Arcana check against your spell save DC to notice the presence of an abjuration effect."
 			],
 			"source": "EmperrorsNewGroove",
 			"entriesHigherLevel": [
@@ -5762,8 +5762,8 @@
 			},
 			"entries": [
 				"This spell holds the magical energy of other spells until needed by the caster. As part of the casting for this spell, choose spells whose slot levels total to 3 or less, and with casting times of 1 action or less. You cast those spells as part of casting sequencer — expending spell slots for all of them— but those spells don't come into effect. Instead, they remains stored until you release them.",
-				"Releasing the spells stored with sequencer is a reaction. When you take this reaction, all of the stored spells are cast at once and take effect in the order you choose. If {@spell sequencer} ends and you have not cast the spells you are holding, then those spells are lost. If a stored spell requires {@status concentration}, then you must still concentrate on it.",
-				"You can only have one {@spell sequencer} spell in effect at a time."
+				"Releasing the spells stored with sequencer is a reaction. When you take this reaction, all of the stored spells are cast at once and take effect in the order you choose. If {@spell sequencer|emperrorsnewgroove} ends and you have not cast the spells you are holding, then those spells are lost. If a stored spell requires {@status concentration}, then you must still concentrate on it.",
+				"You can only have one {@spell sequencer|emperrorsnewgroove} spell in effect at a time."
 			],
 			"source": "EmperrorsNewGroove",
 			"entriesHigherLevel": [
@@ -5907,7 +5907,7 @@
 				"This spell turns a 10-foot cube of rock and stone into an equal volume of mud. If cast upon a boulder, wall, or similar large rock, it collapses into a pool of mud unless otherwise supported. Magical stone is not affected by this spell.",
 				"A large or smaller creature standing on a stone surface that is transmuted into mud might sink into it. A creature that enters the mud on their turn or begins their turn there must make a Strength saving throw or sink into it, becoming Restrained until they succeed on a Strength saving throw. A small or smaller creature that sinks into the mud begins suffocating. Huge and larger creatures are unaffected by mud of this depth.",
 				"Creatures standing under a stone ceiling that is transmuted into mud take {@damage 8d6} bludgeoning damage from the falling mud, or half that on a successful Dexterity saving throw.",
-				"If you cast this spell on a creature made primarily of stone, such as a {@spell gargoyle}, the creature is affected as though by a {@spell slow} spell unless they succeed on a Constitution saving throw.",
+				"If you cast this spell on a creature made primarily of stone, such as a {@creature gargoyle}, the creature is affected as though by a {@spell slow} spell unless they succeed on a Constitution saving throw.",
 				"If you maintain your {@status concentration} on this spell for the entire possible duration, the stone becomes mud permanently. Evaporation turns the mud into normal dirt over a period of days, subject to exposure to sun, wind, and other environmental conditions.",
 				"If this spell ends early, either because you cease {@status concentration||concentrating} or because it is dispelled, the mud is restored to its original stone state, but not necessarily its form."
 			],
@@ -6184,7 +6184,7 @@
 				]
 			},
 			"entries": [
-				"You summon a gelatinous cube to capture your foes like flies in amber. When you cast this spell, choose if you summon a {@creature Gelatinous Cube} or an {@creature Incacerating Cube.}",
+				"You summon a gelatinous cube to capture your foes like flies in amber. When you cast this spell, choose if you summon a {@creature Gelatinous Cube} or an {@creature Incacerating Cube|emperrorsnewgroove}.",
 				"Choose a target you can see within range. Your target must make a Dexterity saving throw. On a failed save, the cube is summoned in your target's space and engulfs the target, as per its engulf ability. On a successful save, the cube instead appears in the nearest unoccupied space.",
 				"A cube summoned by this spell disappears when it drops to 0 hit points or when the spell ends.",
 				"The summoned cube is friendly to you and your companions. The creature acts on your initiative. They obey any telepathic commands that you issue to them (no action required by you). If you don't issue any commands to it, it pursues engulfing and attacking the spell's original target. If the original target is dead, then the cube defends itself but takes no actions.",
@@ -6339,7 +6339,7 @@
 				]
 			},
 			"entries": [
-				"You point your finger at a creature, causing it to dehydrate horribly as the moisture in its body is forcibly extracted through its eyes, nostrils, mouths, and pores. This deals {@damage 8d8} necrotic damage, or half that on a successful Constitution saving throw. After the target takes damage, the water pulled from their body is animated into a creature within 5 feet of the target, which uses the {@creature Elemental Spirit} stat block (water variant only).",
+				"You point your finger at a creature, causing it to dehydrate horribly as the moisture in its body is forcibly extracted through its eyes, nostrils, mouths, and pores. This deals {@damage 8d8} necrotic damage, or half that on a successful Constitution saving throw. After the target takes damage, the water pulled from their body is animated into a creature within 5 feet of the target, which uses the {@creature Elemental Spirit|TCE} stat block (water variant only).",
 				"This spell has no effect on undead or constructs. If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it."
 			],
 			"source": "EmperrorsNewGroove",
@@ -7920,7 +7920,7 @@
 				"This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell fails to affect that creature.",
 				"Coming back from the dead is an ordeal. A target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time a target finishes a long rest, the penalty is reduced by 1 until it disappears.",
 				"This spell is taxing to cast, and you gain 2 levels of Exhaustion upon doing so.",
-				"Casting this spell greatly upsets those who guard the barriers between life and death, who call a Wild Hunt upon the caster. At some point within the next year, at the DM's discretion, a number of {@creature Avatars of Death} (see the stat block in the Deck of Many Things entry) or similar undead creatures equal to the number of creatures resurrected by this spell show up in force to seek the caster's death. If the caster is slain in this encounter, they can't be restored to life."
+				"Casting this spell greatly upsets those who guard the barriers between life and death, who call a Wild Hunt upon the caster. At some point within the next year, at the DM's discretion, one {@creature Avatar of Death|DMG} (or similar undead creature) for each creature resurrected by this spell show up in force to seek the caster's death. If the caster is slain in this encounter, they can't be restored to life."
 			],
 			"source": "EmperrorsNewGroove",
 			"components": {
@@ -8552,18 +8552,6 @@
 			"foundryImg": "icons/equipment/neck/amulet-geometric-stone-red.webp"
 		},
 		{
-			"name": "Amulet of Shopping",
-			"source": "EmperrorsNewGroove",
-			"value": 50000,
-			"rarity": "rare",
-			"wondrous": true,
-			"entries": [
-				"This golden amulet is inscribed with the words: 'Sorcerous Sundries. Sellers to Heroes, Monarchs, Gods'. The words swim to become written in the native language of whoever reads them.",
-				"<b>Shopping Trip.</b> By focusing on this amulet as an action and saying the command word ('Cha-ching'), you are magically transported to the lounge of Sorcerous Sundries. Up to ten creatures, linked by their hands, can accompany you. Once you use this ability, you can't use it again until after 5 days has passed."
-			],
-			"foundryImg": "icons/equipment/neck/amulet-round-engraved-spiral-gold.webp"
-		},
-		{
 			"name": "Astral Sextant",
 			"source": "EmperrorsNewGroove",
 			"value": 25000,
@@ -8842,7 +8830,7 @@
 			"source": "EmperrorsNewGroove",
 			"value": 500000,
 			"rarity": "very rare",
-			"reqAttune": "true",
+			"reqAttune": true,
 			"weight": 1,
 			"wondrous": true,
 			"entries": [
@@ -8989,7 +8977,7 @@
 			"wondrous": true,
 			"recharge": "restLong",
 			"entries": [
-				"This magical cloak can transmute into a four-person tent by uttering its command word, and return to its wearable state with another command word. Additionally, this cloak can be used to cast {@spell leomund's tiny hut}. Once you use this feature, it can't be used again until you complete a long rest."
+				"This magical cloak can transmute into a four-person tent by uttering its command word, and return to its wearable state with another command word. Additionally, this cloak can be used to cast {@spell Leomund's tiny hut}. Once you use this feature, it can't be used again until you complete a long rest."
 			],
 			"foundryImg": "icons/equipment/back/cloak-brown-collared-fur-white-tied.webp"
 		},
@@ -9070,7 +9058,7 @@
 			"recharge": "restLong",
 			"charges": 6,
 			"entries": [
-				"This magical cowl has six golden rings attached to it. As an action, you can remove any number of the rings to create a number of tiny meteors in your space, as per the {@spell melf's minute meteors} spell, equal to the number of rings removed.",
+				"This magical cowl has six golden rings attached to it. As an action, you can remove any number of the rings to create a number of tiny meteors in your space, as per the {@spell Melf's minute meteors|XGE} spell, equal to the number of rings removed.",
 				"{@dice 1d4} rings magically re-appear when you complete a long rest."
 			],
 			"foundryImg": "icons/equipment/head/hood-ringed-leather-red.webp"
@@ -9104,7 +9092,7 @@
 				"This artifact is wrought from the finest yellow gold. Its beautifully crafted framework is set with huge, colored gemstone prisms in place of lenses. An unwavering, pure flame burns within. The faces are normally fitted with clear crystal lenses, but the colorful gem lenses can be slid down to create a variety of magical effects.",
 				"The flame of {@item Daoud's Wondrous Lantern} cannot be extinguished by any known means, other than by exhausting its supply of fuel. If this occurs, however, the lantern's last user is instantly slain. The lantern is fueled by crushed gemstones, contained in a small compartment at its base. The lantern can be refueled with 10,000 gp worth of crushed gemstones, which provide it with 100 charges. If used only to provide light, the lantern burns 1 charge per year. The use of the lantern's magical powers require additional charges, however, and thus burn fuel at a faster rate.",
 				"When open, the lantern provides bright light out to a distance of 60 feet, and dim light out to a distance of 120 feet. The various shutters of the lantern can be operated as an action. The shutters of each side of the lantern can be operated independently, allowing the user to choose the angle light is emitted in 90 degree segments. Based on which lenses are lowered, certain magical effects occur as described below. Unless described otherwise, each lens affects creatures within the lantern's area of bright light (60 feet). The wielder of the lantern is never effected by the lantern's magic.",
-				"<ul><li><b>Closed. </b>The lantern emits no light.</li><li><b>Crystal Lens (1 charge / year). </b>This lens casts a white light that provides no immediate effect, but those touched by the light for at least 4 hours do not need food, drink, or sleep for the next day. Those who spend at least 8 hours in the lantern's glow regain 25 hit points and have the effects of any disease or poison suspended for 24 hours. Those who spend a consecutive week in the light of the lantern are cured of all diseases and have all poisons neutralized.</li><li><b>Ruby Lens (5 charges / round). </b>This lens casts a red light that causes those touched by it to be affected as though they were targeted by a {@spell hold monster} spell.</li><li><b>Jacinth Lens (5 charges / round). </b>This lens casts an orange light that causes those touched by it to burst into magical flames and take {@dice 10d6} fire damage, or half as much on a successful Dexterity saving throw.</li><li><b>Topaz Lens (5 charges / round). </b>This lens casts a yellow light that causes those touched by it to crackle with lightning, taking {@dice 10d6} lightning damage, or half as much on a successful Constitution saving throw.</li><li><b>Emerald Lens (5 charges / round). </b>This lens casts a green light that causes those touched by it to behave as though affected by a {@spell haste} spell for 1 minute.</li><li><b>Sapphire Lens (5 charges / round). </b>This lens casts a blue light that causes those touched by it to become {@condition blinded} unless they succeed on a Wisdom saving throw.</li><li><b>Lapis Lazuli Lens (5 charges / round). </b>This lens casts an indigo light that causes those touched by it to become {@condition frightened} unless they succeed on a Wisdom saving throw.</li><li><b>Amethyst Lens (5 charges / round). </b>This lens casts a violet light that causes those touched by it to be affected as though they were targeted by an {@spell enemies abound} spell.</li><li><b>Multiple Lenses (30 charges / round). </b>You can lower all the lenses of the lantern, causing creatures touched by the light to be affected as though they were targeted by a {@spell prismatic spray} spell.</li><li><b>Spinning Lantern (50 charges / minute). </b>You can lower all of the lenses and spin the lantern, replicating the effects of the {@spell prismatic wall} spell's spherical option, centered on the lantern.</li></ul>",
+				"<ul><li><b>Closed. </b>The lantern emits no light.</li><li><b>Crystal Lens (1 charge / year). </b>This lens casts a white light that provides no immediate effect, but those touched by the light for at least 4 hours do not need food, drink, or sleep for the next day. Those who spend at least 8 hours in the lantern's glow regain 25 hit points and have the effects of any disease or poison suspended for 24 hours. Those who spend a consecutive week in the light of the lantern are cured of all diseases and have all poisons neutralized.</li><li><b>Ruby Lens (5 charges / round). </b>This lens casts a red light that causes those touched by it to be affected as though they were targeted by a {@spell hold monster} spell.</li><li><b>Jacinth Lens (5 charges / round). </b>This lens casts an orange light that causes those touched by it to burst into magical flames and take {@dice 10d6} fire damage, or half as much on a successful Dexterity saving throw.</li><li><b>Topaz Lens (5 charges / round). </b>This lens casts a yellow light that causes those touched by it to crackle with lightning, taking {@dice 10d6} lightning damage, or half as much on a successful Constitution saving throw.</li><li><b>Emerald Lens (5 charges / round). </b>This lens casts a green light that causes those touched by it to behave as though affected by a {@spell haste} spell for 1 minute.</li><li><b>Sapphire Lens (5 charges / round). </b>This lens casts a blue light that causes those touched by it to become {@condition blinded} unless they succeed on a Wisdom saving throw.</li><li><b>Lapis Lazuli Lens (5 charges / round). </b>This lens casts an indigo light that causes those touched by it to become {@condition frightened} unless they succeed on a Wisdom saving throw.</li><li><b>Amethyst Lens (5 charges / round). </b>This lens casts a violet light that causes those touched by it to be affected as though they were targeted by an {@spell enemies abound|XGE} spell.</li><li><b>Multiple Lenses (30 charges / round). </b>You can lower all the lenses of the lantern, causing creatures touched by the light to be affected as though they were targeted by a {@spell prismatic spray} spell.</li><li><b>Spinning Lantern (50 charges / minute). </b>You can lower all of the lenses and spin the lantern, replicating the effects of the {@spell prismatic wall} spell's spherical option, centered on the lantern.</li></ul>",
 				"All Saving Throws for the lantern's magical effects are DC 23.",
 				"Daoud of Tusmit originally created ten colors of gem lenses for the lantern, but when adventurers found it among Iggwilv’s treasures, three of the lenses were missing.",
 				"It is said that anyone who possesses the lantern will slowly grow more and more possessive of it, reaching the point of paranoia after the first year of possession. They will keep it hidden from others and become suspicious of anyone asking about it or touching it. Progressively, the owner will eventually believe others are trying to take the lantern from them and defend it with violence, if necessary."
@@ -9414,7 +9402,6 @@
 			"source": "EmperrorsNewGroove",
 			"value": 16500,
 			"rarity": "uncommon",
-			"reqAttune": true,
 			"weight": 1,
 			"wondrous": true,
 			"entries": [
@@ -9840,7 +9827,7 @@
 			"entries": [
 				"While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground.",
 				"Additionally, this ring has 5 charges. You can expend a charge to cast one of the spells below (Save DC 15). The ring regains all expended charges when you finish a long rest:",
-				"<ul><li>{@spell frost fingers}</li><li>{@spell absorb elements} (cold damage only)</li><li>{@spell flame blade} (2 charges; deals cold damage instead of fire)</li></ul>"
+				"<ul><li>{@spell frost fingers|IDRotF}</li><li>{@spell absorb elements} (cold damage only)</li><li>{@spell flame blade} (2 charges; deals cold damage instead of fire)</li></ul>"
 			]
 		},
 		{
@@ -9909,7 +9896,7 @@
 				"The robe has two of each of the following patches:",
 				"<ul><li>{@item +1 dagger}</li><li>{@item sending stones}</li><li>{@item magic compass}</li><li>{@item mystery key}</li><li>{@item tanglefoot bag}</li><li>{@item sovereign glue}</li></ul>",
 				"In addition, the robe has {@dice 4d4} other patches. The DM chooses the patches or determines them randomly.",
-				"<table><tr><th>{@dice 1d100}</th><th>Patch</th></tr><tr><td>01-08</td><td>Bag of 500 gp</td></tr><tr><td>09-15</td><td>{@item Eversoaking Sponge}</td></tr><tr><td>16-22</td><td>{@creature door mimc}, which is friendly to you</td></tr><tr><td>23-30</td><td>{@item Spell Scroll}, 3rd level</td></tr><tr><td>31-44</td><td>{@item Spell Scroll}, 4th level</td></tr><tr><td>45-51</td><td>{@item Alchemy Jug}</td></tr><tr><td>52-59</td><td>{@item Portable Bridge}</td></tr><tr><td>60-68</td><td>4 {@item potion of superior healing}</td></tr><tr><td>69-75</td><td>2 {@item greater memory potion}</td></tr><tr><td>76-83</td><td>{@item Bag of Holding}</td></tr><tr><td>84-90</td><td>{@item Broom of Flying}</td></tr><tr><td>91-96</td><td>{@item Blindfold of Darkness}</td></tr><tr><td>97-00</td><td>{@item Keg of Smokepowder}</td></tr></table>"
+				"<table><tr><th>{@dice 1d100}</th><th>Patch</th></tr><tr><td>01-08</td><td>Bag of 500 gp</td></tr><tr><td>09-15</td><td>{@item Eversoaking Sponge}</td></tr><tr><td>16-22</td><td>{@creature door golem|emperrorsnewgroove}, which is friendly to you</td></tr><tr><td>23-30</td><td>{@item Spell Scroll}, 3rd level</td></tr><tr><td>31-44</td><td>{@item Spell Scroll}, 4th level</td></tr><tr><td>45-51</td><td>{@item Alchemy Jug}</td></tr><tr><td>52-59</td><td>{@item Portable Bridge}</td></tr><tr><td>60-68</td><td>4 {@item potion of superior healing}</td></tr><tr><td>69-75</td><td>2 {@item greater memory potion}</td></tr><tr><td>76-83</td><td>{@item Bag of Holding}</td></tr><tr><td>84-90</td><td>{@item Broom of Flying}</td></tr><tr><td>91-96</td><td>{@item Blindfold of Darkness}</td></tr><tr><td>97-00</td><td>{@item Keg of Smokepowder}</td></tr></table>"
 			]
 		},
 		{
@@ -9940,7 +9927,7 @@
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
 				"You can play the instrument while casting a spell that causes any of its targets to be {@condition frightened} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
 				"The {@item screaming bagpipes} can be used to cast the following spells:",
-				"<ul><li>{@spell tasha's caustic brew}</li><li>{@spell shatter}</li><li>{@spell fear}</li><li>{@spell confusion}</li></ul>"
+				"<ul><li>{@spell Tasha's caustic brew|TCE}</li><li>{@spell shatter}</li><li>{@spell fear}</li><li>{@spell confusion}</li></ul>"
 			],
 			"foundryImg": "icons/creatures/tentacles/tentacle-eyes-yellow-pink.webp"
 		},
