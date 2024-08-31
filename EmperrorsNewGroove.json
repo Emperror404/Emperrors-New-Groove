@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.1.6",
+				"version": "0.2.6",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -6184,7 +6184,7 @@
 				]
 			},
 			"entries": [
-				"You summon a gelatinous cube to capture your foes like flies in amber. When you cast this spell, choose if you summon a {@creature Gelatinous Cube} or an {@creature Incacerating Cube|emperrorsnewgroove}.",
+				"You summon a gelatinous cube to capture your foes like flies in amber. When you cast this spell, choose if you summon a {@creature Gelatinous Cube} or an {@creature Incarcerating Cube|emperrorsnewgroove}.",
 				"Choose a target you can see within range. Your target must make a Dexterity saving throw. On a failed save, the cube is summoned in your target's space and engulfs the target, as per its engulf ability. On a successful save, the cube instead appears in the nearest unoccupied space.",
 				"A cube summoned by this spell disappears when it drops to 0 hit points or when the spell ends.",
 				"The summoned cube is friendly to you and your companions. The creature acts on your initiative. They obey any telepathic commands that you issue to them (no action required by you). If you don't issue any commands to it, it pursues engulfing and attacking the spell's original target. If the original target is dead, then the cube defends itself but takes no actions.",
@@ -8538,7 +8538,7 @@
 			}
 		}
 	],
-	"item":[
+	"item": [
 		{
 			"name": "Amulet of Form Stability",
 			"source": "EmperrorsNewGroove",
@@ -8714,7 +8714,7 @@
 			"wondrous": true,
 			"entries": [
 				"While wearing this amulet, you are hidden from divination magic. When you are targeted by such magic or perceived through magical scrying sensors, the caster of that spell takes {@dice 10d6} psychic damage, or half that on a successful DC 18 Wisdom saving throw."
-			]			
+			]
 		},
 		{
 			"name": "Blindfold of Darkness",
@@ -10203,6 +10203,2402 @@
 			],
 			"bonusWeapon": "+2",
 			"foundryImg": "icons/weapons/swords/scimitar-blue.webp"
+		}
+	],
+	"monster": [
+		{
+			"name": "Door Golem",
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				5
+			],
+			"hp": {
+				"formula": "6d10 + 30",
+				"average": 63
+			},
+			"speed": {},
+			"str": 20,
+			"dex": 1,
+			"con": 20,
+			"int": 1,
+			"wis": 10,
+			"cha": 1,
+			"passive": 10,
+			"cr": "4",
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"skill": {
+				"athletics": "+7",
+				"perception": "+2"
+			},
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that are not adamantine",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone"
+			],
+			"trait": [
+				{
+					"name": "Bulwark",
+					"entries": [
+						"When the door golem hits a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.",
+						"Creatures provoke opportunity attacks from the door golem even if they take the disengage action before leaving its reach.",
+						"Creatures have disadvantage on acrobatics checks to tumble through the door golem's space, and when they do so the door golem may contest with a Strength (athletics) check instead."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The golem regains 10 hit points at the start of its turn. If the golem is targeted with a knock spell or takes fire damage, this trait doesn't function at the start of the golem's next turn. The golem is destroyed only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "False Appearance",
+					"entries": [
+						"If the golem is embedded in a doorframe and motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the golem move or act, that creature must succeed on a {@dc 18} Intelligence (Investigation) check to discern that the golem is animate."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Unusual Nature",
+					"entries": [
+						"The golem doesn't require air, food, drink, or sleep."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance",
+				"Immutable Form",
+				"Magic Resistance",
+				"Regeneration",
+				"Unusual Nature"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d6 + 10}) bludgeoning damage. On a hit, the target is knocked 10 feet directly away from the golem."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"environment": [
+				"urban"
+			],
+			"save": {
+				"con": "+7"
+			},
+			"damageTags": [
+				"B"
+			]
+		},
+		{
+			"name": "Harpy Skytalon",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"studded leather"
+					]
+				}
+			],
+			"hp": {
+				"special": "98"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"passive": 10,
+			"cr": "5",
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"skill": {
+				"athletics": "+6",
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The harpy doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Mutliattack",
+					"entries": [
+						"When the harpy takes the multiattack action, it makes two attacks: one with it's Glaive, and one with it's Talons"
+					]
+				},
+				{
+					"name": "Stooping Dive",
+					"entries": [
+						"If the Harpy Skytalon moves at least 20 feet on it's turn, it can make a Shove attack as a bonus action."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"action": [
+				{
+					"name": "Glaive",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}11 ({@damage 1d10 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Luring Song",
+					"entries": [
+						"As an action, you can sing a magical melody. Every humanoid and giant within 60 feet must succeed on a Wisdom saving throw with a DC of 8 + your proficiency bonus + your Charisma modifier or be {@condition charmed} until the song ends. You must take a bonus action on its subsequent turns to continue singing. You can stop singing at any time. The song ends if you are {@condition incapacitated}.",
+						"While {@condition charmed} by your song, a target is {@condition incapacitated} and ignores the songs of other harpies. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+						"A target that successfully saves is immune to your song for the next 24 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"MLW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"L",
+				"T"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"attachedItems": [
+				"glaive|phb"
+			],
+			"damageTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Harpy Rainmaker",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"studded leather"
+					]
+				}
+			],
+			"hp": {
+				"special": "65"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"passive": 10,
+			"cr": "5",
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"skill": {
+				"athletics": "+6",
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The harpy doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Mutliattack",
+					"entries": [
+						"When the harpy takes the multiattack action, it makes two attacks with its footbow."
+					]
+				},
+				{
+					"name": "Death From Above",
+					"entries": [
+						"The Harpy Rainmaker has advantage on ranged weapon attacks when they are at least 10 feet above their target."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"action": [
+				{
+					"name": "Footbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 200/600 ft., one target. {@h}12 ({@damage 1d12 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Luring Song",
+					"entries": [
+						"As an action, you can sing a magical melody. Every humanoid and giant within 60 feet must succeed on a Wisdom saving throw with a DC of 8 + your proficiency bonus + your Charisma modifier or be {@condition charmed} until the song ends. You must take a bonus action on its subsequent turns to continue singing. You can stop singing at any time. The song ends if you are {@condition incapacitated}.",
+						"While {@condition charmed} by your song, a target is {@condition incapacitated} and ignores the songs of other harpies. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+						"A target that successfully saves is immune to your song for the next 24 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"L",
+				"T"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Harpy Raider",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"studded leather"
+					]
+				}
+			],
+			"hp": {
+				"special": "78"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"passive": 10,
+			"cr": "5",
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"skill": {
+				"athletics": "+6",
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The harpy doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Mutliattack",
+					"entries": [
+						"When the harpy takes the multiattack action, it makes two attacks: one with its {@condition poisoned} javelins and one with its talons, or two with its {@condition poisoned} javelins"
+					]
+				},
+				{
+					"name": "Aerial Skirmisher",
+					"entries": [
+						"When the Harpy Raider hits with a weapon attack, it can move up to 15 feet without provoking opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"action": [
+				{
+					"name": "Poisoned Javelins",
+					"entries": [
+						"{@atk mw,rw} {@hit 6} to hit, reach 5 ft. or range 200/600 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage in melee, or 9 ({@damage 1d6 + 6}) piercing damage at range, plus 7 ({@damage 2d6}) poison damage, or half as much on a successful {@dc 15} Constitution saving throw. On a failure, it is {@condition poisoned} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Luring Song",
+					"entries": [
+						"As an action, you can sing a magical melody. Every humanoid and giant within 60 feet must succeed on a Wisdom saving throw with a DC of 8 + your proficiency bonus + your Charisma modifier or be {@condition charmed} until the song ends. You must take a bonus action on its subsequent turns to continue singing. You can stop singing at any time. The song ends if you are {@condition incapacitated}.",
+						"While {@condition charmed} by your song, a target is {@condition incapacitated} and ignores the songs of other harpies. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+						"A target that successfully saves is immune to your song for the next 24 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			],
+			"damageTagsSpell": [
+				"L",
+				"T"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Harpy Stormcaller",
+			"size": [
+				"M"
+			],
+			"type": "monstrosity",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"special": "112"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 12,
+			"int": 8,
+			"wis": 10,
+			"cha": 16,
+			"passive": 10,
+			"cr": "6",
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"skill": {
+				"athletics": "+6",
+				"perception": "+3",
+				"stealth": "+6"
+			},
+			"conditionImmune": [
+				"charmed"
+			],
+			"trait": [
+				{
+					"name": "Flyby",
+					"entries": [
+						"The harpy doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Mutliattack",
+					"entries": [
+						"When the harpy takes the multiattack action, it makes two attacks: one with it's Stormwrack Staff, and one with it's Talons"
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby"
+			],
+			"action": [
+				{
+					"name": "Stormwrack Staff",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 1d8 + 7}) piercing damage, plus 3 ({@damage 1d6}) lightning damage."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d4 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Luring Song",
+					"entries": [
+						"As an action, you can sing a magical melody. Every humanoid and giant within 60 feet must succeed on a Wisdom saving throw with a DC of 8 + your proficiency bonus + your Charisma modifier or be {@condition charmed} until the song ends. You must take a bonus action on its subsequent turns to continue singing. You can stop singing at any time. The song ends if you are {@condition incapacitated}.",
+						"While {@condition charmed} by your song, a target is {@condition incapacitated} and ignores the songs of other harpies. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+						"A target that successfully saves is immune to your song for the next 24 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"incapacitated"
+			],
+			"resist": [
+				"lightning"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell gust of wind}",
+						"{@spell levitate}",
+						"{@spell shocking grasp}",
+						"{@spell skywrite|XGE}",
+						"{@spell thunderwave}"
+					],
+					"rest": {
+						"1e": [
+							"{@spell call lightning}",
+							"{@spell thunder step|XGE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTags": [
+				"L",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"L",
+				"T"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength"
+			]
+		},
+		{
+			"name": "White Pudding",
+			"size": [
+				"H"
+			],
+			"type": "ooze",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				7
+			],
+			"hp": {
+				"formula": "14d10 + 56",
+				"average": 133
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 18,
+			"dex": 5,
+			"con": 18,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"passive": 10,
+			"cr": "5",
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"senseTags": [
+				"B"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"immune": [
+				"acid",
+				"cold",
+				"lightning",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The pudding can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Corrosive Form",
+					"entries": [
+						"A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 9 ({@damage 2d8}) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative −1 penalty to damage rolls. If its penalty drops to −5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage. The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Adhesive",
+					"entries": [
+						"The white pudding adheres to anything that touches it. A Huge or smaller creature adhered to the white pudding is also {@condition grappled} by it (escape {@dc 15}). Ability checks made to escape this grapple have disadvantage."
+					]
+				}
+			],
+			"traitTags": [
+				"Amorphous",
+				"Spider Climb"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) bludgeoning damage, plus 22 ({@damage 5d8}) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"A",
+				"B"
+			]
+		},
+		{
+			"name": "Adult Steel Dragon",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"languages": [
+				"Draconic",
+				"Common"
+			],
+			"languageTags": [
+				"DR",
+				"C"
+			],
+			"damageTagsLegendary": [],
+			"group": [
+				"Ferrous Dragon"
+			],
+			"size": [
+				"H"
+			],
+			"type": "dragon",
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 243,
+				"formula": "18d12 + 126"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 27,
+			"dex": 10,
+			"con": 25,
+			"int": 16,
+			"wis": 13,
+			"cha": 21,
+			"save": {
+				"dex": "+5",
+				"con": "+12",
+				"wis": "+6",
+				"cha": "+10"
+			},
+			"skill": {
+				"history": "+8",
+				"stealth": "+5",
+				"perception": "+11"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 21,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. {@h}19 ({@damage 2d10 + 8}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d6 + 8}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 13} to hit, reach 15 ft., one target. {@h}17 ({@damage 2d8 + 8}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Acid Breath",
+									"entry": "The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 19} Dexterity saving throw, taking 58 ({@damage 13d8}) acid damage on a failed save, or half as much damage on a successful one."
+								},
+								{
+									"type": "item",
+									"name": "Paralyzing Breath",
+									"entry": "The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a {@dc 19} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+						"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 22} Dexterity saving throw or take 15 ({@damage 2d6 + 8}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"dragonAge": "adult",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"restrained"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution"
+			],
+			"token": {
+				"name": "Stalagma Steelshadow",
+				"source": "WDMM"
+			},
+			"environment": [
+				"urban"
+			],
+			"alias": [
+				"Steel Dragon"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Ancient Steel Dragon",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"languages": [
+				"Draconic",
+				"Common"
+			],
+			"languageTags": [
+				"DR",
+				"C"
+			],
+			"damageTagsLegendary": [],
+			"group": [
+				"Ferrous Dragon"
+			],
+			"size": [
+				"G"
+			],
+			"type": "dragon",
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "28d20 + 252",
+				"average": 546
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 30,
+			"dex": 10,
+			"con": 29,
+			"int": 18,
+			"wis": 15,
+			"cha": 23,
+			"save": {
+				"dex": "+7",
+				"con": "+16",
+				"wis": "+9",
+				"cha": "+13"
+			},
+			"skill": {
+				"history": "+11",
+				"stealth": "+7",
+				"perception": "+16"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 26,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the dragon fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 10 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d6 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 17} to hit, reach 15 ft., one target. {@h}19 ({@damage 2d8 + 10}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Frightful Presence",
+					"entries": [
+						"Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a {@dc 21} Wisdom saving throw or become {@condition frightened} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Acid Breath",
+									"entry": "The dragon exhales acid in a 90-foot line that is 5 feet wide. Each creature in that line must make a {@dc 22} Dexterity saving throw, taking 58 ({@damage 13d8}) acid damage on a failed save, or half as much damage on a successful one."
+								},
+								{
+									"type": "item",
+									"name": "Paralyzing Breath",
+									"entry": "The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a {@dc 22} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+						"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Detect",
+					"entries": [
+						"The dragon makes a Wisdom ({@skill Perception}) check."
+					]
+				},
+				{
+					"name": "Tail Attack",
+					"entries": [
+						"The dragon makes a tail attack."
+					]
+				},
+				{
+					"name": "Wing Attack (Costs 2 Actions)",
+					"entries": [
+						"The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a {@dc 25} Dexterity saving throw or take 17 ({@damage 2d6 + 10}) bludgeoning damage and be knocked {@condition prone}. The dragon can then fly up to half its flying speed."
+					]
+				}
+			],
+			"dragonAge": "ancient",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed",
+				"prone"
+			],
+			"conditionInflictLegendary": [
+				"restrained"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution"
+			],
+			"token": {
+				"name": "Stalagma Steelshadow",
+				"source": "WDMM"
+			},
+			"environment": [
+				"urban"
+			],
+			"alias": [
+				"Steel Dragon"
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Young Steel Dragon",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"languages": [
+				"Draconic",
+				"Common"
+			],
+			"languageTags": [
+				"DR",
+				"C"
+			],
+			"damageTagsLegendary": [],
+			"group": [
+				"Ferrous Dragon"
+			],
+			"size": [
+				"L"
+			],
+			"type": "dragon",
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "17d10 + 85",
+				"average": 178
+			},
+			"speed": {
+				"walk": 40,
+				"fly": 80
+			},
+			"str": 24,
+			"dex": 10,
+			"con": 21,
+			"int": 14,
+			"wis": 11,
+			"cha": 19,
+			"save": {
+				"dex": "+4",
+				"con": "+9",
+				"wis": "+4",
+				"cha": "+8"
+			},
+			"skill": {
+				"stealth": "+4",
+				"perception": "+8",
+				"history": "+6"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "9",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d6 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Acid Breath",
+									"entry": "The dragon exhales acid in a 40-foot line that is 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 55 ({@damage 12d8}) acid damage on a failed save, or half as much damage on a successful one."
+								},
+								{
+									"type": "item",
+									"name": "Paralyzing Breath",
+									"entry": "The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a {@dc 16} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								}
+							]
+						}
+					]
+				}
+			],
+			"dragonAge": "young",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"conditionInflictLegendary": [
+				"restrained"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution"
+			],
+			"token": {
+				"name": "Stalagma Steelshadow",
+				"source": "WDMM"
+			},
+			"environment": [
+				"urban"
+			],
+			"damageTags": [
+				"A",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			]
+		},
+		{
+			"name": "Steel Dragon Wyrmling",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"damageTagsLegendary": [],
+			"group": [
+				"Ferrous Dragon"
+			],
+			"size": [
+				"M"
+			],
+			"type": "dragon",
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					],
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 30",
+				"average": 75
+			},
+			"speed": {
+				"walk": 30,
+				"fly": 60
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 17,
+			"int": 12,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"dex": "+2",
+				"con": "+5",
+				"wis": "+2",
+				"cha": "+4"
+			},
+			"skill": {
+				"stealth": "+2",
+				"perception": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"cr": "4",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}9 ({@damage 1d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Breath Weapons {@recharge 5}",
+					"entries": [
+						"The dragon uses one of the following breath weapons.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Acid Breath",
+									"entry": "The dragon exhales acid in a 20-foot line that is 5 feet wide. Each creature in that line must make a {@dc 12} Dexterity saving throw, taking 26 ({@damage 6d8}) acid damage on a failed save, or half as much damage on a successful one."
+								},
+								{
+									"type": "item",
+									"name": "Paralyzing Breath",
+									"entry": "The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a {@dc 12} Constitution saving throw or be {@condition paralyzed} for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+								}
+							]
+						}
+					]
+				}
+			],
+			"dragonAge": "wyrmling",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Frightful Presence",
+				"Multiattack",
+				"Shapechanger"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"paralyzed"
+			],
+			"conditionInflictLegendary": [
+				"restrained"
+			],
+			"savingThrowForcedLegendary": [
+				"constitution"
+			],
+			"token": {
+				"name": "Stalagma Steelshadow",
+				"source": "WDMM"
+			},
+			"environment": [
+				"urban"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			]
+		},
+		{
+			"name": "Wortling",
+			"size": [
+				"S"
+			],
+			"type": "plant",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 2,
+			"wis": 12,
+			"cha": 6,
+			"passive": 11,
+			"cr": "3",
+			"senses": [
+				"tremorsense 30 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"skill": {
+				"athletics": "+5"
+			},
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"poisoned"
+			],
+			"trait": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The wortling makes two attacks with its thornclaws."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Thornclaw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) bludgeoning damage, plus 7 ({@damage 2d6}) poison damage. On a successful hit, the wortling can push the target 5 ft. away from them."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"B",
+				"I"
+			]
+		},
+		{
+			"name": "Orcwort",
+			"size": [
+				"G"
+			],
+			"type": "plant",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				8
+			],
+			"hp": {
+				"formula": "24d8 + 240",
+				"average": 348
+			},
+			"speed": {},
+			"str": 30,
+			"dex": 7,
+			"con": 30,
+			"int": 10,
+			"wis": 16,
+			"cha": 10,
+			"passive": 13,
+			"cr": "16",
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"paralyzed",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The orcwort makes three slam attacks and a bite attack."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 20 ft., one target. {@h}42 ({@damage 4d10 + 20}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 15} to hit, reach 5 ft., one target. {@h}38 ({@damage 4d8 + 20}) piercing damage, plus 17 ({@damage 5d6}) psychic damage. If the target is a Large or smaller creature, it must succeed on a {@dc 18} Dexterity saving throw or be swallowed by the orcwort. A swallowed creature is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the orcwort, and it takes 18 ({@dice 5d6}) acid damage at the start of each of the orcwort's turns."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Swallow"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"blinded",
+				"restrained"
+			],
+			"bonus": [
+				{
+					"name": "Entangling Roots",
+					"entries": [
+						"The orcwort twists its roots around creatures of its choice within 30 feet of it, holding them fast. Targeted creatures must make a {@dc 18} Strength save or be {@condition restrained}. A creature that is {@condition restrained} can use its action to make a Strength save to free itself."
+					]
+				},
+				{
+					"name": "Spawn Wortling",
+					"entries": [
+						"As a bonus action, the Orcwort spawns {@dice 1d4} {@creature wortling|emperrorsnewgroove}s in unoccupied spaces within 30 feet. "
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"P",
+				"Y"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Ekolid",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fiend",
+				"note": "(obyrith)"
+			},
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				16
+			],
+			"hp": {
+				"formula": "8d10 + 24",
+				"average": 68
+			},
+			"speed": {
+				"walk": 30,
+				"fly": {
+					"number": 60,
+					"condition": "hover"
+				},
+				"canHover": true,
+				"climb": 30
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 16,
+			"int": 10,
+			"wis": 14,
+			"cha": 16,
+			"passive": 12,
+			"cr": "6",
+			"senses": [
+				"truesight 60 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"Abyssal",
+				"telepathy 500 ft. (with other obyriths only)"
+			],
+			"languageTags": [
+				"AB",
+				"TP"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"resist": [
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from attacks that are not magical",
+					"cond": true
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"trait": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ekolid makes three attacks."
+					]
+				},
+				{
+					"name": "Sickening Speed",
+					"entries": [
+						"The ekolid can {@action dash} as a bonus action.  While it is moving on its turn, it is {@condition invisible}."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The obyrith regains 10 hit points at the start of its turn if it has at least 1 hit point. If the obyrith takes radiant damage, this trait doesn't function at the start of the obyrith's next turn."
+					]
+				},
+				{
+					"name": "È̸͕x̴͓͛͊o̴̭̽̇p̸͖͔̎l̸̏̓ͅà̷̯́n̵͚̋͂á̶̙̕ř̵̫ ̷̥̉T̷̡̄̓͜e̴̗̍̒r̶̙̹̄͂r̷̡͋͝o̵̯̼̅ṛ̴͠",
+					"entries": [
+						"Obyriths appear in forms so noxious and horrific that non-fiends within 30 feet of an obyrith who observe it are vulnerable to exoplanar terror. When a creature first encounters an obyrith, it must make a {@dc 15} Wisdom saving throw. On a success, you are immune to the Exoplanar Terror of all obyriths for 24 hours. On a failure, the creature is {@condition frightened} of all obyriths for 1 minute. The creature may attempt the saving throw again after 1 minute. A creature that fails by 5 or more acts erratically for the duration of their affliction. They cannot take reactions, and must roll a {@dice d10} at the start of their turn to determine their behavior for that turn:",
+						"1 The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn.",
+						"2-6 The creature is {@condition paralyzed} until the start of its next turn.",
+						"7-8 The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature drops {@condition prone} instead.",
+						"9-10 The creature is {@condition restrained}. If the creature rolls this result two turns in a row, it becomes {@condition petrified}, as it transmutes into a statue of solid bone.",
+						"Blindness is no protection against an obyrith's Exoplanar Terror- their presence is an affront to all five senses.",
+						"A creature afflicted by Exoplanar Terror can be cured by {@spell remove curse}, {@spell greater restoration}, or more powerful magic.",
+						"A creature that rolls a natural 1 on this test is additionally affected as though by the {@creature ekolid|emperrorsnewgroove}'s Implant Larvae ability, in addition to any other effects."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the ekolid is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Psychic Buzz",
+					"entries": [
+						"The ekolid's telepathy is a constant buzz that can be sensed by anyone (especially the psionically attuned) within 500 feet. However, it becomes obvious to all creatures while they are with 50 feet as an aggravating static in the back of their mind, interrupting their thought processes and weakening their will. Within this radius, creatures have disadvantage on Intelligence, Wisdom, and Charisma saving throws.",
+						"A creature that starts their turn for the first time within 5 feet of an ekolid must make a {@dc 14} Charisma saving throw. On a failure, their mind is briefly drowned out by the psychic buzz and all thought and will fade from them; they are {@condition stunned} until the beginning of their next turn.",
+						"A creature that is immune to the {@condition charmed} condition is unaffected."
+					]
+				},
+				{
+					"name": "Implant Larvae",
+					"entries": [
+						"A creature that is implanted takes {@dice 2d6} necrotic damage each hour as larvae consume them from the inside. The corpse of a creature that dies while implanted erupts in a larval swarm {@dice 1d6} rounds later. A larval swarm disperses quickly if not immediately slain, as the growing ekolids seek to infest this plane.",
+						"A creature that is immune to disease cannot be implanted. A creature that is implanted can be cured with a {@spell lesser restoration} or {@spell remove curse} spell, or it can be surgically excised with a {@dc 20} Medicine check and 1 hour of operation (on a failure, the surgeon misses one or more larvae)."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The obyrith's attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage, plus 7 ({@damage 2d6}) acid damage, and the target must succeed on a {@dc 14} Constitution saving throw or be implanted (see the ekolid's Implant Larvae feature)."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"traitTags": [
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed",
+				"restrained"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"constitution",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Larval Obyrith Swarm",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "fiend",
+				"swarmSize": "T",
+				"note": "(obyrith)"
+			},
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "7d10 + 7",
+				"average": 45
+			},
+			"speed": {
+				"fly": {
+					"number": 30,
+					"condition": "hover"
+				},
+				"canHover": true,
+				"walk": 5
+			},
+			"str": 6,
+			"dex": 18,
+			"con": 12,
+			"int": 8,
+			"wis": 10,
+			"cha": 14,
+			"passive": 10,
+			"cr": "3",
+			"senses": [
+				"truesight 60 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"resist": [
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"trait": [
+				{
+					"name": "Sickening Speed",
+					"entries": [
+						"The ekolid can {@action dash} as a bonus action.  While it is moving on its turn, it is {@condition invisible}."
+					]
+				},
+				{
+					"name": "È̸͕x̴͓͛͊o̴̭̽̇p̸͖͔̎l̸̏̓ͅà̷̯́n̵͚̋͂á̶̙̕ř̵̫ ̷̥̉T̷̡̄̓͜e̴̗̍̒r̶̙̹̄͂r̷̡͋͝o̵̯̼̅ṛ̴͠",
+					"entries": [
+						"Obyriths appear in forms so noxious and horrific that non-fiends within 30 feet of an obyrith who observe it are vulnerable to exoplanar terror. When a creature first encounters an obyrith, it must make a {@dc 15} Wisdom saving throw. On a success, you are immune to the Exoplanar Terror of all obyriths for 24 hours. On a failure, the creature is {@condition frightened} of all obyriths for 1 minute. The creature may attempt the saving throw again after 1 minute. A creature that fails by 5 or more acts erratically for the duration of their affliction. They cannot take reactions, and must roll a {@dice d10} at the start of their turn to determine their behavior for that turn:",
+						"1 The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn.",
+						"2-6 The creature is {@condition paralyzed} until the start of its next turn.",
+						"7-8 The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature drops {@condition prone} instead.",
+						"9-10 The creature is {@condition restrained}. If the creature rolls this result two turns in a row, it becomes {@condition petrified}, as it transmutes into a statue of solid bone.",
+						"Blindness is no protection against an obyrith's Exoplanar Terror- their presence is an affront to all five senses.",
+						"A creature afflicted by Exoplanar Terror can be cured by {@spell remove curse}, {@spell greater restoration}, or more powerful magic.",
+						"A creature that rolls a natural 1 on this test is additionally affected as though by the {@creature ekolid|emperrorsnewgroove}'s Implant Larvae ability, in addition to any other effects."
+					]
+				},
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The obyrith's attacks are magical."
+					]
+				},
+				{
+					"name": "Teeming Mass",
+					"entries": [
+						"Whenever the swarm takes the attack action, it attacks all creatures it shares a space with."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"conditionInflict": [
+				"frightened",
+				"paralyzed",
+				"restrained"
+			],
+			"action": [
+				{
+					"name": "Sting",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage, plus 5 ({@damage 2d4}) acid damage."
+					]
+				},
+				{
+					"name": "Sting (1/2 hit points)",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, plus 2 ({@damage 1d4}) acid damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Draudnu",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "fiend",
+				"note": "(obyrith)"
+			},
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "15d10 + 60",
+				"average": 142
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 22,
+			"dex": 16,
+			"con": 18,
+			"int": 14,
+			"wis": 14,
+			"cha": 18,
+			"passive": 16,
+			"cr": "11",
+			"senses": [
+				"truesight 60 ft."
+			],
+			"senseTags": [
+				"U"
+			],
+			"languages": [
+				"Abyssal",
+				"telepathy 100 ft."
+			],
+			"languageTags": [
+				"AB",
+				"TP"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"resist": [
+				{
+					"resist": [
+						"acid",
+						"cold",
+						"fire",
+						"lightning"
+					]
+				},
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from attacks that are not +1 or greater",
+					"cond": true
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"trait": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The draudnu makes three attacks."
+					]
+				},
+				{
+					"name": "Leap",
+					"entries": [
+						"Draudnus have powerful jumping legs. As an action, they can leap through the air to any location within 50 feet."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The obyrith regains 10 hit points at the start of its turn if it has at least 1 hit point. If the obyrith takes radiant damage, this trait doesn't function at the start of the obyrith's next turn."
+					]
+				},
+				{
+					"name": "È̸͕x̴͓͛͊o̴̭̽̇p̸͖͔̎l̸̏̓ͅà̷̯́n̵͚̋͂á̶̙̕ř̵̫ ̷̥̉T̷̡̄̓͜e̴̗̍̒r̶̙̹̄͂r̷̡͋͝o̵̯̼̅ṛ̴͠",
+					"entries": [
+						"Obyriths appear in forms so noxious and horrific that non-fiends within 30 feet of an obyrith who observe it are vulnerable to exoplanar terror. When a creature first encounters an obyrith, it must make a {@dc 15} Wisdom saving throw. On a success, you are immune to the Exoplanar Terror of all obyriths for 24 hours. On a failure, the creature is {@condition frightened} of all obyriths for 1 minute. The creature may attempt the saving throw again after 1 minute. A creature that fails by 5 or more acts erratically for the duration of their affliction. They cannot take reactions, and must roll a {@dice d10} at the start of their turn to determine their behavior for that turn:",
+						"1 The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn.",
+						"2-6 The creature is {@condition paralyzed} until the start of its next turn.",
+						"7-8 The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature drops {@condition prone} instead.",
+						"9-10 The creature is {@condition restrained}. If the creature rolls this result two turns in a row, it becomes {@condition petrified}, as it transmutes into a statue of solid bone.",
+						"Blindness is no protection against an obyrith's Exoplanar Terror- their presence is an affront to all five senses.",
+						"A creature afflicted by Exoplanar Terror can be cured by {@spell remove curse}, {@spell greater restoration}, or more powerful magic.",
+						"A creature that rolls a natural 1 on this test is additionally affected as though by the {@creature ekolid|emperrorsnewgroove}'s Implant Larvae ability, in addition to any other effects."
+					]
+				},
+				{
+					"name": "Acidic Spray",
+					"entries": [
+						"Whenever the draudnu takes damage, all creatures within 5 feet of it are sprayed with acidic fluid from the sacs covering its body. They take {@dice 3d6} acid damage, or half on a successful {@dc 16} Dexterity saving throw."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The obyrith's attacks are magical."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Weapons",
+				"Regeneration"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"restrained"
+			],
+			"skill": {
+				"acrobatics": "+7",
+				"perception": "+6"
+			},
+			"action": [
+				{
+					"name": "Flesh Hook",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 2d12 + 6}) piercing damage, plus 7 ({@damage 2d6}) acid damage.  On a successful hit, the target is {@condition grappled}."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"A",
+				"P"
+			],
+			"savingThrowForced": [
+				"dexterity",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Heward's Handy Hireling",
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"special": "10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 10,
+			"int": 5,
+			"wis": 5,
+			"cha": 1,
+			"passive": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"languages": [
+				"understands one language (usually Common) but can't speak"
+			],
+			"languageTags": [
+				"C",
+				"CS"
+			],
+			"skill": {
+				"athletics": "+3"
+			},
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"unconscious"
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Incarcerating Cube",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				6
+			],
+			"hp": {
+				"formula": "12d10 + 60",
+				"average": 126
+			},
+			"speed": {
+				"walk": 15
+			},
+			"str": 14,
+			"dex": 3,
+			"con": 20,
+			"int": 1,
+			"wis": 6,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Ooze Cube",
+					"entries": [
+						"The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube's Engulf and has disadvantage on the saving throw.",
+						"Creatures inside the cube can be seen but have total cover.",
+						"A creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful {@dc 16} Strength check.",
+						"The cube can hold only one Large creature or up to four Medium or smaller creatures inside it at a time."
+					]
+				},
+				{
+					"name": "Transparent",
+					"entries": [
+						"Even when the cube is in plain sight, it takes a successful {@dc 15} Wisdom ({@skill Perception}) check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube's space while unaware of the cube is {@status surprised} by the cube."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Engulf",
+					"entries": [
+						"The cube moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the cube enters a creature's space, the creature must make a {@dc 16} Dexterity saving throw.",
+						"On a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.",
+						"On a failed save, the cube enters the creature's space, and the creature is engulfed. The incarcerating cube is porous and air-permeable, and engulfed creatures are able to breathe normally. Engulfed creatures are {@condition restrained}. When the cube moves, the engulfed creature moves with it.",
+						"An engulfed creature can try to escape by taking an action to make an opposed Athletics check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube. When a creature fails to escape, they suffer a cumulative -1 penalty on future escape attempts."
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/gelatinous-cube.mp3"
+			},
+			"senseTags": [
+				"B"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Gelatinous Cube",
+				"source": "MM"
+			},
+			"fluff": {
+				"name": "Gelatinous Cube",
+				"source": "MM",
+				"entries": [
+					"Gelatinous cubes scour dungeon passages in silent, predictable patterns, leaving perfectly clean paths in their wake. They consume living tissue while leaving bones and other materials undissolved.",
+					"A gelatinous cube is all but transparent, making it hard to spot until it attacks. A cube that is well fed can be easier to spot, since its victims' bones, coins, and other objects can be seen suspended inside the creature.",
+					{
+						"type": "insetReadaloud",
+						"entries": [
+							{
+								"type": "quote",
+								"entries": [
+									"The dungeon's floors were spotless. That should have been our first clue."
+								],
+								"by": "From the journal of Jaster Hollowquill, on his first exploration of Undermountain"
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Gelatinous Cube.webp"
+						}
+					}
+				]
+			},
+			"skill": {
+				"athletics": "+6"
+			},
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Spell-Eater",
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"source": "EmperrorsNewGroove",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				17
+			],
+			"hp": {
+				"formula": "15d8 + 60",
+				"average": 127
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 14,
+			"con": 18,
+			"int": 10,
+			"wis": 8,
+			"cha": 7,
+			"passive": 9,
+			"cr": "6",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"athletics": "+8",
+				"stealth": "+5"
+			},
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The spell-eater can breathe air and water."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The spell-eater has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Sense Magic",
+					"entries": [
+						"The spell-eater senses magic within 120 feet of it at will. This trait otherwise works like the {@spell detect magic} spell but isn't itself magical"
+					]
+				},
+				{
+					"name": "Underwater Camouflage",
+					"entries": [
+						"The spell-eater has advantage on Dexterity ({@skill Stealth}) checks made while underwater."
+					]
+				},
+				{
+					"name": "Absorb Magic",
+					"entries": [
+						"When the spell-eater is targeted by spells or magical effects, it regains {@dice 2d6} hit points instead of being affected by the magic. It also receives this benefit if a creature it is grappling casts a spell, or is the target of a spell.",
+						"The spell-eater has resistance to damage caused by magical weapons."
+					]
+				},
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The spell-eater makes three melee attacks: one with its tentacle bite and two with its claws."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Magic Resistance"
+			],
+			"bonus": [
+				{
+					"name": "Voracious Arcanophage",
+					"entries": [
+						"The spell-eater can feed on any magic items held by a creature it has {@condition grappled}. The magic item loses all of its magical properties for {@dice 1d4} rounds, and the spell-eater regains 28 ({@dice 8d4 + 8}) hit points. If the spell-eater feeds off the same magic item for 3 consecutive rounds, the magic item is rendered mundane and permanently loses all its magical properties."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d6 + 10}) slashing damage."
+					]
+				},
+				{
+					"name": "Tentacle Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}21 ({@damage 2d10 + 10}) piercing damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the spell-eater can't use its tentacle bite on another target."
+					]
+				},
+				{
+					"name": "Antimagic Pulse {@recharge 5}",
+					"entries": [
+						"The spell-eater releases an aura of arcane static that disrupts the Weave within 30 feet. All spellcasters within range must make a {@dc 15} Constitution saving throw to maintain {@status concentration} on their spells. Spell effects within range that are not {@status concentration} immediately end. Magic items within range lose {@dice 1d4} charges."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
 		}
 	]
 }
