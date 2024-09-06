@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.2.8",
+				"version": "0.3.0",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -14,7 +14,7 @@
 			}
 		],
 		"dateAdded": 1724510566,
-		"dateLastModified": 1724693587
+		"dateLastModified": 1725484273
 	},
 	"spell": [
 		{
@@ -9269,7 +9269,7 @@
 						"{@b Crystal Lens (1 charge / year).} This lens casts a white light that provides no immediate effect, but those touched by the light for at least 4 hours do not need food, drink, or sleep for the next day. Those who spend at least 8 hours in the lantern's glow regain 25 hit points and have the effects of any disease or poison suspended for 24 hours. Those who spend a consecutive week in the light of the lantern are cured of all diseases and have all poisons neutralized.",
 						"{@b Ruby Lens (5 charges / round).} This lens casts a red light that causes those touched by it to be affected as though they were targeted by a {@spell hold monster} spell.",
 						"{@b Jacinth Lens (5 charges / round).} This lens casts an orange light that causes those touched by it to burst into magical flames and take {@dice 10d6} fire damage, or half as much on a successful Dexterity saving throw.",
-						"{@b Topaz Lens (5 charges / round).} This lens casts a yellow light that causes those touched by it to crackle with lightning, taking {@dice 10d6} lightning damage, or half as much on a successful Constitution saving throw.}",
+						"{@b Topaz Lens (5 charges / round).} This lens casts a yellow light that causes those touched by it to crackle with lightning, taking {@dice 10d6} lightning damage, or half as much on a successful Constitution saving throw.",
 						"{@b Emerald Lens (5 charges / round).} This lens casts a green light that causes those touched by it to behave as though affected by a {@spell haste} spell for 1 minute.",
 						"{@b Sapphire Lens (5 charges / round).} This lens casts a blue light that causes those touched by it to become {@condition blinded} unless they succeed on a Wisdom saving throw.",
 						"{@b Lapis Lazuli Lens (5 charges / round).} This lens casts an indigo light that causes those touched by it to become {@condition frightened} unless they succeed on a Wisdom saving throw.",
@@ -9802,6 +9802,28 @@
 				"While attuned to this item, you cannot be killed by beheading. If you are beheaded, either by mundane means or by a {@item vorpal sword} or similar weapon, you become {@condition blinded} and {@condition deafened}. At the end of your next turn, your head grows back."
 			],
 			"foundryImg": "icons/equipment/neck/torc-striped-blue.webp"
+		},
+		{
+			"name": "Imyrith's Talon +2",
+			"type": "M",
+			"weaponCategory": "martial",
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L"
+			],
+			"tier": "major",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"source": "EmperrorsNewGroove",
+			"value": 131500,
+			"entries": [
+				"This magical scimitar is made from one of the talons of the great wyrm Imyrith. You have a +2 bonus to attack and damage rolls made with this magical scimitar and deal an additional {@dice 1d6} lightning damage on a successful hit. In addition, you can use this scimitar to cast {@spell lightning bolt} (save DC 15) once per long rest."
+			],
+			"bonusWeapon": "+2",
+			"foundryImg": "icons/weapons/swords/scimitar-blue.webp"
 		},
 		{
 			"name": "Infernal Ruby Pendant",
@@ -10690,28 +10712,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Imyrith's Talon +2",
-			"type": "M",
-			"weaponCategory": "martial",
-			"weight": 3,
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"property": [
-				"F",
-				"L"
-			],
-			"tier": "major",
-			"rarity": "very rare",
-			"reqAttune": true,
-			"source": "EmperrorsNewGroove",
-			"value": 131500,
-			"entries": [
-				"This magical scimitar is made from one of the talons of the great wyrm Imyrith. You have a +2 bonus to attack and damage rolls made with this magical scimitar and deal an additional {@dice 1d6} lightning damage on a successful hit. In addition, you can use this scimitar to cast {@spell lightning bolt} (save DC 15) once per long rest."
-			],
-			"bonusWeapon": "+2",
-			"foundryImg": "icons/weapons/swords/scimitar-blue.webp"
 		}
 	],
 	"monster": [
@@ -13736,31 +13736,96 @@
 			]
 		},
 		{
-			"name": "Phanaton",
+    "name": "Grimlock",
+    "source": "EmperrorsNewGroove",
+    "size": [
+        "M"
+    ],
+    "speed": 30,
+    "ability": [
+        {
+            "str": 2,
+            "dex": 1
+        }
+    ],
+    "languageProficiencies": [
+        {
+            "undercommon": true
+        }
+    ],
+    "blindsight": 30,
+    "entries": [
+        {
+            "name": "Age",
+            "type": "entries",
+            "entries": [
+                "Life in the Underdark is violent, meaning many grimlocks are slain early in life.  Grimlocks mature and age at about the same rate as humans."
+            ]
+        },
+        {
+            "name": "Blindsight",
+            "entries": [
+                "Grimlocks have no eyes, but have four other finely honed senses.  You can perceive your surroundings within 30 ft. with the same degree of detail as if you could see. While you are deafened, this radius is reduced to 10 ft.  Beyond this radius, you are considered to be blind.  Grimlock spellcasters can cast spells upon creatures within their blindsight as though they had direct line of sight.",
+				"As a side effect, you are immune to visual illusions and other spells that target or fool the sense of sight.  You have advantage on Wisdom (Perception) checks that rely on hearing or smell."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Mind-Wracked",
+            "entries": [
+                "Generations of servitude to illithids have left you well postured to fend off mental assaults. When you fail an Intelligence, Wisdom, or Charisma saving throw, you can choose to roll a {@dice d6} and add it to the result, possibly changing it into a success. If the save becomes a success, you can’t use this ability again until you complete a short rest. "
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Stone Camouflage",
+            "entries": [
+                "You have advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Languages",
+            "entries": [
+                "You can speak Undercommon.  Additionally, grimlocks have adapted the “qualith” tactile writing system of the illithids for their own use.  Temporary writing is made upon wax surfaces in ceramic frames that are easily erased with the application of heat, while more enduring records are carved into stone, wood, or bone surfaces.",
+				"A grimlock’s sense of touch is so finely honed that they can read printed writing (assuming they know the language) merely by feeling impressions upon the page and dried ink, though this takes 10 times as long as a sighted creature doing so."
+            ],
+            "type": "entries"
+        }
+    ]
+		},
+		{
+			"name": "Half-Fey",
 			"source": "EmperrorsNewGroove",
 			"size": [
+				"M",
 				"S"
 			],
 			"speed": {
-				"walk": 25,
-				"climb": 25
+				"walk": 30,
+				"fly": 30
 			},
 			"ability": [
 				{
-					"dex": 2,
-					"con": 1
+					"cha": 2,
+					"dex": 1
 				}
-			],
-			"traitTags": [
-				"Natural Weapon"
 			],
 			"languageProficiencies": [
 				{
-					"common": true
+					"common": true,
+					"sylvan": true
 				}
 			],
 			"darkvision": 60,
 			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Half-fey reach maturity in their late teens and can live for over 500 years."
+					]
+				},
 				{
 					"name": "Darkvision",
 					"entries": [
@@ -13769,16 +13834,162 @@
 					"type": "entries"
 				},
 				{
-					"name": "Little Grabby Hands",
+					"name": "Fey Ancestry",
 					"entries": [
-						"You have advantage on {@skill sleight of hand} checks and can take the {@action use an item} action as a bonus action."
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Adamantine Stomach",
+					"name": "Flight",
 					"entries": [
-						"You are immune to nonmagical disease.  Additionally, you can eat almost any substance, which reduces your Lifestyle costs by half."
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Glamorous",
+					"entries": [
+						"As an action, you can surround yourself with a fey mien that affects the thinking of those around you.  When you use this ability, choose whether you want to be unnoticed, or be extremely noticed.",
+						"If you choose to be unnoticed, you become {@condition invisible} until the start of your next turn.",
+						"If you choose to be extremely noticed, choose a creature within 5 feet of you that can see or hear you.  That creature must succeed on a Wisdom saving throw or be {@condition charmed} by you until the end of your next turn.  You have advantage on any ability checks or attack rolls you make against a creature you have {@condition charmed} in this way, and they have disadvantage on saving throws against abilities you use against them.",
+						"Once you use this ability, you can’t do so again until you complete a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Half-Troll",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Half-trolls reach maturity quicker than humans, and thanks to their regenerative powers can live for as long as four centuries."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying weight and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"Your wounds heal with great rapidity.  As a bonus action on your turn, you may spend a single Hit Die.  For each Hit Die spent in this way, you roll the die and add your proficiency modifier and your Constitution modifier to it. You regain hit points equal to the total (minimum of 0).  If you take fire or acid damage, you cannot use this ability until the end of your next turn.",
+						"Additionally, should you ever lose a body part, it will grow back within a month (if you are able to survive without it)."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Giant."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Harpy",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 20,
+				"fly": 40
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"traitTags":[
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Harpies often lead short, brutal lives.  Though they have the natural lifespan of elves, it is uncommon for them to live past their fourth decade."
+					]
+				},
+				{
+					"name": "Elf-Kin",
+					"entries": [
+						"You are considered an elf for any prerequisite or effect that requires you to be an elf (though you are far removed from them)."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Flight",
+					"entries": [
+						"You have a flying speed of 40 ft, but you can't use this flying speed if you're wearing heavy armor. Harpy talons are more suited to grasping and clawing than to walking, accounting for the slow speed when landbound."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Luring Song",
+					"entries": [
+						"As an action, you can sing a magical melody.  Every humanoid and giant within 60 feet must succeed on a Wisdom saving throw with a DC of 8 + your proficiency bonus + your Charisma modifier or be {@condition charmed} until the song ends. You must take a bonus action on subsequent turns to continue singing. You can stop singing at any time. The song ends if you are incapacitated.",
+						"While charmed by your song, a target is {@condition incapacitated} and ignores the songs of other harpies. If the {@condition charmed} target is more than 5 feet away from you, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.",
+						"A target that successfully saves is immune to your song for the next 24 hours."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Arsenal",
+					"entries": [
+						"Harpies are fond of raking their prey with their foot talons as they fly past, but a savage kick does the job just as well when they aren’t in the air.  Whenever you make an unarmed strike, you inflict slashing damage equal to 1d4 + your Dexterity modifier."
 					],
 					"type": "entries"
 				},
@@ -13786,6 +13997,1131 @@
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Illumian",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+        		{
+            		"int": 1
+        		}
+    		],
+			"traitTags": [
+				"Language Proficiency",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"illumian": true,
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Illumians live about as long as humans."
+					]
+				},
+				{
+					"name": "Luminous Sigils",
+					"entries": [
+						"The sigils that orbit your head glow softly, shedding bright light in a 5-foot radius, and dim light for an additional 5 feet.  The color of this light is determined by you.  You can suppress or re-ignite your sigils as a bonus action."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Power Sigils",
+					"entries": [
+						"Within the array of dimly glowing luminous sigils haloing your head, two glow more brightly and grant you certain benefits, as described below.  Choose two from the below list when you select this race (you can only choose the same sigil once).  These benefits cease functioning while your Luminous Sigils are suppressed.",
+						{
+							"type": "table",
+							"colLabelGroups": [
+								{
+									"colLabels": [
+										"Sigil"
+									]
+								},
+								{
+									"colLabels": [
+										"Meaning"
+									]
+								},
+								{
+									"colLabels": [
+										"Effect"
+									]
+								}
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Aesh",
+									"Vigor",
+									"Your Strength score increases by 1, to a maximum of 20."
+								],
+								[
+									"Hoon",
+									"Life",
+									"Your Constitution score increases by 1, to a maximum of 20."
+								],
+								[
+									"Krau",
+									"Magic",
+									"You learn one cantrip of your choice from any spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this spell (choose when you select this race)."
+								],
+								[
+									"Naen",
+									"Mind",
+									"Your Wisdom score increases by 1, to a maximum of 20."
+								],
+								[
+									"Uur",
+									"Grace",
+									"Your Dexterity score increases by 1, to a maximum of 20."
+								],
+								[
+									"Vaul",
+									"Soul",
+									"Your Charisma score increases by 1, to a maximum of 20."
+								]
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Illumian Words",
+					"entries": [
+						"Each combination of power sigils makes an Illumian word of power, granting you benefits as described below.  These benefits cease functioning while your Luminous Sigils are suppressed.",
+						{
+							"type": "table",
+							"colLabelGroups": [
+								{
+									"colLabels": [
+										"Word"
+									]
+								},
+								{
+									"colLabels": [
+										"Effect"
+									]
+								}
+							],
+							"colStyles": [
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Aeshkrau",
+									"When you select this Illumian word, choose Charisma, Intelligence, or Wisdom.  When you make a weapon attack, you can use that ability, instead of your Strength or Dexterity modifier, for both the attack and damage rolls."
+								],
+								[
+									"Aeshoon",
+									"When you take damage, you can use your reaction and expend one hit die to reduce the damage by the number you roll."
+								],
+								[
+									"Aeshuur",
+									"When you hit a creature with a weapon attack, you can take the Disengage action as a bonus action until the end of your turn."
+								],
+								[
+									"Hoonkrau",
+									"When you take damage, you can use your reaction to gain resistance to that damage type until the start of your next turn.  Once you use this ability, you can’t use it again until you complete a short rest."
+								],
+								[
+									"Hoonvaul",
+									"As an action, you can gain temporary hit points equal to your proficiency bonus.  Once you use this ability, you can’t use it again until you complete a long rest. Additionally, whenever you finish a short rest, you gain temporary hit points equal to your proficiency bonus."
+								],
+								[
+									"Naenaesh",
+									"You gain a fighting style, chosen from the Fighter’s Fighting Style class feature."
+								],
+								[
+									"Naenhoon",
+									"When you make a Charisma, Intelligence, or Wisdom saving throw, you can use your reaction and expend one hit die to add the number you roll to the result."
+								],
+								[
+									"Naenkrau",
+									"Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than your level divided by three (rounded up)."
+								],
+								[
+									"Uurhoon",
+									"You gain proficiency with light armor.  If you already have proficiency with light armor, you instead gain proficiency with medium armor.  If you already have proficiency with light and medium armor, you instead gain proficiency with heavy armor."
+								],
+								[
+									"Uurkrau",
+									"When you cast a spell, you can cast it without any somatic or verbal components.  Once you use this ability, you can’t use it again until you complete a short rest."
+								],
+								[
+									"Uurnaen",
+									"You have a bonus to initiative rolls equal to your proficiency bonus."
+								],
+								[
+									"Vaulaesh",
+									"When you hit a creature with a melee weapon attack, you can expend one spell slot to deal force damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st.  Once you use this ability, you can’t use it again until you complete a short rest."
+								],
+								[
+									"Vaulkrau",
+									"When you roll a 1 on a damage die for a spell you cast, you can reroll the die and must use the new roll, even if the new roll is a 1."
+								],
+								[
+									"Vaulnaen",
+									"When you make an ability check, you can use your reaction and add your proficiency bonus to the result.  Once you use this ability, you can’t use it again until you complete a short rest."
+								],
+								[
+									"Vauluur",
+									"When a creature makes a weapon attack against you, you can use your reaction to gain a bonus to your AC against that attack equal to your proficiency bonus.  You can use this ability three times, after which you can’t use it again until you complete a short rest."
+								]
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Skills",
+					"entries": [
+						"You gain proficiency in one skill of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Illumian, and two extra languages of your choice.  Illumians are natural linguists and are always literate.  Illumian is a secret language. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Merfolk",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 10,
+				"swim": 40
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"aquan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Merfolk mature at the same rate as humans and live for about as long."
+					]
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe both air and water."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Skills",
+					"entries": [
+						"You gain proficiency in one skill of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Feat",
+					"entries": [
+						"You gain one feat of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Aquan."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Mongrelfolk",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			],
+			"traitTags":[
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 2
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Mongrelfolk reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Emulate Race",
+					"entries": [
+						"Your bloodline is so diverse that you “pass the test” when scrutinized by magic and other effects.  You ignore all race requirements for the use of magic items, abilities, and other effects, and if a spell or magical effect only affects members of a particular race, you count as belonging to that race (for better or worse).  For example, a mongrelfolk is eligible to take any feat that has racial requirements."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and two extra languages of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Neogi",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"creatureTypes": [
+				"aberration"
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"undercommon": true,
+					"deep speech": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Neogi are considered adults once they successfully dominate an umber hulk or comparable creature, usually sometime in their second decade.  Neogi live for about a century."
+					]
+				},
+				{
+					"name": "Mental Fortitude",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed} or {@condition frightened}, and magic can’t put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"You have a climbing speed equal to your walking speed. In addition, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Arsenal",
+					"entries": [
+						"Neogi have venomous bites.  Whenever you make an unarmed strike, you inflict poison damage equal to 1d4 + your Constitution modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Enslave",
+					"entries": [
+						"As an action you dig into the mind of one creature you can see within 30 feet.  The target must make a Wisdom saving throw with a DC of 8 + your proficiency bonus + your Charisma modifier or be {@condition charmed} for 1 day, until you die, or until more than 1 mile separates the target from you.",
+						"The {@condition charmed} target obeys your commands and can't take reactions, and you can communicate telepathically with each other at a distance of up to 1 mile. Whenever the {@condition charmed} target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
+						"Once you use this ability, you cannot use it again until you complete a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Deep Speech and Undercommon."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Ogre",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"L"
+			],
+			"speed": 40,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"creatureTypes": [
+				"giant"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ogres reach adulthood in their late teens and can live to be almost 200 years old."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Snack",
+					"entries": [
+						"You have a cast iron stomach and are looking to fill it. As an action, you can consume 5 pounds of edible material (as determined by the DM). If you do so, you can immediately expend hit dice to regain hit points as though you took a short rest. When you do so, you can reroll any 1s. Once you use this ability you can’t do so again until you complete a short rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hurl",
+					"entries": [
+						"As an action, you can chuck a heavy stone, log, or similarly massive object, which counts as a ranged weapon attack with a short range of 60 feet and a long range of 240 feet. On a hit, the target takes 2d4 bludgeoning damage. You can choose to add your strength modifier to the attack and damage rolls instead of your dexterity modifier.",
+						"You can instead throw a willing creature at least one size smaller than you within 5 feet, or a creature you have grappled. That creature can make a Strength saving throw. On a failed save, the creature is thrown to a space within 60 feet and knocked prone. If the space is occupied, the creature takes 2d6 bludgeoning damage, and a  creature occupying the space takes 2d6 bludgeoning damage unless they succeed on a Dexterity saving throw.",
+						"The save DC for this ability is 8 + your proficiency modifier + your Strength bonus."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Giant."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Half-Ogre",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"creatureTypes": [
+				"giant"
+			],
+			"traitTags":[
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Half-ogres usually reach adulthood in their second decade of life and can live for about a century. The specifics are influenced by their non-ogre parent."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Snack",
+					"entries": [
+						"You have a cast iron stomach and are looking to fill it. As an action, you can consume 5 pounds of edible material (as determined by the DM). If you do so, you can immediately expend hit dice to regain hit points as though you took a short rest. When you do so, you can reroll any 1s. Once you use this ability you can’t do so again until you complete a short rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You have proficiency in the Athletics skill, and you count as one size larger when determining your carrying weight and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Big Hands",
+					"entries": [
+						"Whenever you wield a weapon with the Versatile property, you gain the Versatile damage even if you are only wielding it in one hand. "
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Giant."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Rogue Modron",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"creatureTypes": [
+				"construct"
+			],
+			"ability": [
+				{
+					"int": 2,
+					"dex": 1
+				}
+			],
+			"traitTags":[
+				"Improved Resting",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"modron": true,
+					"any": 1
+				}
+			],
+			"darkvision": 120,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Modrons are manufactured, rather than created through sexual reproduction.  A typical modron is between a dozen and one hundred years old, but they do not age naturally.  You are immune to magical aging effects."
+					]
+				},
+				{
+					"name": "Truesight",
+					"entries": [
+						"You can see in normal and magical darkness out to a range of 120 ft.  Within this range you can see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, you can see into the Ethereal Plane within the same range."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Axiomatic Mind",
+					"entries": [
+						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Disintegration",
+					"entries": [
+						"If you die, your body disintegrates into dust, leaving behind your belongings.  This makes it difficult to use magic to return you from the dead."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Psuedomechanical Physiology",
+					"entries": [
+						"Your body is made of a mixture of flesh and mechanics; you do not need to eat or drink, you are immune to disease, and when you take a long rest you only need to sleep for 4 hours."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Modron and one other language of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Shadovar",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"traitTags": [
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Shadovar live much longer than normal humans, reaching physical maturity at around the age of 30 and living as long as 600 years."
+					]
+				},
+				{
+					"name": "Shadesight",
+					"entries": [
+						"You can see normally in darkness, both magical and nonmagical, to a distance of 60 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Heart of Darkness",
+					"entries": [
+						"You are vulnerable to radiant damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Human-Kin",
+					"entries": [
+						"You are considered a human for any prerequisite or effect that requires you to be a human."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fade",
+					"entries": [
+						"When you reach 3rd level, you can cast the {@spell invisibility} spell once with this trait as a 2nd level spell; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race)."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak Common and one other language of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"vulnerable": [
+				"radiant"
+			]
+		},
+		{
+			"name": "Synad",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"int": 2,
+					"wis": 1
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Language Proficiency",
+				"Damage Resistance"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Synads live about as long as humans and mature at the same rate."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Threefold Mind",
+					"entries": [
+						"Due to your unusual mind, you have resistance to psychic damage and advantage on saving throws you make to avoid or end the {@condition charmed} or {@condition frightened} condition on yourself."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Oracle",
+					"entries": [
+						"The part of a synad's mind known as the oracle grants them a daily precognitive edge, represented by a {@dice d6}.  When you make an ability check, attack roll, or saving throw, you can choose to roll the die and add it to the result.  You can wait until after you see the result to use this ability, but must decide before the DM says whether the roll succeeds or fails.  Once you use this ability, you can’t do so again until you complete a long rest.",
+						"At 10th level, the die becomes a {@dice d8}, and at 20th level it becomes a {@dice d10}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Collective",
+					"entries": [
+						"The part of a synad's mind known as the collective allows them to tap into a racial network of knowledge and information.  You can cast the {@spell augury} spell once with this trait, and you regain the ability to do so when you complete a long rest.",
+						"Additionally, you gain proficiency with one of the following skills: Arcana, History, Nature, or Religion."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Multitask",
+					"entries": [
+						"A synad's threefold mind can temporarily separate, allowing them unprecedented multitasking ability.  When you use this ability on your turn, you may immediately take a second bonus action.  Once you use this ability, you can’t do so again until you complete a short rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"resist": [
+				"psychic"
+			]
+		},
+		{
+			"name": "Treant Sapling",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"creatureTypes": [
+				"plant"
+			],
+			"ability": [
+				{
+					"wis": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"By the time they awaken, most treants are several decades old, though their memories of pre-awakening are foggy at best.  Treants can live for over 1000 years."
+					]
+				},
+				{
+					"name": "Oaken Body",
+					"entries": [
+						"You are a tree magically imbued with life and movement (not necessarily an oak tree, despite the ability name).  You have the following features:",
+						{
+							"type": "list",
+							"items": [
+								"While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier. A shield's benefits apply as normal while you use your natural armor.",
+								"You are resistant to bludgeoning and piercing damage.",
+								"You are vulnerable to fire damage."
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Arsenal",
+					"entries": [
+						"A single wallop from a treant limb can fell many creatures.  Whenever you make an unarmed strike, you inflict bludgeoning damage equal to 1d6 + your Strength modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Forest for the Trees",
+					"entries": [
+						"You have advantage on Dexterity (Stealth) checks to hide in forested terrain, or while standing still."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Sylvan."
+					],
+					"type": "entries"
+				}
+			],
+			"vulnerable": [
+     		   "fire"
+    			],
+			"resist": [
+        		"bludgeoning",
+				"piercing"
+    			]
+		},
+		{
+			"name": "Troglodyte",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon",
+				"Sunlight Sensitivity"
+			],
+			"languageProficiencies": [
+				{
+					"undercommon": true,
+					"troglodyte": true
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Troglodytes reach maturity at around 10 years of age.  The oldest troglodytes are towering, scarred warriors that have clawed and scraped their way to 50."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Chameleon Skin",
+					"entries": [
+						"You gain proficiency with Dexterity (Stealth) checks, and when you make Dexterity (Stealth) checks you can add double your proficiency bonus to the roll."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Foetid Resilience",
+					"entries": [
+						"You are immune to natural and magical disease."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stench",
+					"entries": [
+						"A creature that starts its turn within 5 feet of you must succeed on a DC 12 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the troglodyte’s Stench for 24 hours."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Arsenal",
+					"entries": [
+						"Troglodytes have formidable claws and wide, toothy maws.  Whenever you make an unarmed strike, you inflict damage equal to 1d4 + your Strength or Dexterity modifier.  This damage can be piercing or slashing damage, chosen when you make the attack."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Troglodyte and Undercommon."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Verbeeg",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"L"
+			],
+			"speed": 40,
+			"ability": [
+				{
+					"str": 2,
+					"int": 1
+				}
+			],
+			"creatureTypes": [
+				"giant"
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Verbeeg mature at about the same rate as humans and can live for over 300 years."
+					]
+				},
+				{
+					"name": "Children of Ostoria",
+					"entries": [
+						"You gain proficiency with the artisan's tools of your choice: Smith's tools, brewer's supplies, or mason's tools."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Outcasts of Ostoria",
+					"entries": [
+						"You gain proficiency in one of the following skills of your choice: Athletics, History, Intimidation, or Survival"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Virtue of Treachery",
+					"entries": [
+						"If you hit a creature with an attack roll, the creature takes an extra 2d6 damage if it hasn't taken a turn yet in the current combat."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Giant."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Xvart",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"abyssal": true
+				}
+			],
+			"darkvision": 30,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Xvarts are created whole cloth by their god, rather than through sexual reproduction.  A typical xvart is between a dozen and one hundred years old, but they do not age naturally.  You are immune to magical aging effects."
+					]
+				},
+				{
+					"name": "Lesser Darkvision",
+					"entries": [
+						"You can see in dim light within 30 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Raxivort's Tongue",
+					"entries": [
+						"You can communicate with ordinary {@creature bat}s and {@creature rat}s, as well as {@creature giant bat}s and {@creature giant rat}s."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Low Cunning",
+					"entries": [
+						"You can take the {@action disengage} or {@action hide} action as a bonus action on each of your turns."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Abyssal."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Yakfolk",
+			"source": "EmperrorsNewGroove",
+			"size": [
+				"L"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"yikaria": true
+				}
+			],
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Yakfolk reach adulthood in their late teens and can live about as long as humans."
+					]
+				},
+				{
+					"name": "Possession",
+					"entries": [
+						"You attempt to magically possess a humanoid or giant. You must touch the target throughout a short rest, or the attempt fails. At the end of the rest, the target must succeed on a Constitution saving throw (DC 8 + your proficiency bonus + your Charisma bonus) or be possessed by you.  While you possess a creature, you disappear along with everything you are carrying and wearing.  Until the possession ends, the target is incapacitated, loses control of its body, and is unaware of its surroundings. You now control the body and can't be targeted by any attack, spell, or other effect.  You retain your alignment; your Intelligence, Wisdom, and Charisma scores; and your proficiencies. You otherwise use the target's statistics, except the target's knowledge, class features, feats, and proficiencies.",
+						"The possession lasts until either the body drops to 0 hit points, you end the possession as an action, or you are forced out of the body by an effect such as the {@spell dispel evil and good} spell. When the possession ends, you reappear in an unoccupied space within 5 feet of the body and are stunned until the end of its next turn. If the host body dies while it is possessed, you die as well, and your body doesn't reappear."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Triumph Over the Great Khan",
+					"entries": [
+						"You are warded against the hostilities of {@creature dao}.  A {@creature dao} cannot willingly target you with an attack or with a harmful spell, though you are not protected from area effects a {@creature dao} causes."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Yikaria."
 					],
 					"type": "entries"
 				}
