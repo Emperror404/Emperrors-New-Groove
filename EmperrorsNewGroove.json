@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.3.0",
+				"version": "0.4.0",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -14,7 +14,7 @@
 			}
 		],
 		"dateAdded": 1724510566,
-		"dateLastModified": 1725484273
+		"dateLastModified": 1730666056
 	},
 	"spell": [
 		{
@@ -8620,6 +8620,658 @@
 				"s": true,
 				"m": "A compass, an ear horn, and a tuning fork of mithral worth 100 gp."
 			}
+		},
+		{
+			"name": "Anchoring Shot",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. An incorporeal creature, such as one on the Ethereal plane, is fully affected by this arrow and you can make attacks against them normally (though they might be Invisible to you if you cannot see into the Ethereal plane).",
+				"On a hit the target suffers the weapon attack's normal damage and cannot use any method of extradimensional movement for the spell's duration, including teleportation or travel to a different plane of existence. The target is not prevent from passing through a portal, such as created by the {@spell gate} spell."
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/sonic/projectile-shock-wave-blue.webp"
+		},
+		{
+			"name": "Anvil Shot",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within half of your weapon's range. On a hit, the target suffers the weapon attack's normal damage as bludgeoning damage and an additional {@dice 1d6} bludgeoning damage as the ammunition enlarges to become a large, heavy weight. A creature hit by this attack is pushed 10 feet back and must make a Strength saving throw or be knocked {@condition prone}."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 per slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/skills/ranged/projectile-strike-egg-blue.webp"
+		},
+		{
+			"name": "Caustic Shot",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and they take an additional {@dice 2d6} acid damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 per slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/skills/ranged/arrow-flying-poisoned-green.webp"
+		},
+		{
+			"name": "Countermagic Shot",
+			"level": 3,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and that creature has disadvantage on Constitution saving throws to concentrate on spells until the start of its next turn. Furthermore, a target that is hit by one of these arrows has any ongoing magical effect of 3rd level or less automatically dispelled, as though it were the target of a {@spell dispel magic} spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used."
+					]
+				}
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/weapons/ammunition/arrowhead-glowing-blue.webp"
+		},
+		{
+			"name": "Cupid Shot",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a Humanoid within your weapon's range. On a hit the target suffers the weapon attack's normal effects and the creature must make a Wisdom saving throw. If it fails the saving throw, it is {@condition charmed} by you until the spell ends or until you or your companions do anything harmful to it. The {@condition charmed} creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was {@condition charmed} by you."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a 4th level or higher spell slot, it can charm any creature, instead of just Humanoids."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/life/heart-glowing-red.webp"
+		},
+		{
+			"name": "Explosive Shot",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and they take an additional {@dice 1d10} force damage. Hit or miss, the ammunition then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take {@dice 2d6} fire damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 per slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"force",
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/fire/explosion-fireball-small-orange.webp"
+		},
+		{
+			"name": "Fae Shot",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and that creature is outlined in pink, blue, or possibly purple flames (roll a {@dice d3} to find out) akin to those of the {@spell faerie fire} spell. For the duration, the target sheds dim light in a 10-foot radius, and attack rolls against the target have advantage if the attacker can see it, and the affected creature or object can't benefit from being {@condition invisible}."
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/sonic/projectile-shock-wave-blue.webp"
+		},
+		{
+			"name": "Flaming Shot",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and they take an additional {@dice 2d10} fire damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d10 per slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/fire/projectile-arrow-fire-red-yellow.webp"
+		},
+		{
+			"name": "Freezing Shot",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and they take an additional {@dice 2d8} cold damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d8 per slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/water/projectile-arrow-cold-fire-blue.webp"
+		},
+		{
+			"name": "Pixie Shot",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and that target must make a Constitution saving throw. On a failed save, the target falls {@condition unconscious} for the spell's duration. The creature awakens if it takes damage or if it is awoken as an action."
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/control/sleep-bubble-purple.webp"
+		},
+		{
+			"name": "Seeking Shot",
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"You cast this spell as a reaction when you miss a ranged weapon attack against a target under the effects of a {@spell hunter's mark} spell you have cast. By homing in on your mark, the arrow can adjust its flight toward the target, allowing you to re-roll the attack roll."
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/skills/ranged/target-bullseye-archer-orange.webp"
+		},
+		{
+			"name": "Shrieking Shot",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and they take an additional {@dice 3d4} thunder damage. A target damaged by this spell cannot cast spells with a Verbal component until the end of it's next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d4 per slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/air/air-burst-spiral-large-blue.webp"
+		},
+		{
+			"name": "Tempest Shot",
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and they take an additional {@dice 1d6} lightning damage. You can cause the lightning to arc to a creature within 10 feet, dealing an equal amount of lightning damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d4 per slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/lightning/bolts-strike-salvo-blue.webp"
+		},
+		{
+			"name": "Void Shot",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "special"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB24"
+					}
+				]
+			},
+			"entries": [
+				"As part of casting this spell, you imbue a piece of nonmagical ammunition with magic and make a ranged weapon attack with it against a creature within your weapon's range. On a hit, the target suffers the weapon attack's normal effects, and they take an additional {@dice 2d6} necrotic damage and cannot regain hit points until the end of its next turn. Undead creatures are not affected by this spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 per slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"source": "EmperrorsNewGroove",
+			"components": {
+				"s": true,
+				"m": "a piece of nonmagical ammunition."
+			},
+			"foundryImg": "icons/magic/unholy/projectile-spear-glow-pink.webp"
 		}
 	],
 	"item": [
