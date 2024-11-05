@@ -5,7 +5,7 @@
 				"json": "EmperrorsNewGroove",
 				"abbreviation": "ENG",
 				"full": "Emperror's New Groove",
-				"version": "0.4.0",
+				"version": "0.5.0",
 				"url": "https://github.com/Emperror404/Emperrors-New-Groove",
 				"authors": [
 					"Emperror"
@@ -13,6 +13,7 @@
 				"color": "198154"
 			}
 		],
+		"edition": "one",
 		"dateAdded": 1724510566,
 		"dateLastModified": 1730666056
 	},
@@ -7794,7 +7795,7 @@
 			]
 		},
 		{
-			"name": "Fission",
+			"name": "Evocation of the Second Sunrise",
 			"level": 11,
 			"school": "V",
 			"time": [
@@ -14337,8 +14338,7 @@
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"gnoll": true
+					"common": true
 				}
 			],
 			"darkvision": 60,
@@ -14673,7 +14673,6 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"illumian": true,
 					"any": 2
 				}
 			],
@@ -15238,8 +15237,7 @@
 			],
 			"languageProficiencies": [
 				{
-					"modron": true,
-					"any": 1
+					"any": 2
 				}
 			],
 			"darkvision": 120,
@@ -15539,8 +15537,7 @@
 			],
 			"languageProficiencies": [
 				{
-					"undercommon": true,
-					"troglodyte": true
+					"undercommon": true
 				}
 			],
 			"darkvision": 60,
@@ -15742,8 +15739,7 @@
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"yikaria": true
+					"common": true
 				}
 			],
 			"darkvision": 60,
@@ -15777,6 +15773,116 @@
 					],
 					"type": "entries"
 				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Thayan Knight (Mageguard)",
+			"source": "EmperrorsNewGroove",
+			"shortName": "Mageguard",
+			"subclassFeatures": [
+				"Level 3: Spelleater|Fighter|PHB|Mageguard|EmperrorsNewGroove|3|EmperrorsNewGroove",
+				"Level 7: Living Capacitor|Fighter|PHB|Mageguard|EmperrorsNewGroove|7|EmperrorsNewGroove",
+				"Level 10: Proxy Bond|Fighter|PHB|Mageguard|EmperrorsNewGroove|10|EmperrorsNewGroove",
+				"Level 10: Attunement Mastery|Fighter|PHB|Mageguard|EmperrorsNewGroove|10|EmperrorsNewGroove",
+				"Level 15: Spell-Conditioned|Fighter|PHB|Mageguard|EmperrorsNewGroove|15|EmperrorsNewGroove",
+				"Level 18: Arcane Edge|Fighter|PHB|Mageguard|EmperrorsNewGroove|18|EmperrorsNewGroove"
+			],
+			"className": "Fighter",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Thayan Knight (Mageguard)",
+			"source": "EmperrorsNewGroove",
+			"entries": [
+				"Mages are, as a breed, prone to hubris. It’s probably due to the ability to shape the world around you through magic, but regardless, the historical record is replete with examples of mages that were stabbed to death, eaten by monsters, or met other violent ends. Canny mages know they must recruit skilled warriors to guard them against such mundane threats. In Thay, this has given rise to the martial tradition of Thayan Knights, which comprise a middle class of client nobility that serve with honor and distinction in the greater magocracy of Thay. These knightly lineages raise their scions as skilled warriors, who upon reaching adulthood are assigned a Red Wizard to protect. In Thay, these warriors are marked with enchanted tattoos that allow them to access these special talents. ",
+				"In other settings, this archetype is referred to generically as a mageguard. In Eberron, they might represent the elite warforged Spellcarved Soldiers; in Greyhawk they might be used to represent a Suel Arcanamach; in other settings they might be referred to as knights-protectant, cavaliers, or spellwardens. "
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Level 3: Spelleater",
+			"source": "EmperrorsNewGroove",
+			"subclassShortName": "Mageguard",
+			"subclassSource": "EmperrorsNewGroove",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"You can intercept spells targeted at those near you. When a willing creature within 15 feet of you is targeted by a spell, you can use your Reaction and expend a use of your Second Wind to become the target of that spell instead. After the effects of the spell are resolved, you regain hit points equal to {@dice 1d10} plus your Fighter level."
+			]
+		},
+		{
+			"name": "Level 7: Living Capacitor",
+			"source": "EmperrorsNewGroove",
+			"subclassShortName": "Mageguard",
+			"subclassSource": "EmperrorsNewGroove",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"level": 7,
+			"header": 1,
+			"entries": [
+				"You can store spell energy within yourself. You can store up to 5 levels worth of spells at a time. You can allow friendly creatures to store a spell of 1st through 5th level into you by touching you as the spell is cast. The spell has no effect, other than to be stored within you. If the spell exceeds your capacity it is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
+				"You can thereafter cast any spell stored within you. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. When you cast the spell, it frees up space.",
+				"When you reach 15th level, your capacity increases to 8 levels worth of spells."
+			]
+		},
+		{
+			"name": "Level 10: Proxy Bond",
+			"source": "EmperrorsNewGroove",
+			"subclassShortName": "Mageguard",
+			"subclassSource": "EmperrorsNewGroove",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"level": 10,
+			"header": 1,
+			"entries": [
+				"You can bind yourself to a friendly, willing spellcaster by undergoing a special ritual taking 1 hour, which can be conducted as part of a Short Rest. After you have been bound, the two of you can communicate telepathically while within 100 feet of each other.",
+				"Additionally, while within 100 feet of you, your bonded spellcaster can use a Bonus Action to perceive through your senses until the end of their next turn, benefiting from any special senses you possess.  While perceiving through your senses, your bonded spellcaster can cast spells as if they were in your space or their own space."
+			]
+		},
+		{
+			"name": "Level 10: Attunement Mastery",
+			"source": "EmperrorsNewGroove",
+			"subclassShortName": "Mageguard",
+			"subclassSource": "EmperrorsNewGroove",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"level": 10,
+			"header": 1,
+			"entries": [
+				"You can attune to an additional magic item."
+			]
+		},
+		{
+			"name": "Level 15: Spell-Conditioned",
+			"source": "EmperrorsNewGroove",
+			"subclassShortName": "Mageguard",
+			"subclassSource": "EmperrorsNewGroove",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"level": 15,
+			"header": 1,
+			"entries": [
+				"You have Advantage on saving throws against spells, and you have Resistance to the damage of spells."
+			]
+		},
+		{
+			"name": "Level 18: Arcane Edge",
+			"source": "EmperrorsNewGroove",
+			"subclassShortName": "Mageguard",
+			"subclassSource": "EmperrorsNewGroove",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"level": 18,
+			"header": 1,
+			"entries": [
+				"While you are under the effects of a spell, your melee attacks deal additional Force damage equal to your Proficiency Bonus."
 			]
 		}
 	]
